@@ -1,0 +1,10 @@
+# Local Python environments and temporary runtime files
+tmp/
+**/__pycache__/
+*.py[cod]
+
+# Microsoft Office temporary lock files
+~$*.xlsx
+~$*.xls
+~$*.docx
+~$*.doc
