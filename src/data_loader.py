@@ -1,8 +1,8 @@
 """Strict readers for the CUMCM microgrid source workbooks.
 
-The Excel files are treated as read-only data sources.  Time labels in
-attachments 1, 2 and 4 are right endpoints: 00:10 represents 00:00-00:10,
-and 00:00+1 represents 23:50-24:00.
+The Excel files are read-only. Question 1 uses left-endpoint constant power
+and a periodic boundary assumption: the final midnight sample is moved to
+the start of the natural-day solve. Other daily matrices retain source order.
 """
 
 from dataclasses import dataclass
@@ -101,6 +101,8 @@ def read_attachment1(path: Path | None = None) -> DayData:
     if not np.array_equal(endpoints, EXPECTED_ENDPOINT_MINUTES):
         raise ValueError("附件1时间轴不是00:10至24:00的连续10分钟右端点")
     data = np.asarray([[row[1], row[2], row[3]] for row in rows[1:]], dtype=float)
+    # Explicit Q1 periodic boundary assumption; preserve every raw value.
+    data = np.concatenate((data[-1:], data[:-1]), axis=0)
     price, load, pv = data.T
     _assert_finite_nonnegative("附件1电价", price, strictly_positive=True)
     _assert_finite_nonnegative("附件1负载", load)

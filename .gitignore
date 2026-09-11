@@ -1,5 +1,6 @@
 # Local Python environments and temporary runtime files
 tmp/
+node_modules/
 **/__pycache__/
 *.py[cod]
 

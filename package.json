@@ -1,0 +1,11 @@
+{
+  "name": "2026-cumcm",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "plot:q1": "node src/plot_q1_soc.mjs && node src/plot_q1_other_figures.mjs"
+  },
+  "dependencies": {
+    "sharp": "0.35.4"
+  }
+}

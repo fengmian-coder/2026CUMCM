@@ -1,12 +1,12 @@
 {
   "method": "finite-horizon dynamic programming with battery-state discretization",
   "finest_state_step_kwh": 5,
-  "finest_total_cost_yuan": 35151.13031709944,
-  "finest_total_purchase_kwh": 59495.19876666667,
-  "milp_total_cost_yuan": 35126.948589289634,
+  "finest_total_cost_yuan": 35151.03031709944,
+  "finest_total_purchase_kwh": 59495.19876666666,
+  "milp_total_cost_yuan": 35126.84858928963,
   "milp_total_purchase_kwh": 59482.69899835391,
   "finest_cost_gap_vs_milp_yuan": 24.181727809809672,
-  "time_interpretation": "Excel timestamps are right endpoints; 00:10 means 00:00-00:10",
+  "time_interpretation": "Left endpoints; midnight sample moved first under explicit Q1 periodic boundary assumption",
   "efficiency": {
     "charge": 0.9,
     "discharge": 0.9

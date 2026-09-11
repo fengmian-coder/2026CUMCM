@@ -274,7 +274,7 @@ def main():
         "milp_total_cost_yuan": milp_cost,
         "milp_total_purchase_kwh": milp_purchase,
         "finest_cost_gap_vs_milp_yuan": None if milp_cost is None else finest.total_cost - milp_cost,
-        "time_interpretation": "Excel timestamps are right endpoints; 00:10 means 00:00-00:10",
+        "time_interpretation": "Left endpoints; midnight sample moved first under explicit Q1 periodic boundary assumption",
         "efficiency": {"charge": ETA_C, "discharge": ETA_D},
         "state_bounds_kwh": [E_MIN, E_MAX],
         "initial_and_final_energy_kwh": E_INITIAL,

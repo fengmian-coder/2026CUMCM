@@ -1,0 +1,52 @@
+{
+  "optimal_cost": 35126.84858928963,
+  "optimal_purchase": 59482.69899835391,
+  "no_storage_cost": 48052.04659084666,
+  "no_storage_purchase": 61789.935399999995,
+  "saving_vs_no_storage": 12925.19800155703,
+  "saving_rate_vs_no_storage": 0.26898329870551496,
+  "total_charge": 20740.66613168725,
+  "total_discharge": 16799.939566666668,
+  "total_curtailment": 0.0,
+  "energy_min": 1200.0,
+  "energy_max": 10800.0,
+  "energy_initial": 6000.0,
+  "energy_final": 6000.0,
+  "max_balance_error": 2.2737367544323206e-13,
+  "max_state_error": 8.313350008393172e-13,
+  "simultaneous_slots": 0,
+  "specified_interval_purchase_kwh": {
+    "10:00-10:10": 0.0,
+    "12:00-12:10": 486.40289999999993,
+    "14:00-14:10": 0.0,
+    "16:00-16:10": 394.9314833333333,
+    "18:00-18:10": 636.9826166666667,
+    "20:00-20:10": 0.0
+  },
+  "four_hour_charge_discharge_kwh": {
+    "00:00-04:00": {
+      "charge": 4500.0,
+      "discharge": 0.0
+    },
+    "04:00-08:00": {
+      "charge": 833.3333333333333,
+      "discharge": 5947.419749999999
+    },
+    "08:00-12:00": {
+      "charge": 3954.630954732516,
+      "discharge": 2121.4184333333333
+    },
+    "12:00-16:00": {
+      "charge": 6119.3685102880645,
+      "discharge": 91.1013833333335
+    },
+    "16:00-20:00": {
+      "charge": 0.0,
+      "discharge": 5068.68685
+    },
+    "20:00-24:00": {
+      "charge": 5333.333333333333,
+      "discharge": 3571.31315
+    }
+  }
+}

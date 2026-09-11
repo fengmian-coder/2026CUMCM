@@ -1,0 +1,74 @@
+{
+  "milp": {
+    "rows": 144,
+    "first_label": "00:00-00:10",
+    "last_label": "23:50-24:00",
+    "cost": 35126.84858928963,
+    "purchase": 59482.69899835391,
+    "charge": 20740.66613168725,
+    "discharge": 16799.939566666668,
+    "max_balance_error": 2.2737367544323206e-13,
+    "max_state_error": 8.313350008393172e-13,
+    "max_continuity_error": 0.0,
+    "energy_min": 1200.0,
+    "energy_max": 10800.0,
+    "initial": 6000.0,
+    "final": 6000.0,
+    "max_charge": 833.3333333333333,
+    "max_discharge": 715.6530333333333,
+    "simultaneous": 0,
+    "spill_exceeds_pv": 0
+  },
+  "dp_5kwh": {
+    "rows": 144,
+    "first_label": "00:00-00:10",
+    "last_label": "23:50-24:00",
+    "cost": 35151.030317099445,
+    "purchase": 59495.19876666666,
+    "charge": 20722.22222222222,
+    "discharge": 16785.0,
+    "max_balance_error": 1.1368683772161603e-13,
+    "max_state_error": 2.842170943040401e-14,
+    "max_continuity_error": 0.0,
+    "energy_min": 1200.0,
+    "energy_max": 10800.0,
+    "initial": 6000.0,
+    "final": 6000.0,
+    "max_charge": 833.3333333333333,
+    "max_discharge": 715.5,
+    "simultaneous": 0,
+    "spill_exceeds_pv": 0
+  },
+  "cross_model": {
+    "dp_cost_gap": 24.181727809816948,
+    "relative_gap": 0.0006884115365017873
+  },
+  "result1": {
+    "purchase_max_abs_diff": 0.0,
+    "block_max_abs_diff": 9.094947017729282e-13,
+    "initial": 6000,
+    "final": 6000,
+    "first_label": "0:10-0:20",
+    "last_label": "0:00+1-0:10+1",
+    "template_label_mismatch_count": 0
+  },
+  "dp_convergence": {
+    "steps": [
+      200.0,
+      100.0,
+      50.0,
+      20.0,
+      10.0,
+      5.0
+    ],
+    "costs": [
+      36255.949848603326,
+      35698.953230375555,
+      35404.76021889555,
+      35222.57173684222,
+      35184.22172587055,
+      35151.03031709944
+    ],
+    "monotone_as_grid_refines": true
+  }
+}

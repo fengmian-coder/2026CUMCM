@@ -1,4 +1,6 @@
 from pathlib import Path
+import csv
+import json
 import sys
 
 PROJECT = Path(__file__).resolve().parents[1]
@@ -8,7 +10,8 @@ try:
 except ModuleNotFoundError:
     # Local fallback used by this workspace; a normal virtual environment may
     # simply install scipy and will not use this directory.
-    sys.path.insert(0, str(PROJECT / "tmp" / "pydeps"))
+    # Append so the bundled runtime's NumPy remains authoritative.
+    sys.path.append(str(PROJECT / "tmp" / "pydeps"))
 
 import numpy as np
 from scipy.optimize import Bounds, LinearConstraint, milp
@@ -31,7 +34,7 @@ def read_data():
     return data.price_yuan_per_kwh, data.load_kwh, data.pv_kwh
 
 
-def solve():
+def solve(return_schedule=False):
     price, load, pv = read_data()
 
     # Variable blocks: x, charge, discharge, curtailment, E[0:T+1], z_charge, z_discharge
@@ -133,9 +136,64 @@ def solve():
         "max_state_error": float(np.abs(state_error).max()),
         "simultaneous_slots": int(np.sum((charge > 1e-6) & (discharge > 1e-6))),
     }
+    if not return_schedule:
+        return summary
+    schedule = {
+        "price": price,
+        "load": load,
+        "pv": pv,
+        "purchase": x,
+        "charge": charge,
+        "discharge": discharge,
+        "curtailment": curtail,
+        "energy": energy,
+    }
+    return summary, schedule
+
+
+def save_schedule(path=PROJECT / "outputs" / "q1_milp_schedule.csv"):
+    summary, schedule = solve(return_schedule=True)
+    data = read_attachment1()
+    path.parent.mkdir(parents=True, exist_ok=True)
+    with path.open("w", newline="", encoding="utf-8-sig") as stream:
+        writer = csv.writer(stream)
+        writer.writerow([
+            "时段序号", "时间段", "电价(元/kWh)", "负载电量(kWh)",
+            "光伏电量(kWh)", "计划购电量(kWh)", "充电量(kWh)",
+            "放电量(kWh)", "弃光量(kWh)", "期初储电量(kWh)",
+            "期末储电量(kWh)", "购电费用(元)"
+        ])
+        for t in range(T):
+            writer.writerow([
+                t + 1, data.interval_labels[t], schedule["price"][t],
+                schedule["load"][t], schedule["pv"][t], schedule["purchase"][t],
+                schedule["charge"][t], schedule["discharge"][t],
+                schedule["curtailment"][t], schedule["energy"][t],
+                schedule["energy"][t + 1],
+                schedule["price"][t] * schedule["purchase"][t],
+            ])
+    selected_labels = (
+        "10:00-10:10", "12:00-12:10", "14:00-14:10",
+        "16:00-16:10", "18:00-18:10", "20:00-20:10",
+    )
+    label_to_index = {label: i for i, label in enumerate(data.interval_labels)}
+    summary["specified_interval_purchase_kwh"] = {
+        label: float(schedule["purchase"][label_to_index[label]])
+        for label in selected_labels
+    }
+    summary["four_hour_charge_discharge_kwh"] = {
+        f"{start:02d}:00-{start + 4:02d}:00": {
+            "charge": float(schedule["charge"][start * 6:(start + 4) * 6].sum()),
+            "discharge": float(schedule["discharge"][start * 6:(start + 4) * 6].sum()),
+        }
+        for start in range(0, 24, 4)
+    }
+    (path.parent / "q1_milp_summary.json").write_text(
+        json.dumps(summary, ensure_ascii=False, indent=2), encoding="utf-8"
+    )
     return summary
 
 
 if __name__ == "__main__":
-    for key, value in solve().items():
+    for key, value in save_schedule().items():
         print(f"{key}: {value}")
