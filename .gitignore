@@ -9,3 +9,4 @@ node_modules/
 ~$*.xls
 ~$*.docx
 ~$*.doc
+*.inspect.ndjson

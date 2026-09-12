@@ -1,0 +1,49 @@
+{
+  "decision_window": "00:10 to next 00:10; all 144 decisions made at 00:00",
+  "initial_boundary": "Jan 1 00:00-00:10 battery idle; energy 6000; no invented actual midnight sample used in forecast",
+  "midnight_update": "Previous source row including its final midnight sample enters load lag matching and PV recent energy/shape; no extra ad-hoc correction",
+  "natural_reporting_period": [
+    "2025-02-01T00:00",
+    "2026-01-01T00:00"
+  ],
+  "plan_reporting_period": [
+    "2025-02-01T00:10",
+    "2026-01-01T00:10"
+  ],
+  "natural_totals": {
+    "plan_cost_yuan": 13833604.79126725,
+    "emergency_cost_yuan": 881685.8591477522,
+    "total_cost_yuan": 14715290.650415003,
+    "plan_purchase_kwh": 22640374.95380692,
+    "emergency_purchase_kwh": 235957.4422623851
+  },
+  "plan_window_totals": {
+    "plan_cost_yuan": 13833654.603427473,
+    "emergency_cost_yuan": 881811.7363602926,
+    "total_cost_yuan": 14715466.339787764,
+    "plan_purchase_kwh": 22640491.446230266,
+    "emergency_purchase_kwh": 236016.31841418147
+  },
+  "comparison_same_natural_window": {
+    "total_cost_yuan": {
+      "old": 14702300.022438897,
+      "new": 14715290.650415003,
+      "difference": 12990.62797610648
+    },
+    "emergency_purchase_kwh": {
+      "old": 235883.2142145897,
+      "new": 235957.4422623851,
+      "difference": 74.22804779539001
+    }
+  },
+  "audit": {
+    "state_residual_kwh": 2.1600499167107046e-12,
+    "balance_residual_kwh": 4.547473508864641e-13,
+    "cross_day_residual_kwh": 0.0,
+    "energy_min": 1200.0,
+    "energy_max": 10800.0,
+    "max_charge": 833.3333333333333,
+    "max_discharge": 833.3333333333333,
+    "simultaneous_slots": 0
+  }
+}

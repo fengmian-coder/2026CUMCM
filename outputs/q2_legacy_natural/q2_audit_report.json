@@ -1,0 +1,42 @@
+{
+  "dimensions": {
+    "days": 365,
+    "intervals_per_day": 144,
+    "energy_boundaries_per_day": 145
+  },
+  "left_endpoint_mapping": {
+    "first_day_nearest_boundary": {
+      "load_kw": 3529.7296,
+      "source_0010_load_kw": 3529.7296,
+      "pv_kw": 0.0,
+      "source_0010_pv_kw": 0.0
+    },
+    "predecessor_load_max_abs_error": 0.0,
+    "predecessor_pv_max_abs_error": 0.0,
+    "same_day_load_max_abs_error": 0.0,
+    "same_day_pv_max_abs_error": 0.0
+  },
+  "constraints": {
+    "max_balance_error": 4.547473508864641e-13,
+    "max_state_error": 1.3642420526593924e-12,
+    "max_cross_day_continuity_error": 0.0,
+    "energy_min": 1200.0,
+    "energy_max": 10800.0,
+    "max_charge": 833.3333333333333,
+    "max_discharge": 833.3333333333333,
+    "simultaneous_slots": 0,
+    "negative_purchase_slots": 0,
+    "negative_emergency_slots": 0
+  },
+  "evaluation_totals": {
+    "period": [
+      "2025-02-01",
+      "2025-12-31"
+    ],
+    "plan_cost_yuan": 13820713.64610791,
+    "emergency_cost_yuan": 881586.3763309862,
+    "total_cost_yuan": 14702300.022438897,
+    "emergency_purchase_kwh": 235883.2142145897,
+    "surplus_kwh": 3531897.706850472
+  }
+}

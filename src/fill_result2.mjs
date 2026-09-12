@@ -5,7 +5,7 @@ import { FileBlob, SpreadsheetFile } from "@oai/artifact-tool";
 const root = "C:/Users/风眠/2026MMC_final";
 const inputPath = `${root}/materials/result2.xlsx`;
 const schedulePath = `${root}/outputs/q2/q2_schedule.csv`;
-const extensionPath = `${root}/outputs/q2/q2_extension_2026-01-01.json`;
+const planPath = `${root}/outputs/q2/result2_plan_rows.json`;
 const previewDir = `${root}/tmp/q2_result2_filled_preview`;
 
 function parseCsvLine(line) {
@@ -45,7 +45,8 @@ for (const day of days) {
     throw new Error("第二问明细的日期分组不完整");
   }
 }
-const extension = JSON.parse(await fs.readFile(extensionPath, "utf8"));
+const planData = JSON.parse(await fs.readFile(planPath, "utf8"));
+if(planData.time_axis !== "shifted_0010") throw new Error("Wrong plan time axis");
 
 const input = await FileBlob.load(inputPath);
 const workbook = await SpreadsheetFile.importXlsx(input);
@@ -53,16 +54,12 @@ const purchaseSheet = workbook.worksheets.getItem("计划购电量");
 const batterySheet = workbook.worksheets.getItem("充放电量");
 const emergencySheet = workbook.worksheets.getItem("紧急购电量");
 
-// The template is ordered 00:10...next-day 00:10.  Preserve every label and
-// map physical intervals: current-day slots 2..144 plus next-day slot 1.
+// Each complete row was optimized at this date's 00:00.
 const planRows = days.map((day, d) => {
-  const nextFirst = d + 1 < days.length
-    ? Number(days[d + 1][0][8])
-    : Number(extension.first_interval.purchase_kwh);
-  const values = [...day.slice(1).map(row => Number(row[8])), nextFirst];
-  const prices = [...day.slice(1).map(row => Number(row[3])), Number(day[0][3])];
+  if(planData.dates[d] !== day[0][0]) throw new Error("Date mismatch");
+  const values = planData.purchase[d];
   const total = values.reduce((sum, value) => sum + value, 0);
-  const cost = values.reduce((sum, value, i) => sum + value * prices[i], 0);
+  const cost = values.reduce((sum, value, i) => sum + value * planData.prices[i], 0);
   return [...values, total, cost];
 });
 purchaseSheet.getRange("B2:EQ335").values = planRows;
@@ -94,6 +91,8 @@ batterySheet.getRange(`A2:A${batteryRows.length + 1}`).format.numberFormat = "m/
 batterySheet.getRange(`C2:D${batteryRows.length + 1}`).format.numberFormat = "0.0000";
 batterySheet.getRange(`F2:F${batteryRows.length + 1}`).format.numberFormat = "0.0000";
 
+const oldEmergencyRows = emergencySheet.getUsedRange().rowCount;
+emergencySheet.getRange(`A2:C${Math.max(oldEmergencyRows,2)}`).values = [[null]];
 const emergencyRows = [];
 for (const day of days) {
   let firstForDate = true;
@@ -144,7 +143,7 @@ const errors = await workbook.inspect({
 
 await fs.mkdir(previewDir, { recursive: true });
 for (const sheetName of ["计划购电量", "充放电量", "紧急购电量"]) {
-  const preview = await workbook.render({ sheetName, autoCrop: "all", scale: 0.25, format: "png" });
+  const preview = await workbook.render({ sheetName, range: sheetName === "计划购电量" ? "A1:H6" : sheetName === "充放电量" ? "A1:F14" : "A1:C16", scale: 1.5, format: "png" });
   await fs.writeFile(
     path.join(previewDir, `${sheetName}.png`),
     new Uint8Array(await preview.arrayBuffer()),
@@ -160,7 +159,7 @@ const summary = {
   emergency_rows: emergencyRows.length,
   first_plan_date: days[0][0][0],
   last_plan_date: days.at(-1)[0][0],
-  final_template_interval_purchase_kwh: Number(extension.first_interval.purchase_kwh),
+  final_template_interval_purchase_kwh: planData.purchase.at(-1).at(-1),
   displayed_plan_purchase_kwh: planRows.reduce((sum, row) => sum + row[144], 0),
   displayed_plan_cost_yuan: planRows.reduce((sum, row) => sum + row[145], 0),
   inspections: checks,

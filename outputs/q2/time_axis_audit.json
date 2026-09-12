@@ -1,0 +1,12 @@
+{
+  "natural_execution_mapping": "exact",
+  "zero_and_0010_soc_mapping": "exact",
+  "natural_state_residual_kwh": 2.1600499167107046e-12,
+  "future_data_perturbation_date": "2025-06-21",
+  "earlier_and_current_forecasts_unchanged": true,
+  "template_headers_and_plan_dates_unchanged": true,
+  "first_plan_initial_energy_kwh": 6000.0,
+  "last_plan_first_decision_date": "2025-12-31",
+  "last_plan_interval": "2026-01-01 00:00-00:10",
+  "last_plan_purchase_kwh": 1434.1205148703102
+}

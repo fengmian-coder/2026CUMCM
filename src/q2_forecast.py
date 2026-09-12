@@ -1,6 +1,7 @@
 """Strict expanding-window forecasts for Question 2.
 
-Each forecast for day d uses only observations from days < d.  Attachment 1's
+Each forecast for day d uses source rows < d, whose final sample is d 00:00.
+All 144 targets run from d 00:10 through d+1 00:00 (left endpoints).  Attachment 1's
 single supplied profile is used solely as the cold-start prior on 2025-01-01;
 from 2025-01-02 onward the models use Attachment 2 history only.
 """
@@ -115,23 +116,23 @@ def _pv_forecast(history: np.ndarray, dates: tuple[date, ...], d: int, cfg: Fore
 
 def rolling_forecasts(data: Q2Data, cfg: ForecastConfig = ForecastConfig()):
     q1 = read_attachment1()
-    cold_load = q1.load_kw
-    cold_pv = q1.pv_kw
-    n, t = data.load_kw.shape
+    cold_load = np.roll(q1.load_kw, -1)
+    cold_pv = np.roll(q1.pv_kw, -1)
+    n, t = data.source_load_kw.shape
     load_base = np.empty((n, t))
     load_hat = np.empty((n, t))
     pv_hat = np.empty((n, t))
     for d in range(n):
-        base = _load_base(data.load_kw, data.dates, d, cfg, cold_load)
+        base = _load_base(data.source_load_kw, data.dates, d, cfg, cold_load)
         load_base[d] = base
         if d >= cfg.minimum_regression_days:
             X = _date_features(list(data.dates[:d]), cfg.load_fourier_order)
             x = _date_features([data.dates[d]], cfg.load_fourier_order)[0]
-            correction = _ridge_predict(X, data.load_kw[:d] - load_base[:d], x, cfg.load_ridge)
+            correction = _ridge_predict(X, data.source_load_kw[:d] - load_base[:d], x, cfg.load_ridge)
         else:
             correction = np.zeros(t)
         load_hat[d] = np.maximum(base + correction, 0.0)
-        pv_hat[d] = _pv_forecast(data.pv_kw, data.dates, d, cfg, cold_pv)
+        pv_hat[d] = _pv_forecast(data.source_pv_kw, data.dates, d, cfg, cold_pv)
     return load_hat, pv_hat
 
 
@@ -170,15 +171,15 @@ def save_forecasts(output_dir: Path = ROOT / "outputs" / "q2"):
     cfg = ForecastConfig()
     load_hat, pv_hat = rolling_forecasts(data, cfg)
     output_dir.mkdir(parents=True, exist_ok=True)
-    np.savez_compressed(output_dir / "rolling_forecasts.npz", load_kw=load_hat, pv_kw=pv_hat)
+    np.savez_compressed(output_dir / "rolling_forecasts.npz", load_kw=load_hat, pv_kw=pv_hat, time_axis="shifted_0010")
     evaluation = slice(31, 365)
     summary = {
-        "information_boundary": "forecast for d uses observations strictly before d",
+        "information_boundary": "forecast d covers 00:10 through next 00:00 samples; history includes observations through d 00:00",
         "cold_start": "Attachment 1 profile used only for 2025-01-01 prior",
         "config": asdict(cfg),
         "evaluation_period": ["2025-02-01", "2025-12-31"],
-        "load": _metrics(data.load_kw[evaluation], load_hat[evaluation]),
-        "pv": _metrics(data.pv_kw[evaluation], pv_hat[evaluation]),
+        "load": _metrics(data.source_load_kw[evaluation], load_hat[evaluation]),
+        "pv": _metrics(data.source_pv_kw[evaluation], pv_hat[evaluation]),
     }
     (output_dir / "forecast_summary.json").write_text(
         json.dumps(summary, ensure_ascii=False, indent=2), encoding="utf-8"

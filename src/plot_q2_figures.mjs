@@ -34,6 +34,7 @@ function readCsv(file) {
   return fs.readFileSync(file,"utf8").replace(/^\uFEFF/,"").trim().split(/\r?\n/).map(parseCsvLine);
 }
 const linePath=(values,x,y)=>values.map((v,i)=>`${i?"L":"M"} ${x(i)} ${y(v)}`).join(" ");
+const stepPath=(values,x,y)=>`M ${x(0)} ${y(values[0])} `+values.map((v,i)=>`L ${x(i+1)} ${y(v)}${i<values.length-1?` L ${x(i+1)} ${y(values[i+1])}`:""}`).join(" ");
 const clamp=(v,a,b)=>Math.max(a,Math.min(b,v));
 const mix=(a,b,t)=>{
   const pa=a.match(/[0-9a-f]{2}/gi).map(v=>parseInt(v,16));
@@ -63,11 +64,11 @@ for(const row of schedule.slice(1)){
     const emergency=r.map(v=>+v[11]*6);
     const ymin=Math.floor(Math.min(-1000,...battery,...net)/3000)*3000;
     const ymax=Math.ceil(Math.max(...net,...grid,...emergency)/3000)*3000;
-    const p=panels[pi],x=i=>p.x+i/143*pw,y=v=>p.y+(ymax-v)/(ymax-ymin)*ph;
+    const p=panels[pi],x=i=>p.x+i/144*pw,y=v=>p.y+(ymax-v)/(ymax-ymin)*ph;
     for(let v=ymin;v<=ymax;v+=6000)body+=`<line x1="${p.x}" y1="${y(v)}" x2="${p.x+pw}" y2="${y(v)}" class="grid"/><text x="${p.x-16}" y="${y(v)+7}" text-anchor="end" font-size="18">${v}</text>`;
     [0,6,12,18,24].forEach(h=>{const xx=p.x+h/24*pw;body+=`<line x1="${xx}" y1="${p.y+ph}" x2="${xx}" y2="${p.y+ph+7}" class="axis"/><text x="${xx}" y="${p.y+ph+30}" text-anchor="middle" font-size="18">${h}</text>`;});
     const area=`M ${x(0)} ${y(0)} `+emergency.map((v,i)=>`L ${x(i)} ${y(v)}`).join(" ")+` L ${x(143)} ${y(0)} Z`;
-    body+=`<text x="${p.x+pw/2}" y="${p.y-25}" text-anchor="middle" font-size="25" font-weight="600">${date}</text><line x1="${p.x}" y1="${p.y+ph}" x2="${p.x+pw}" y2="${p.y+ph}" class="axis"/><line x1="${p.x}" y1="${p.y}" x2="${p.x}" y2="${p.y+ph}" class="axis"/><path d="${area}" fill="${C.coral}" opacity=".58"/><path d="${linePath(net,x,y)}" fill="none" stroke="${C.ink}" stroke-width="3.4"/><path d="${linePath(grid,x,y)}" fill="none" stroke="${C.blue}" stroke-width="3.4"/><path d="${linePath(battery,x,y)}" fill="none" stroke="${C.green}" stroke-width="3.1"/>`;
+    body+=`<text x="${p.x+pw/2}" y="${p.y-25}" text-anchor="middle" font-size="25" font-weight="600">${date}</text><line x1="${p.x}" y1="${p.y+ph}" x2="${p.x+pw}" y2="${p.y+ph}" class="axis"/><line x1="${p.x}" y1="${p.y}" x2="${p.x}" y2="${p.y+ph}" class="axis"/><path d="${area}" fill="${C.coral}" opacity=".58"/><path d="${stepPath(net,x,y)}" fill="none" stroke="${C.ink}" stroke-width="3.4"/><path d="${stepPath(grid,x,y)}" fill="none" stroke="${C.blue}" stroke-width="3.4"/><path d="${stepPath(battery,x,y)}" fill="none" stroke="${C.green}" stroke-width="3.1"/>`;
   });
   body+=`<text x="43" y="500" text-anchor="middle" class="label" transform="rotate(-90 43 500)">功率 / kW</text><text x="900" y="950" text-anchor="middle" class="label">时间 / h</text>`;
   await save("q2_specified_day_dispatch",body);
@@ -130,13 +131,13 @@ for(const row of schedule.slice(1)){
   const rows=[...byDate.entries()].sort((a,b)=>a[0].localeCompare(b[0]));
   const values=rows.map(([,r])=>r.map(v=>+v[11]));
   const positive=values.flat().filter(v=>v>1e-10).sort((a,b)=>a-b);
-  const cap=positive[Math.floor(0.98*(positive.length-1))] || 1;
+  const cap=positive.at(-1) || 1;
   const m={l:175,r:205,t:145,b:135},pw=W-m.l-m.r,ph=H-m.t-m.b;
   const cw=pw/144,ch=ph/rows.length;
-  let body=`<text x="900" y="58" text-anchor="middle" font-size="36" font-weight="600">紧急购电的全年时空分布</text>`;
+  let body=`<text x="900" y="58" text-anchor="middle" font-size="36" font-weight="600">2025年2—12月紧急购电时空分布</text>`;
   values.forEach((day,di)=>day.forEach((v,ti)=>{
-    const q=clamp(v/cap,0,1);
-    const fill=v<=1e-10?"#F4F3EF":mix(C.yellow,C.coral,Math.sqrt(q));
+    const q=clamp(Math.log1p(v)/Math.log1p(cap),0,1);
+    const fill=v<=1e-10?"#F4F3EF":mix(C.yellow,C.coral,q);
     body+=`<rect x="${m.l+ti*cw}" y="${m.t+di*ch}" width="${cw+.2}" height="${ch+.2}" fill="${fill}"/>`;
   }));
   [0,4,8,12,16,20,24].forEach(h=>{const xx=m.l+h/24*pw;body+=`<line x1="${xx}" y1="${H-m.b}" x2="${xx}" y2="${H-m.b+8}" class="axis"/><text x="${xx}" y="${H-m.b+42}" text-anchor="middle" class="tick">${h}</text>`;});
@@ -145,7 +146,7 @@ for(const row of schedule.slice(1)){
   body+=`<line x1="${m.l}" y1="${H-m.b}" x2="${W-m.r}" y2="${H-m.b}" class="axis"/><line x1="${m.l}" y1="${m.t}" x2="${m.l}" y2="${H-m.b}" class="axis"/><text x="${m.l+pw/2}" y="930" text-anchor="middle" class="label">时间 / h</text>`;
   const lx=W-145,ly=m.t+40,lh=ph-80,steps=90;
   for(let i=0;i<steps;i++)body+=`<rect x="${lx}" y="${ly+i*lh/steps}" width="26" height="${lh/steps+1}" fill="${mix(C.coral,C.yellow,i/(steps-1))}"/>`;
-  body+=`<text x="${lx+13}" y="${ly-18}" text-anchor="middle" font-size="21">高</text><text x="${lx+13}" y="${ly+lh+34}" text-anchor="middle" font-size="21">低</text><text x="${lx+72}" y="${ly+lh/2}" text-anchor="middle" font-size="23" transform="rotate(90 ${lx+72} ${ly+lh/2})">紧急购电量 / kWh</text>`;
+  body+=`<text x="${lx+13}" y="${ly-18}" text-anchor="middle" font-size="21">${cap.toFixed(1)}</text><text x="${lx+13}" y="${ly+lh+34}" text-anchor="middle" font-size="21">0</text><text x="${lx+72}" y="${ly+lh/2}" text-anchor="middle" font-size="23" transform="rotate(90 ${lx+72} ${ly+lh/2})">紧急购电量 / kWh（log(1+q)色阶）</text>`;
   await save("q2_emergency_heatmap",body);
 }
 
@@ -154,7 +155,7 @@ for(const row of schedule.slice(1)){
   const rows=[...byDate.entries()].sort((a,b)=>a[0].localeCompare(b[0]));
   const values=rows.map(([,r])=>r.map(v=>100*(+v[13])/12000));
   const m={l:175,r:205,t:145,b:135},pw=W-m.l-m.r,ph=H-m.t-m.b,cw=pw/144,ch=ph/rows.length;
-  let body=`<text x="900" y="58" text-anchor="middle" font-size="36" font-weight="600">储能荷电状态的全年运行分布</text>`;
+  let body=`<text x="900" y="58" text-anchor="middle" font-size="36" font-weight="600">2025年2—12月储能荷电状态分布</text>`;
   values.forEach((day,di)=>day.forEach((v,ti)=>{
     const q=clamp((v-10)/80,0,1);
     body+=`<rect x="${m.l+ti*cw}" y="${m.t+di*ch}" width="${cw+.2}" height="${ch+.2}" fill="${mix(C.yellow,C.blue,q)}"/>`;
@@ -172,18 +173,18 @@ for(const row of schedule.slice(1)){
 {
   const figureData=JSON.parse(fs.readFileSync(path.join(root,"outputs/q2/q2_figure_data.json"),"utf8"));
   const panels=[{x:145,y:185},{x:945,y:185},{x:145,y:555},{x:945,y:555}],pw=690,ph=245;
-  let body=`<text x="900" y="58" text-anchor="middle" font-size="36" font-weight="600">净负荷预测区间与日前购电决策</text>`;
+  let body=`<text x="900" y="58" text-anchor="middle" font-size="36" font-weight="600">净负荷场景区间与日前购电决策</text>`;
   body+=`<g transform="translate(245 112)"><rect y="-13" width="42" height="19" fill="${C.yellow}" opacity=".65"/><text x="55" y="7" font-size="21">场景10%—90%区间</text></g><g transform="translate(630 112)"><line x2="44" stroke="${C.cyan}" stroke-width="4"/><text x="56" y="7" font-size="21">点预测</text></g><g transform="translate(875 112)"><line x2="44" stroke="${C.ink}" stroke-width="4"/><text x="56" y="7" font-size="21">实际净负荷</text></g><g transform="translate(1215 112)"><line x2="44" stroke="${C.blue}" stroke-width="4" stroke-dasharray="11 7"/><text x="56" y="7" font-size="21">计划购电</text></g>`;
   figureData.panels.forEach((r,pi)=>{
     const all=[...r.scenario_p10_net_kw,...r.scenario_p90_net_kw,...r.actual_net_kw,...r.planned_grid_kw];
     const ymin=Math.floor(Math.min(...all,0)/3000)*3000,ymax=Math.ceil(Math.max(...all)/3000)*3000;
-    const p=panels[pi],x=i=>p.x+i/143*pw,y=v=>p.y+(ymax-v)/(ymax-ymin)*ph;
+    const p=panels[pi],x=i=>p.x+(i+1)/145*pw,y=v=>p.y+(ymax-v)/(ymax-ymin)*ph;
     for(let v=ymin;v<=ymax;v+=3000)body+=`<line x1="${p.x}" y1="${y(v)}" x2="${p.x+pw}" y2="${y(v)}" class="grid"/><text x="${p.x-16}" y="${y(v)+7}" text-anchor="end" font-size="18">${v}</text>`;
-    [0,6,12,18,24].forEach(h=>{const xx=p.x+h/24*pw;body+=`<line x1="${xx}" y1="${p.y+ph}" x2="${xx}" y2="${p.y+ph+7}" class="axis"/><text x="${xx}" y="${p.y+ph+30}" text-anchor="middle" font-size="18">${h}</text>`;});
+    [0,6,12,18,24].forEach(h=>{const xx=p.x+h/(145/6)*pw;body+=`<line x1="${xx}" y1="${p.y+ph}" x2="${xx}" y2="${p.y+ph+7}" class="axis"/><text x="${xx}" y="${p.y+ph+30}" text-anchor="middle" font-size="18">${h}</text>`;});
     const band=`M ${r.scenario_p90_net_kw.map((v,i)=>`${x(i)} ${y(v)}`).join(" L ")} L ${r.scenario_p10_net_kw.map((v,i)=>`${x(143-i)} ${y(r.scenario_p10_net_kw[143-i])}`).join(" L ")} Z`;
-    body+=`<text x="${p.x+pw/2}" y="${p.y-25}" text-anchor="middle" font-size="25" font-weight="600">${r.date}</text><line x1="${p.x}" y1="${p.y+ph}" x2="${p.x+pw}" y2="${p.y+ph}" class="axis"/><line x1="${p.x}" y1="${p.y}" x2="${p.x}" y2="${p.y+ph}" class="axis"/><path d="${band}" fill="${C.yellow}" opacity=".55"/><path d="${linePath(r.forecast_net_kw,x,y)}" fill="none" stroke="${C.cyan}" stroke-width="3.2"/><path d="${linePath(r.actual_net_kw,x,y)}" fill="none" stroke="${C.ink}" stroke-width="3.4"/><path d="${linePath(r.planned_grid_kw,x,y)}" fill="none" stroke="${C.blue}" stroke-width="3.2" stroke-dasharray="11 7"/>`;
+    body+=`<text x="${p.x+pw/2}" y="${p.y-25}" text-anchor="middle" font-size="25" font-weight="600">${r.date}</text><line x1="${p.x}" y1="${p.y+ph}" x2="${p.x+pw}" y2="${p.y+ph}" class="axis"/><line x1="${p.x}" y1="${p.y}" x2="${p.x}" y2="${p.y+ph}" class="axis"/><path d="${band}" fill="${C.yellow}" opacity=".55"/><path d="${linePath(r.forecast_net_kw,x,y)}" fill="none" stroke="${C.cyan}" stroke-width="3.2"/><path d="${linePath(r.actual_net_kw,x,y)}" fill="none" stroke="${C.ink}" stroke-width="3.4"/><path d="${stepPath(r.planned_grid_kw,x,y)}" fill="none" stroke="${C.blue}" stroke-width="3.2" stroke-dasharray="11 7"/>`;
   });
-  body+=`<text x="43" y="500" text-anchor="middle" class="label" transform="rotate(-90 43 500)">功率 / kW</text><text x="900" y="950" text-anchor="middle" class="label">时间 / h</text>`;
+  body+=`<text x="43" y="500" text-anchor="middle" class="label" transform="rotate(-90 43 500)">功率 / kW</text><text x="900" y="950" text-anchor="middle" class="label">时间 / h（24:00为次日零点，计划止于24:10）</text>`;
   await save("q2_forecast_interval_dispatch",body);
 }
 

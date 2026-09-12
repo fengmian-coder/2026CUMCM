@@ -1,5 +1,5 @@
 {
-  "information_boundary": "forecast for d uses observations strictly before d",
+  "information_boundary": "forecast d covers 00:10 through next 00:00 samples; history includes observations through d 00:00",
   "cold_start": "Attachment 1 profile used only for 2025-01-01 prior",
   "config": {
     "similar_days": 6,
@@ -18,13 +18,13 @@
     "2025-12-31"
   ],
   "load": {
-    "mae_kw": 159.68920153757267,
-    "rmse_kw": 210.3425839849262,
-    "daily_energy_mape": 0.020927123270260507
+    "mae_kw": 159.6926663964568,
+    "rmse_kw": 210.3439940704655,
+    "daily_energy_mape": 0.02089810741492122
   },
   "pv": {
-    "mae_kw": 152.21184367442274,
-    "rmse_kw": 303.52975417762724,
-    "daily_energy_mape": 0.03914162382294621
+    "mae_kw": 152.21184367442265,
+    "rmse_kw": 303.5297541776272,
+    "daily_energy_mape": 0.03914162382294614
   }
 }

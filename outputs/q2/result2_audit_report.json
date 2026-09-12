@@ -4,14 +4,16 @@
     "2025-12-31"
   ],
   "plan_mapping_max_abs_error_kwh": 0.0,
-  "plan_total_max_abs_error_kwh": 7.275957614183426e-11,
+  "plan_total_max_abs_error_kwh": 5.820766091346741e-11,
+  "plan_cost_max_abs_error_yuan": 5.093170329928398e-11,
+  "emergency_event_max_abs_error_kwh": 9.094947017729282e-13,
   "battery_charge_max_abs_error_kwh": 3.637978807091713e-12,
   "battery_discharge_max_abs_error_kwh": 3.637978807091713e-12,
   "battery_soc_max_abs_error_kwh": 0.0,
-  "emergency_rows": 2984,
-  "emergency_total_kwh": 235883.21421458936,
-  "expected_emergency_total_kwh": 235883.2142145897,
-  "emergency_total_abs_error_kwh": 3.4924596548080444e-10,
+  "emergency_rows": 2987,
+  "emergency_total_kwh": 235957.442262385,
+  "expected_emergency_total_kwh": 235957.4422623851,
+  "emergency_total_abs_error_kwh": 8.731149137020111e-11,
   "template_first_interval": "0:10-0:20",
   "template_last_interval": "0:00-0:10+1"
 }

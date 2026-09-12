@@ -1,0 +1,30 @@
+{
+  "information_boundary": "forecast for d uses observations strictly before d",
+  "cold_start": "Attachment 1 profile used only for 2025-01-01 prior",
+  "config": {
+    "similar_days": 6,
+    "recency_penalty": 0.08,
+    "similarity_temperature": 0.25,
+    "load_fourier_order": 2,
+    "load_ridge": 2.0,
+    "pv_fourier_order": 3,
+    "pv_ridge": 2.0,
+    "pv_shape_days": 14,
+    "pv_shape_decay": 0.15,
+    "minimum_regression_days": 14
+  },
+  "evaluation_period": [
+    "2025-02-01",
+    "2025-12-31"
+  ],
+  "load": {
+    "mae_kw": 159.68920153757267,
+    "rmse_kw": 210.3425839849262,
+    "daily_energy_mape": 0.020927123270260507
+  },
+  "pv": {
+    "mae_kw": 152.21184367442274,
+    "rmse_kw": 303.52975417762724,
+    "daily_energy_mape": 0.03914162382294621
+  }
+}

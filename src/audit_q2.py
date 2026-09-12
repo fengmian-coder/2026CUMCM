@@ -26,7 +26,7 @@ def main():
     assert purchase.shape == charge.shape == discharge.shape == emergency.shape == surplus.shape == (365, 144)
     assert energy.shape == (365, 145)
 
-    load, pv = data.load_kw * DT_HOURS, data.pv_kw * DT_HOURS
+    load, pv = data.source_load_kw * DT_HOURS, data.source_pv_kw * DT_HOURS
     balance = purchase + pv + discharge + emergency - load - charge - surplus
     state = energy[:,1:] - energy[:,:-1] - ETA_C*charge + discharge/ETA_D
     continuity = energy[:-1,-1] - energy[1:,0]
@@ -38,14 +38,15 @@ def main():
     predecessor_pv = np.max(np.abs(data.pv_kw[1:,0] - data.source_pv_kw[:-1,-1]))
     same_day_load = np.max(np.abs(data.load_kw[:,1:] - data.source_load_kw[:,:-1]))
     same_day_pv = np.max(np.abs(data.pv_kw[:,1:] - data.source_pv_kw[:,:-1]))
+    natural = np.load(out / "natural_reporting.npz")
     evaluation = slice(31,365)
     price = data.price_yuan_per_kwh
-    plan_cost = float(np.sum(purchase[evaluation] * price))
-    emergency_cost = float(np.sum(emergency[evaluation] * 5*price))
+    plan_cost = float(np.sum(natural["purchase"] * price))
+    emergency_cost = float(np.sum(natural["emergency"] * 5*price))
     report = {
         "dimensions": {"days":365,"intervals_per_day":144,"energy_boundaries_per_day":145},
         "left_endpoint_mapping": {
-            "first_day_nearest_boundary": first_boundary,
+            "initial_boundary": "First Jan 1 interval idle; 6000 kWh at 00:00 and 00:10; no imputed midnight input used in forecasting",
             "predecessor_load_max_abs_error": float(predecessor_load),
             "predecessor_pv_max_abs_error": float(predecessor_pv),
             "same_day_load_max_abs_error": float(same_day_load),
@@ -64,8 +65,8 @@ def main():
         "evaluation_totals": {
             "period":["2025-02-01","2025-12-31"], "plan_cost_yuan":plan_cost,
             "emergency_cost_yuan":emergency_cost,"total_cost_yuan":plan_cost+emergency_cost,
-            "emergency_purchase_kwh":float(emergency[evaluation].sum()),
-            "surplus_kwh":float(surplus[evaluation].sum()),
+            "emergency_purchase_kwh":float(natural["emergency"].sum()),
+            "surplus_kwh":float(natural["surplus"].sum()),
         },
     }
     assert report["left_endpoint_mapping"]["predecessor_load_max_abs_error"] == 0

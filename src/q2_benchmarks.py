@@ -19,6 +19,7 @@ except ModuleNotFoundError:
 from data_loader import DT_HOURS
 from q2_data import load_q2_data
 from q2_optimize import OptimizationConfig, scenarios_for_day, solve_day
+from q2_dispatch import natural, natural_energy
 
 
 T = 144
@@ -83,36 +84,37 @@ def main():
     forecasts = np.load(ROOT / "outputs" / "q2" / "rolling_forecasts.npz")
     load_hat, pv_hat = forecasts["load_kw"], forecasts["pv_kw"]
 
+    price = np.roll(data.price_yuan_per_kwh, -1)
     no_storage = []
     oracle = []
     oracle_energy0 = 6000.0
     for d in range(365):
         scenario_load, scenario_pv = scenarios_for_day(
-            d, data.dates, data.load_kw, data.pv_kw, load_hat, pv_hat, cfg
+            d, data.dates, data.source_load_kw, data.source_pv_kw, load_hat, pv_hat, cfg
         )
         no_storage.append(
-            solve_no_storage_day(data.price_yuan_per_kwh, scenario_load, scenario_pv, cfg)
+            solve_no_storage_day(price, scenario_load, scenario_pv, cfg)
         )
-        actual_load = data.load_kwh[d:d+1]
-        actual_pv = data.pv_kwh[d:d+1]
+        actual_load = data.source_load_kw[d:d+1] * DT_HOURS
+        actual_pv = data.source_pv_kw[d:d+1] * DT_HOURS
         solved = solve_day(
-            data.price_yuan_per_kwh, oracle_energy0, actual_load, actual_pv, cfg
+            price, oracle_energy0, actual_load, actual_pv, cfg
         )
         oracle.append(solved)
         oracle_energy0 = float(solved["energy"][-1])
 
     start = 31
-    no_storage_plans = np.asarray(no_storage)[start:]
+    no_storage_plans = natural(np.asarray(no_storage))
     result_no_storage = aggregate_settlement(
         data.price_yuan_per_kwh, no_storage_plans,
         data.load_kwh[start:], data.pv_kwh[start:],
     )
 
-    oracle_slice = oracle[start:]
-    g = np.asarray([x["purchase"] for x in oracle_slice])
-    c = np.asarray([x["charge"] for x in oracle_slice])
-    u = np.asarray([x["discharge"] for x in oracle_slice])
-    e = np.asarray([x["energy"] for x in oracle_slice])
+    oracle_slice = oracle
+    g = natural(np.asarray([x["purchase"] for x in oracle_slice]))
+    c = natural(np.asarray([x["charge"] for x in oracle_slice]))
+    u = natural(np.asarray([x["discharge"] for x in oracle_slice]))
+    e = natural_energy(np.asarray([x["energy"] for x in oracle_slice]))
     shortage = data.load_kwh[start:] + c - g - data.pv_kwh[start:] - u
     emergency = np.maximum(shortage, 0.0)
     surplus = np.maximum(-shortage, 0.0)

@@ -1,4 +1,10 @@
 {
+  "plan_cost_yuan": 13803628.773330586,
+  "emergency_cost_yuan": 884518.2586362156,
+  "total_cost_yuan": 14688147.031966802,
+  "plan_purchase_kwh": 22541335.7450645,
+  "emergency_purchase_kwh": 236710.19030588257,
+  "time_axis": "shifted_0010",
   "config": {
     "scenario_count": 30,
     "residual_window_days": 60,
@@ -13,20 +19,25 @@
     "2025-02-01",
     "2025-12-31"
   ],
+  "reporting_window": "natural 00:00-24:00",
   "days": 334,
-  "plan_cost_yuan": 13802973.239232212,
-  "emergency_cost_yuan": 884425.5072594548,
-  "total_cost_yuan": 14687398.746491667,
-  "emergency_purchase_kwh": 236634.15725960728,
+  "plan_window_totals": {
+    "plan_cost_yuan": 13803678.585490808,
+    "emergency_cost_yuan": 884644.1358487562,
+    "total_cost_yuan": 14688322.721339565,
+    "plan_purchase_kwh": 22541452.237487845,
+    "emergency_purchase_kwh": 236769.0664576789
+  },
   "emergency_days": 330,
-  "surplus_kwh": 3525332.1549867024,
-  "charge_kwh": 6915503.646231355,
-  "discharge_kwh": 5601557.953447398,
+  "surplus_kwh": 3525144.7945449455,
+  "charge_kwh": 6915512.364168965,
+  "discharge_kwh": 5601565.014976862,
   "max_balance_error": 4.547473508864641e-13,
   "max_state_error": 1.7053025658242404e-12,
   "simultaneous_slots": 0,
   "energy_min_kwh": 1200.0,
   "energy_max_kwh": 10800.0,
   "initial_energy_kwh": 6000.0,
-  "final_energy_kwh": 1200.0
+  "final_energy_kwh": 1200.0,
+  "final_plan_energy_0010_kwh": 1200.0
 }

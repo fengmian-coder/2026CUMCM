@@ -22,29 +22,26 @@ npm run plot:q1
 
 ## 第二问复现
 
-第二问按修订方案使用自然日左端点映射、严格滚动预测、联合残差情景和
-CVaR 日前随机优化。依次运行：
+正式口径：每天00:00制定当天00:10至次日00:10的144段计划；当天首段执行前一天已锁定的末段。零点与00:10储电量严格区分，初始状态从1月1日连续递推。
 
 ```powershell
-python src/q2_forecast.py
-python src/q2_forecast_compare.py
-python src/q2_optimize.py
-python src/audit_q2.py
-python src/q2_sensitivity.py
-python src/q2_terminal_sensitivity.py
-python src/q2_benchmarks.py
-python src/q2_extend_boundary.py
+python src/refresh_q2.py
+```
+
+该命令重算预测、主模型、基准比较、风险及终端价值敏感性和场景图数据。需要NumPy、SciPy和openpyxl；本机临时SciPy依赖在tmp/q2_trial_deps。
+
+随后使用已配置的@oai/artifact-tool运行src/fill_result2.mjs填写materials/result2.xlsx，再运行：
+
+```powershell
 python src/audit_result2.py
-python src/export_q2_figure_data.py
+python src/audit_q2_time_axis.py
 npm run plot:q2
 ```
 
-正式结果位于 `outputs/q2`。日前计划中的购电、充电和放电在同一天的所有
-情景中保持一致，只有紧急购电随情景变化；实际数据仅用于次日更新与事后
-结算。自然日首个区间采用前一行的 24:00 样本，2025 年 1 月 1 日首个区间
-采用 0:10 样本作最近邻延拓。所有计算保留原始浮点精度。
+本机可将fill_result2.mjs复制到tmp/q2_artifact后用捆绑Node运行，该目录的node_modules连接到工作区捆绑依赖。
 
-`result2.xlsx` 保留官方模板标签。日期 `d` 的计划购电行写入自然日结果的
-第 2–144 段及日期 `d+1` 的第 1 段；充放电量、SOC 和紧急购电仍按自然日
-统计。2025 年 12 月 31 日最后一列由额外生成的 2026 年 1 月 1 日首段结果
-补齐。写表后运行独立审计，确认重排、分段汇总和紧急购电合并均与原结果一致。
+正式数据在outputs/q2，正式图在figures/q2_*，解释和数值见outputs/q2/modeling_notes.md。q2_schedules.npz按计划日期保存365×144个动作及365×145个状态；q2_schedule.csv与natural_reporting.npz按2—12月自然日保存执行结果。result2_plan_rows.json提供直接写表的334×144个购电值。
+
+计划表合计覆盖2月1日00:10至次年1月1日00:10；自然日费用、充放电和紧急购电覆盖2月1日00:00至次年1月1日00:00。两种窗口分别标注，不能混加。官方模板标签保持原样。
+
+旧版结果、图和相关代码归档在outputs/q2_legacy_natural；outputs/q2_shifted_trial为前期新口径试验。q2_extend_boundary.py已经停用，不再生成次日新计划补格。

@@ -14,7 +14,7 @@ try:
     from scipy.optimize import linprog
     from scipy.sparse import lil_matrix
 except ModuleNotFoundError:
-    sys.path.append(str(ROOT / "tmp" / "pydeps"))
+    sys.path.insert(0, str(ROOT / "tmp" / "q2_trial_deps"))
     from scipy.optimize import linprog
     from scipy.sparse import lil_matrix
 
@@ -133,100 +133,10 @@ def solve_day(price, initial_energy, scenario_load, scenario_pv,
     }
 
 
-def run(cfg=OptimizationConfig(), start_day=0, end_day=365,
+def run(cfg=OptimizationConfig(cvar_weight=0.05), start_day=31, end_day=365,
         output_dir=ROOT / "outputs" / "q2", save_detail=True):
-    data = load_q2_data()
-    # Forecasts do not depend on optimization parameters.  Keep one canonical
-    # copy so sensitivity cases cannot silently regenerate different inputs.
-    forecast_file = ROOT / "outputs" / "q2" / "rolling_forecasts.npz"
-    if not forecast_file.exists():
-        save_forecasts(forecast_file.parent)
-    forecasts = np.load(forecast_file)
-    load_hat, pv_hat = forecasts["load_kw"], forecasts["pv_kw"]
-    labels = natural_interval_labels()
-    output_dir.mkdir(parents=True, exist_ok=True)
-
-    energy0 = 6000.0
-    all_rows = []
-    daily_rows = []
-    schedules = []
-    for d in range(0, end_day):
-        scenario_load, scenario_pv = scenarios_for_day(
-            d, data.dates, data.load_kw, data.pv_kw, load_hat, pv_hat, cfg
-        )
-        solution = solve_day(data.price_yuan_per_kwh, energy0, scenario_load, scenario_pv, cfg)
-        g, c, u, e = (solution[k] for k in ("purchase", "charge", "discharge", "energy"))
-        real_load, real_pv = data.load_kwh[d], data.pv_kwh[d]
-        shortage = real_load + c - g - real_pv - u
-        emergency = np.maximum(shortage, 0.0)
-        surplus = np.maximum(-shortage, 0.0)
-        plan_cost = float(data.price_yuan_per_kwh @ g)
-        emergency_cost = float((5.0 * data.price_yuan_per_kwh) @ emergency)
-        balance_error = g + real_pv + u + emergency - real_load - c - surplus
-        state_error = e[1:] - e[:-1] - ETA_C*c + u/ETA_D
-        schedules.append({"purchase":g,"charge":c,"discharge":u,"energy":e,
-                          "emergency":emergency,"surplus":surplus})
-        if d >= start_day:
-            for t in range(T):
-                all_rows.append([
-                    data.dates[d].isoformat(), t+1, labels[t], data.price_yuan_per_kwh[t],
-                    load_hat[d,t], pv_hat[d,t], data.load_kw[d,t], data.pv_kw[d,t],
-                    g[t], c[t], u[t], emergency[t], surplus[t], e[t], e[t+1],
-                ])
-            daily_rows.append({
-                "date": data.dates[d].isoformat(), "initial_energy_kwh": float(e[0]),
-                "final_energy_kwh": float(e[-1]), "plan_purchase_kwh": float(g.sum()),
-                "plan_cost_yuan": plan_cost, "emergency_purchase_kwh": float(emergency.sum()),
-                "emergency_cost_yuan": emergency_cost, "actual_total_cost_yuan": plan_cost+emergency_cost,
-                "surplus_kwh": float(surplus.sum()), "charge_kwh": float(c.sum()),
-                "discharge_kwh": float(u.sum()), "max_balance_error": float(np.max(np.abs(balance_error))),
-                "max_state_error": float(np.max(np.abs(state_error))),
-                "simultaneous_slots": solution["simultaneous"],
-            })
-        energy0 = float(e[-1])
-
-    if save_detail:
-        schedule_path = output_dir / "q2_schedule.csv"
-        with schedule_path.open("w", newline="", encoding="utf-8-sig") as f:
-            writer = csv.writer(f)
-            writer.writerow(["日期","时段序号","自然日时段","电价(元/kWh)","预测负载功率(kW)",
-                             "预测光伏功率(kW)","实际负载功率(kW)","实际光伏功率(kW)",
-                             "计划购电量(kWh)","计划充电量(kWh)","计划放电量(kWh)",
-                             "紧急购电量(kWh)","剩余电量(kWh)","期初储电量(kWh)","期末储电量(kWh)"])
-            writer.writerows(all_rows)
-        (output_dir / "q2_daily_summary.json").write_text(
-            json.dumps(daily_rows, ensure_ascii=False, indent=2), encoding="utf-8"
-        )
-    summary = {
-        "config": asdict(cfg), "output_period": [daily_rows[0]["date"], daily_rows[-1]["date"]],
-        "days": len(daily_rows), "plan_cost_yuan": sum(x["plan_cost_yuan"] for x in daily_rows),
-        "emergency_cost_yuan": sum(x["emergency_cost_yuan"] for x in daily_rows),
-        "total_cost_yuan": sum(x["actual_total_cost_yuan"] for x in daily_rows),
-        "emergency_purchase_kwh": sum(x["emergency_purchase_kwh"] for x in daily_rows),
-        "emergency_days": sum(x["emergency_purchase_kwh"] > 1e-7 for x in daily_rows),
-        "surplus_kwh": sum(x["surplus_kwh"] for x in daily_rows),
-        "charge_kwh": sum(x["charge_kwh"] for x in daily_rows),
-        "discharge_kwh": sum(x["discharge_kwh"] for x in daily_rows),
-        "max_balance_error": max(x["max_balance_error"] for x in daily_rows),
-        "max_state_error": max(x["max_state_error"] for x in daily_rows),
-        "simultaneous_slots": sum(x["simultaneous_slots"] for x in daily_rows),
-        "energy_min_kwh": min(float(s["energy"].min()) for s in schedules),
-        "energy_max_kwh": max(float(s["energy"].max()) for s in schedules),
-        "initial_energy_kwh": float(schedules[0]["energy"][0]),
-        "final_energy_kwh": float(schedules[-1]["energy"][-1]),
-    }
-    (output_dir / "q2_summary.json").write_text(
-        json.dumps(summary, ensure_ascii=False, indent=2), encoding="utf-8"
-    )
-    if save_detail:
-        np.savez_compressed(output_dir / "q2_schedules.npz",
-            purchase=np.asarray([s["purchase"] for s in schedules]),
-            charge=np.asarray([s["charge"] for s in schedules]),
-            discharge=np.asarray([s["discharge"] for s in schedules]),
-            energy=np.asarray([s["energy"] for s in schedules]),
-            emergency=np.asarray([s["emergency"] for s in schedules]),
-            surplus=np.asarray([s["surplus"] for s in schedules]))
-    return summary
+    from q2_dispatch import run as shifted_run
+    return shifted_run(cfg, start_day, end_day, output_dir, save_detail)
 
 
 if __name__ == "__main__":

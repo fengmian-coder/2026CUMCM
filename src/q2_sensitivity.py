@@ -13,8 +13,8 @@ def main():
         ("risk_005", dict(cvar_weight=0.05)),
         ("risk_010", dict(cvar_weight=0.10)),
         ("risk_020", dict(cvar_weight=0.20)),
-        ("scenarios_20", dict(scenario_count=20, cvar_weight=0.10)),
-        ("scenarios_50", dict(scenario_count=50, cvar_weight=0.10)),
+        ("scenarios_20", dict(scenario_count=20, cvar_weight=0.05)),
+        ("scenarios_50", dict(scenario_count=50, cvar_weight=0.05)),
     ]
     folder = ROOT / "outputs" / "q2" / "sensitivity"
     folder.mkdir(parents=True, exist_ok=True)

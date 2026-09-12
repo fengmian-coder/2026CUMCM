@@ -30,7 +30,7 @@ def main():
     sl = slice(31,365)
     rows=[]
     for target, actual, primary in [
-        ("负载",data.load_kw,f["load_kw"]), ("光伏",data.pv_kw,f["pv_kw"])
+        ("负载",data.source_load_kw,f["load_kw"]), ("光伏",data.source_pv_kw,f["pv_kw"])
     ]:
         candidates = {
             "前一日曲线": np.vstack((actual[0],actual[:-1])),

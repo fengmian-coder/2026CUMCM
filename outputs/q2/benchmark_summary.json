@@ -14,35 +14,35 @@
     "2025-12-31"
   ],
   "no_storage_same_information": {
-    "plan_cost_yuan": 17732578.397326432,
-    "emergency_cost_yuan": 782736.4985615559,
-    "total_cost_yuan": 18515314.89588799,
-    "emergency_purchase_kwh": 196832.59466754243,
-    "surplus_kwh": 4910755.304618008
+    "plan_cost_yuan": 17732606.92046763,
+    "emergency_cost_yuan": 783092.3221956305,
+    "total_cost_yuan": 18515699.24266326,
+    "emergency_purchase_kwh": 196966.0007033677,
+    "surplus_kwh": 4910861.180497717
   },
   "proposed_stochastic_storage": {
-    "plan_cost_yuan": 13820713.64610791,
-    "emergency_cost_yuan": 881586.376330986,
-    "total_cost_yuan": 14702300.022438897,
-    "emergency_purchase_kwh": 235883.2142145897,
-    "surplus_kwh": 3531897.706850472,
-    "charge_kwh": 7343983.286197393,
-    "discharge_kwh": 5948626.461819889,
-    "final_energy_kwh": 10200.0
+    "plan_cost_yuan": 13833604.79126725,
+    "emergency_cost_yuan": 881685.8591477522,
+    "total_cost_yuan": 14715290.650415003,
+    "emergency_purchase_kwh": 235957.4422623851,
+    "surplus_kwh": 3531797.5881148577,
+    "charge_kwh": 7397794.8227427155,
+    "discharge_kwh": 5992213.8064216,
+    "final_energy_kwh": 10050.0
   },
   "perfect_information_storage_reference": {
-    "plan_cost_yuan": 12277676.515210725,
-    "emergency_cost_yuan": 3.84685769140274e-10,
-    "total_cost_yuan": 12277676.515210725,
-    "emergency_purchase_kwh": 1.0523675190283154e-10,
-    "surplus_kwh": 989868.9094753065,
-    "charge_kwh": 7172858.029821399,
-    "discharge_kwh": 5810015.004155333,
-    "final_energy_kwh": 10200.0
+    "plan_cost_yuan": 12290923.982155036,
+    "emergency_cost_yuan": 3.713155096113032e-10,
+    "total_cost_yuan": 12290923.982155036,
+    "emergency_purchase_kwh": 9.808467240995065e-11,
+    "surplus_kwh": 989853.2601633066,
+    "charge_kwh": 7245600.761881481,
+    "discharge_kwh": 5868936.617124,
+    "final_energy_kwh": 10050.0
   },
   "derived": {
-    "saving_vs_no_storage_yuan": 3813014.8734490927,
-    "saving_vs_no_storage_fraction": 0.2059384296129856,
-    "forecast_uncertainty_cost_gap_yuan": 2424623.5072281715
+    "saving_vs_no_storage_yuan": 3800408.5922482572,
+    "saving_vs_no_storage_fraction": 0.20525331192955876,
+    "forecast_uncertainty_cost_gap_yuan": 2424366.668259967
   }
 }

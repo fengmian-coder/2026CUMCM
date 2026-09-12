@@ -46,13 +46,13 @@ def main() -> None:
         if date_text not in selected:
             continue
         scenario_load, scenario_pv = scenarios_for_day(
-            d, data.dates, data.load_kw, data.pv_kw, load_hat, pv_hat
+            d, data.dates, data.source_load_kw, data.source_pv_kw, load_hat, pv_hat
         )
         scenario_net_kw = (scenario_load - scenario_pv) / DT_HOURS
         panels.append({
             "date": date_text,
             "forecast_net_kw": (load_hat[d] - pv_hat[d]).tolist(),
-            "actual_net_kw": (data.load_kw[d] - data.pv_kw[d]).tolist(),
+            "actual_net_kw": (data.source_load_kw[d] - data.source_pv_kw[d]).tolist(),
             "scenario_p10_net_kw": np.quantile(scenario_net_kw, 0.10, axis=0).tolist(),
             "scenario_p90_net_kw": np.quantile(scenario_net_kw, 0.90, axis=0).tolist(),
             "planned_grid_kw": (schedules["purchase"][d] / DT_HOURS).tolist(),
