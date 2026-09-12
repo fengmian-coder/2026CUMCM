@@ -1,0 +1,6 @@
+{
+  "future_cutoff": "2025-04-02",
+  "max_prediction_difference": 0.0,
+  "monthly_validation_before_decision": true,
+  "first_round_M0_predictions_unchanged": true
+}

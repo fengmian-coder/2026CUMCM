@@ -2,6 +2,8 @@ import fs from 'node:fs/promises';
 import {FileBlob,SpreadsheetFile} from '@oai/artifact-tool';
 const root='C:/Users/风眠/2026MMC_final';
 const file=`${root}/materials/result3.xlsx`;
+const summary=JSON.parse(await fs.readFile(`${root}/outputs/q3/main/summary.json`,'utf8'));
+if(JSON.stringify(summary.config.hours)!=='[6,12]')throw new Error('Q3 formal policy must use 06:00 and 12:00 updates');
 const data=JSON.parse(await fs.readFile(`${root}/outputs/q3/main/workbook_data.json`,'utf8'));
 const book=await SpreadsheetFile.importXlsx(await FileBlob.load(file));
 const preview=`${root}/tmp/q3_preview`;await fs.mkdir(preview,{recursive:true});

@@ -3,13 +3,14 @@
   "config": {
     "hours": [
       6,
-      12,
-      18
+      12
     ],
     "window": 14,
     "threshold": 0.001,
     "refund": true,
-    "scenarios": 30
+    "scenarios": 30,
+    "evening_threshold": null,
+    "evening_cash_gate": false
   },
   "natural_period": [
     "2025-02-01 00:00",
@@ -20,32 +21,32 @@
     "2026-01-01 00:10"
   ],
   "natural_totals": {
-    "base_plan_fee_yuan": 13713788.896449704,
-    "adjustment_fee_yuan": 13500.200203953345,
-    "settled_grid_fee_yuan": 13727289.096653659,
-    "emergency_fee_yuan": 671597.4495022045,
-    "total_cost_yuan": 14398886.546155863,
-    "emergency_kwh": 177402.81448979315,
-    "purchase_kwh": 22252983.12434368,
-    "charge_kwh": 7367301.215553611,
-    "discharge_kwh": 5967511.47181493,
-    "surplus_kwh": 3091642.403461456
+    "base_plan_fee_yuan": 13713542.42101724,
+    "adjustment_fee_yuan": 11481.640546904437,
+    "settled_grid_fee_yuan": 13725024.061564144,
+    "emergency_fee_yuan": 671646.629825974,
+    "total_cost_yuan": 14396670.69139012,
+    "emergency_kwh": 177425.4461807353,
+    "purchase_kwh": 22251028.125539698,
+    "charge_kwh": 7367772.308370436,
+    "discharge_kwh": 5967893.056996558,
+    "surplus_kwh": 3089620.5287132207
   },
   "plan_totals": {
-    "base_plan_fee_yuan": 13713838.708609927,
-    "adjustment_fee_yuan": 13500.200203953342,
-    "settled_grid_fee_yuan": 13727338.908813879,
-    "emergency_fee_yuan": 671716.6942072015,
-    "total_cost_yuan": 14399055.603021082,
-    "emergency_kwh": 177458.58843974496,
-    "purchase_kwh": 22253099.61676702,
-    "charge_kwh": 7367298.113351766,
-    "discharge_kwh": 5967511.47181493,
-    "surplus_kwh": 3091582.0687032635
+    "base_plan_fee_yuan": 13713592.233177463,
+    "adjustment_fee_yuan": 11481.640546904437,
+    "settled_grid_fee_yuan": 13725073.873724367,
+    "emergency_fee_yuan": 671765.8745309709,
+    "total_cost_yuan": 14396839.748255339,
+    "emergency_kwh": 177481.2201306871,
+    "purchase_kwh": 22251144.61796304,
+    "charge_kwh": 7367769.20616859,
+    "discharge_kwh": 5967893.056996558,
+    "surplus_kwh": 3089560.193955028
   },
   "audit": {
     "balance_residual_kwh": 5.684341886080801e-13,
-    "state_residual_kwh": 2.2168933355715126e-12,
+    "state_residual_kwh": 1.4779288903810084e-12,
     "continuity_residual_kwh": 0.0,
     "min_energy": 1200.0,
     "max_energy": 10800.0,
@@ -58,7 +59,6 @@
   "final_0010_energy": 10800.0,
   "adjustment_counts": {
     "6": 334,
-    "12": 334,
-    "18": 326
+    "12": 334
   }
 }

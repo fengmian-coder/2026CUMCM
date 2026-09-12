@@ -1,0 +1,8762 @@
+[
+  {
+    "date": "2025-01-01",
+    "model": 0,
+    "hour": 6,
+    "accepted": false,
+    "expected_gain": 0.0,
+    "expected_cash_gain": 0.0
+  },
+  {
+    "date": "2025-01-01",
+    "model": 0,
+    "hour": 12,
+    "accepted": false,
+    "expected_gain": 0.0,
+    "expected_cash_gain": 0.0
+  },
+  {
+    "date": "2025-01-01",
+    "model": 0,
+    "hour": 18,
+    "accepted": false,
+    "expected_gain": 0.0,
+    "expected_cash_gain": 0.0
+  },
+  {
+    "date": "2025-01-02",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 4677.261573489086,
+    "expected_cash_gain": 4563.378091077771
+  },
+  {
+    "date": "2025-01-02",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 8022.754131258807,
+    "expected_cash_gain": 7597.764744267348
+  },
+  {
+    "date": "2025-01-02",
+    "model": 0,
+    "hour": 18,
+    "accepted": false,
+    "expected_gain": 0.026272350001818268,
+    "expected_cash_gain": 0.024520860002667177
+  },
+  {
+    "date": "2025-01-03",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 4234.669188088032,
+    "expected_cash_gain": 3974.3142276064755
+  },
+  {
+    "date": "2025-01-03",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 2137.4928968931927,
+    "expected_cash_gain": 1960.89629163075
+  },
+  {
+    "date": "2025-01-03",
+    "model": 0,
+    "hour": 18,
+    "accepted": false,
+    "expected_gain": 0.006654954580881167,
+    "expected_cash_gain": 0.005119195830047829
+  },
+  {
+    "date": "2025-01-04",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 2374.6018381464673,
+    "expected_cash_gain": 2102.5243565201454
+  },
+  {
+    "date": "2025-01-04",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 1021.9838816184711,
+    "expected_cash_gain": 851.011677868737
+  },
+  {
+    "date": "2025-01-04",
+    "model": 0,
+    "hour": 18,
+    "accepted": false,
+    "expected_gain": 0.0036412833323993254,
+    "expected_cash_gain": 0.00208073333305947
+  },
+  {
+    "date": "2025-01-05",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 1696.239447635351,
+    "expected_cash_gain": 1489.693760992086
+  },
+  {
+    "date": "2025-01-05",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 928.963862875502,
+    "expected_cash_gain": 793.6952477983068
+  },
+  {
+    "date": "2025-01-05",
+    "model": 0,
+    "hour": 18,
+    "accepted": false,
+    "expected_gain": 5.422435794976991,
+    "expected_cash_gain": 1.8837040459275158
+  },
+  {
+    "date": "2025-01-06",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 917.4957619900233,
+    "expected_cash_gain": 886.1035127431169
+  },
+  {
+    "date": "2025-01-06",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 2119.792281779548,
+    "expected_cash_gain": 1195.1204278228615
+  },
+  {
+    "date": "2025-01-06",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 51.21265410732303,
+    "expected_cash_gain": 0.006248984998819651
+  },
+  {
+    "date": "2025-01-07",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 4180.924188003046,
+    "expected_cash_gain": 3486.937725274911
+  },
+  {
+    "date": "2025-01-07",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 1202.805512623796,
+    "expected_cash_gain": 921.5976312019629
+  },
+  {
+    "date": "2025-01-07",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 217.43073893956716,
+    "expected_cash_gain": 309.71746550900934
+  },
+  {
+    "date": "2025-01-08",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 3836.10704097541,
+    "expected_cash_gain": 3961.4398573571234
+  },
+  {
+    "date": "2025-01-08",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 1366.6356314492295,
+    "expected_cash_gain": 1178.009167379394
+  },
+  {
+    "date": "2025-01-08",
+    "model": 0,
+    "hour": 18,
+    "accepted": false,
+    "expected_gain": 17.142822276033257,
+    "expected_cash_gain": 9.6714974364113
+  },
+  {
+    "date": "2025-01-09",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 2502.51958570219,
+    "expected_cash_gain": 2285.7148018359876
+  },
+  {
+    "date": "2025-01-09",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 684.3741344173031,
+    "expected_cash_gain": 504.3372519283439
+  },
+  {
+    "date": "2025-01-09",
+    "model": 0,
+    "hour": 18,
+    "accepted": false,
+    "expected_gain": 0.7211165349872317,
+    "expected_cash_gain": -0.7408892605708388
+  },
+  {
+    "date": "2025-01-10",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 1929.261612683993,
+    "expected_cash_gain": 1838.7518913230779
+  },
+  {
+    "date": "2025-01-10",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 1027.8185065196321,
+    "expected_cash_gain": 809.4135925001319
+  },
+  {
+    "date": "2025-01-10",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 64.2852352803493,
+    "expected_cash_gain": 78.1601830303589
+  },
+  {
+    "date": "2025-01-11",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 965.6981157706832,
+    "expected_cash_gain": 875.2978257628092
+  },
+  {
+    "date": "2025-01-11",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 677.7071121320478,
+    "expected_cash_gain": 629.5474310879436
+  },
+  {
+    "date": "2025-01-11",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 20.626251067660633,
+    "expected_cash_gain": 31.903287547065702
+  },
+  {
+    "date": "2025-01-12",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 1844.3860223832016,
+    "expected_cash_gain": 1695.5083878697187
+  },
+  {
+    "date": "2025-01-12",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 350.4082538607763,
+    "expected_cash_gain": 382.79164245232096
+  },
+  {
+    "date": "2025-01-12",
+    "model": 0,
+    "hour": 18,
+    "accepted": false,
+    "expected_gain": 0.41184443958627526,
+    "expected_cash_gain": 0.013030465099291177
+  },
+  {
+    "date": "2025-01-13",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 681.7629017707659,
+    "expected_cash_gain": 657.195234344792
+  },
+  {
+    "date": "2025-01-13",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 689.9545121725387,
+    "expected_cash_gain": 675.7081651954941
+  },
+  {
+    "date": "2025-01-13",
+    "model": 0,
+    "hour": 18,
+    "accepted": false,
+    "expected_gain": 8.218446125880291,
+    "expected_cash_gain": -15.361172244334739
+  },
+  {
+    "date": "2025-01-14",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 1107.711545987564,
+    "expected_cash_gain": 1116.495039460191
+  },
+  {
+    "date": "2025-01-14",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 349.99359384548734,
+    "expected_cash_gain": 311.1074806058605
+  },
+  {
+    "date": "2025-01-14",
+    "model": 0,
+    "hour": 18,
+    "accepted": false,
+    "expected_gain": 0.0,
+    "expected_cash_gain": 0.0
+  },
+  {
+    "date": "2025-01-15",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 5325.0046397615515,
+    "expected_cash_gain": 4615.932955474171
+  },
+  {
+    "date": "2025-01-15",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 1120.987027649484,
+    "expected_cash_gain": 1444.3418540901039
+  },
+  {
+    "date": "2025-01-15",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 98.11937938432857,
+    "expected_cash_gain": 91.25139963390393
+  },
+  {
+    "date": "2025-01-16",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 431.8171975320729,
+    "expected_cash_gain": 428.19402205182996
+  },
+  {
+    "date": "2025-01-16",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 357.7256124160922,
+    "expected_cash_gain": 315.36551820265595
+  },
+  {
+    "date": "2025-01-16",
+    "model": 0,
+    "hour": 18,
+    "accepted": false,
+    "expected_gain": 13.847419820016512,
+    "expected_cash_gain": 20.433736470622534
+  },
+  {
+    "date": "2025-01-17",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 1248.0912313257068,
+    "expected_cash_gain": 572.5323395892192
+  },
+  {
+    "date": "2025-01-17",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 879.9849094275087,
+    "expected_cash_gain": 1179.4559412664348
+  },
+  {
+    "date": "2025-01-17",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 65.18931704299575,
+    "expected_cash_gain": 45.98590321404481
+  },
+  {
+    "date": "2025-01-18",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 85.2955937679144,
+    "expected_cash_gain": 66.17789756570346
+  },
+  {
+    "date": "2025-01-18",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 430.7955555252047,
+    "expected_cash_gain": 510.99944535039685
+  },
+  {
+    "date": "2025-01-18",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 14.033885972032294,
+    "expected_cash_gain": 8.93127677092707
+  },
+  {
+    "date": "2025-01-19",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 372.3425332464685,
+    "expected_cash_gain": 338.7765555003425
+  },
+  {
+    "date": "2025-01-19",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 559.3247214193834,
+    "expected_cash_gain": 327.2618535423462
+  },
+  {
+    "date": "2025-01-19",
+    "model": 0,
+    "hour": 18,
+    "accepted": false,
+    "expected_gain": 0.48514373079888173,
+    "expected_cash_gain": 0.6040616338432301
+  },
+  {
+    "date": "2025-01-20",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 124.40334253442416,
+    "expected_cash_gain": 52.34573172961245
+  },
+  {
+    "date": "2025-01-20",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 265.3953738006385,
+    "expected_cash_gain": 34.14280853758828
+  },
+  {
+    "date": "2025-01-20",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 85.78012618517641,
+    "expected_cash_gain": 159.48222116032775
+  },
+  {
+    "date": "2025-01-21",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 1038.4147220062223,
+    "expected_cash_gain": 1082.890524059112
+  },
+  {
+    "date": "2025-01-21",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 351.9059292903621,
+    "expected_cash_gain": 249.70317050448648
+  },
+  {
+    "date": "2025-01-21",
+    "model": 0,
+    "hour": 18,
+    "accepted": false,
+    "expected_gain": 5.6899967277768155,
+    "expected_cash_gain": 9.926670847788046
+  },
+  {
+    "date": "2025-01-22",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 224.14206958665454,
+    "expected_cash_gain": 209.27873996802373
+  },
+  {
+    "date": "2025-01-22",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 271.1239974783239,
+    "expected_cash_gain": 268.3849049683922
+  },
+  {
+    "date": "2025-01-22",
+    "model": 0,
+    "hour": 18,
+    "accepted": false,
+    "expected_gain": 7.1934795983379445,
+    "expected_cash_gain": -5.684137004540389
+  },
+  {
+    "date": "2025-01-23",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 1993.164579076547,
+    "expected_cash_gain": 1613.9028762462694
+  },
+  {
+    "date": "2025-01-23",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 2130.2497250858432,
+    "expected_cash_gain": 993.8144605532871
+  },
+  {
+    "date": "2025-01-23",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 546.9844640741085,
+    "expected_cash_gain": 788.4967640366522
+  },
+  {
+    "date": "2025-01-24",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 167.2331837126003,
+    "expected_cash_gain": 164.6717008522137
+  },
+  {
+    "date": "2025-01-24",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 263.88926965981227,
+    "expected_cash_gain": 148.30465808640292
+  },
+  {
+    "date": "2025-01-24",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 68.10977519947483,
+    "expected_cash_gain": 72.83254970666712
+  },
+  {
+    "date": "2025-01-25",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 372.3589980055349,
+    "expected_cash_gain": 363.4573365921897
+  },
+  {
+    "date": "2025-01-25",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 166.126987737749,
+    "expected_cash_gain": 165.66430842528644
+  },
+  {
+    "date": "2025-01-25",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 16.806060487932882,
+    "expected_cash_gain": 16.11772570159701
+  },
+  {
+    "date": "2025-01-26",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 576.9939102669596,
+    "expected_cash_gain": 704.1618421842577
+  },
+  {
+    "date": "2025-01-26",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 461.0322390614965,
+    "expected_cash_gain": 118.55153426182369
+  },
+  {
+    "date": "2025-01-26",
+    "model": 0,
+    "hour": 18,
+    "accepted": false,
+    "expected_gain": 0.0,
+    "expected_cash_gain": 0.0
+  },
+  {
+    "date": "2025-01-27",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 1452.276352968649,
+    "expected_cash_gain": 1270.9685276304808
+  },
+  {
+    "date": "2025-01-27",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 286.26762145576504,
+    "expected_cash_gain": 249.71836051210994
+  },
+  {
+    "date": "2025-01-27",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 264.2375063443251,
+    "expected_cash_gain": 280.67758184756167
+  },
+  {
+    "date": "2025-01-28",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 239.11422637611395,
+    "expected_cash_gain": 216.7356417446572
+  },
+  {
+    "date": "2025-01-28",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 255.2870444064829,
+    "expected_cash_gain": 189.06292802059033
+  },
+  {
+    "date": "2025-01-28",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 21.207986454792263,
+    "expected_cash_gain": 14.55499128073643
+  },
+  {
+    "date": "2025-01-29",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 439.94852403446566,
+    "expected_cash_gain": 294.20508080656873
+  },
+  {
+    "date": "2025-01-29",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 1368.3945323840962,
+    "expected_cash_gain": 1556.5722449109671
+  },
+  {
+    "date": "2025-01-29",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 39.65157553730023,
+    "expected_cash_gain": 37.03624230162677
+  },
+  {
+    "date": "2025-01-30",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 1124.9983349873582,
+    "expected_cash_gain": 896.1853388274612
+  },
+  {
+    "date": "2025-01-30",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 683.7391515663257,
+    "expected_cash_gain": 793.5125880086925
+  },
+  {
+    "date": "2025-01-30",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 33.46510442300496,
+    "expected_cash_gain": 25.995176200427522
+  },
+  {
+    "date": "2025-01-31",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 289.06496849926407,
+    "expected_cash_gain": 218.14157700612122
+  },
+  {
+    "date": "2025-01-31",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 89.88657804133254,
+    "expected_cash_gain": 62.36903619034092
+  },
+  {
+    "date": "2025-01-31",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 50.63482103669594,
+    "expected_cash_gain": 39.15247460273895
+  },
+  {
+    "date": "2025-02-01",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 313.2056317443639,
+    "expected_cash_gain": 347.1195772344727
+  },
+  {
+    "date": "2025-02-01",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 456.5070377415759,
+    "expected_cash_gain": 319.769400459194
+  },
+  {
+    "date": "2025-02-01",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 53.73941470518912,
+    "expected_cash_gain": 56.366378533382886
+  },
+  {
+    "date": "2025-02-02",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 109.00999237011274,
+    "expected_cash_gain": 104.76842360221053
+  },
+  {
+    "date": "2025-02-02",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 125.03747486689099,
+    "expected_cash_gain": 134.77729808026197
+  },
+  {
+    "date": "2025-02-02",
+    "model": 0,
+    "hour": 18,
+    "accepted": false,
+    "expected_gain": 18.01239011692087,
+    "expected_cash_gain": 12.636633107351372
+  },
+  {
+    "date": "2025-02-03",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 441.1534729353298,
+    "expected_cash_gain": 634.5943100863151
+  },
+  {
+    "date": "2025-02-03",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 479.1514199539524,
+    "expected_cash_gain": 516.3855516473777
+  },
+  {
+    "date": "2025-02-03",
+    "model": 0,
+    "hour": 18,
+    "accepted": false,
+    "expected_gain": 6.426815168004396,
+    "expected_cash_gain": 10.58068722698954
+  },
+  {
+    "date": "2025-02-04",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 277.7401185865383,
+    "expected_cash_gain": 343.0074049983159
+  },
+  {
+    "date": "2025-02-04",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 938.408691166369,
+    "expected_cash_gain": 1072.9695122771373
+  },
+  {
+    "date": "2025-02-04",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 173.74225102433047,
+    "expected_cash_gain": 112.08267100045487
+  },
+  {
+    "date": "2025-02-05",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 401.9502953039191,
+    "expected_cash_gain": 430.82022510485695
+  },
+  {
+    "date": "2025-02-05",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 128.87475442565483,
+    "expected_cash_gain": 117.81973481958266
+  },
+  {
+    "date": "2025-02-05",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 72.77539835690186,
+    "expected_cash_gain": 60.67900711762559
+  },
+  {
+    "date": "2025-02-06",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 325.0899431411526,
+    "expected_cash_gain": 334.8884372958637
+  },
+  {
+    "date": "2025-02-06",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 445.2688432444629,
+    "expected_cash_gain": 550.9621130697851
+  },
+  {
+    "date": "2025-02-06",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 42.578378322999924,
+    "expected_cash_gain": 41.237087358171266
+  },
+  {
+    "date": "2025-02-07",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 554.1888912269205,
+    "expected_cash_gain": 539.8685225126792
+  },
+  {
+    "date": "2025-02-07",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 196.1690782125679,
+    "expected_cash_gain": 142.98621946196545
+  },
+  {
+    "date": "2025-02-07",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 24.100524267977562,
+    "expected_cash_gain": 21.74234386441367
+  },
+  {
+    "date": "2025-02-08",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 107.58166920534495,
+    "expected_cash_gain": 80.33546511292661
+  },
+  {
+    "date": "2025-02-08",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 273.7034743584518,
+    "expected_cash_gain": 307.97127619827916
+  },
+  {
+    "date": "2025-02-08",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 65.18285827885484,
+    "expected_cash_gain": 68.76762778091779
+  },
+  {
+    "date": "2025-02-09",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 938.0380277896111,
+    "expected_cash_gain": 698.2701898934611
+  },
+  {
+    "date": "2025-02-09",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 974.364376234349,
+    "expected_cash_gain": 1029.7775875817097
+  },
+  {
+    "date": "2025-02-09",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 78.56802158620485,
+    "expected_cash_gain": 58.6733122426449
+  },
+  {
+    "date": "2025-02-10",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 303.34957969850075,
+    "expected_cash_gain": 250.48296527659113
+  },
+  {
+    "date": "2025-02-10",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 418.47218069100927,
+    "expected_cash_gain": 438.71145723524387
+  },
+  {
+    "date": "2025-02-10",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 82.74478147895024,
+    "expected_cash_gain": 85.1774030525412
+  },
+  {
+    "date": "2025-02-11",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 529.7809794729619,
+    "expected_cash_gain": 552.0135369008203
+  },
+  {
+    "date": "2025-02-11",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 672.5232084097515,
+    "expected_cash_gain": 817.2339199372
+  },
+  {
+    "date": "2025-02-11",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 30.6787783676009,
+    "expected_cash_gain": 5.484772186384362
+  },
+  {
+    "date": "2025-02-12",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 798.4849038396787,
+    "expected_cash_gain": 957.8496390389555
+  },
+  {
+    "date": "2025-02-12",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 912.4090156250568,
+    "expected_cash_gain": 641.4517391521804
+  },
+  {
+    "date": "2025-02-12",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 40.73008644811671,
+    "expected_cash_gain": 20.766023672320443
+  },
+  {
+    "date": "2025-02-13",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 700.373352106908,
+    "expected_cash_gain": 881.9908018815186
+  },
+  {
+    "date": "2025-02-13",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 782.8198868488762,
+    "expected_cash_gain": 630.2961344462965
+  },
+  {
+    "date": "2025-02-13",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 110.24492798910796,
+    "expected_cash_gain": 104.29957932532488
+  },
+  {
+    "date": "2025-02-14",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 388.41057745285434,
+    "expected_cash_gain": 302.92911661445396
+  },
+  {
+    "date": "2025-02-14",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 134.35520776215162,
+    "expected_cash_gain": 128.2143276627885
+  },
+  {
+    "date": "2025-02-14",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 56.01037187580914,
+    "expected_cash_gain": 0.48381187857194163
+  },
+  {
+    "date": "2025-02-15",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 365.1447263059108,
+    "expected_cash_gain": 309.69495051396007
+  },
+  {
+    "date": "2025-02-15",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 451.2712574714751,
+    "expected_cash_gain": 496.0907668760665
+  },
+  {
+    "date": "2025-02-15",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 83.78676514789186,
+    "expected_cash_gain": 69.05993801853583
+  },
+  {
+    "date": "2025-02-16",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 233.7270719832959,
+    "expected_cash_gain": 202.60791396356217
+  },
+  {
+    "date": "2025-02-16",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 865.7688209475746,
+    "expected_cash_gain": 863.9880312016976
+  },
+  {
+    "date": "2025-02-16",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 29.775336490269183,
+    "expected_cash_gain": 36.98552725238187
+  },
+  {
+    "date": "2025-02-17",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 625.4820443449498,
+    "expected_cash_gain": 745.8253577987853
+  },
+  {
+    "date": "2025-02-17",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 320.46897394278494,
+    "expected_cash_gain": 398.99599176806805
+  },
+  {
+    "date": "2025-02-17",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 69.59611079778188,
+    "expected_cash_gain": 70.33630208523391
+  },
+  {
+    "date": "2025-02-18",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 341.33604818306776,
+    "expected_cash_gain": 305.1666489114941
+  },
+  {
+    "date": "2025-02-18",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 757.8584606675759,
+    "expected_cash_gain": 641.2046488732085
+  },
+  {
+    "date": "2025-02-18",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 68.57799991096545,
+    "expected_cash_gain": 48.739593621729
+  },
+  {
+    "date": "2025-02-19",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 532.0273039564854,
+    "expected_cash_gain": 544.4706945721264
+  },
+  {
+    "date": "2025-02-19",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 374.2294732941773,
+    "expected_cash_gain": 314.9219578049233
+  },
+  {
+    "date": "2025-02-19",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 18.24100826142967,
+    "expected_cash_gain": 17.592293427402183
+  },
+  {
+    "date": "2025-02-20",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 874.8332827873019,
+    "expected_cash_gain": 804.1045645891936
+  },
+  {
+    "date": "2025-02-20",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 551.2736215657424,
+    "expected_cash_gain": 600.5914723548558
+  },
+  {
+    "date": "2025-02-20",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 47.742622386929725,
+    "expected_cash_gain": 45.96572939080943
+  },
+  {
+    "date": "2025-02-21",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 591.7913783464173,
+    "expected_cash_gain": 499.0163637626101
+  },
+  {
+    "date": "2025-02-21",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 108.20499498933168,
+    "expected_cash_gain": 110.05644905405643
+  },
+  {
+    "date": "2025-02-21",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 43.812449974690026,
+    "expected_cash_gain": 38.99781753339448
+  },
+  {
+    "date": "2025-02-22",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 628.5869673629622,
+    "expected_cash_gain": 500.30690602855975
+  },
+  {
+    "date": "2025-02-22",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 165.6093490110652,
+    "expected_cash_gain": 183.7776237888611
+  },
+  {
+    "date": "2025-02-22",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 36.52607829182489,
+    "expected_cash_gain": 31.98191501545807
+  },
+  {
+    "date": "2025-02-23",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 627.5426234539918,
+    "expected_cash_gain": 467.62040107283246
+  },
+  {
+    "date": "2025-02-23",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 682.3969312452937,
+    "expected_cash_gain": 744.2656217724216
+  },
+  {
+    "date": "2025-02-23",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 110.0444164928831,
+    "expected_cash_gain": 61.36298218203228
+  },
+  {
+    "date": "2025-02-24",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 1575.9304989964876,
+    "expected_cash_gain": 1496.8268454178033
+  },
+  {
+    "date": "2025-02-24",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 301.91831116197136,
+    "expected_cash_gain": 302.3999718666528
+  },
+  {
+    "date": "2025-02-24",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 72.55424288090398,
+    "expected_cash_gain": 67.77569099760512
+  },
+  {
+    "date": "2025-02-25",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 554.6763671218796,
+    "expected_cash_gain": 482.7478103683243
+  },
+  {
+    "date": "2025-02-25",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 382.3369553432349,
+    "expected_cash_gain": 401.45509772112564
+  },
+  {
+    "date": "2025-02-25",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 40.08062895970579,
+    "expected_cash_gain": 36.87711411521377
+  },
+  {
+    "date": "2025-02-26",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 446.05348648647487,
+    "expected_cash_gain": 429.35932808185316
+  },
+  {
+    "date": "2025-02-26",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 513.9319125309339,
+    "expected_cash_gain": 407.5851589665326
+  },
+  {
+    "date": "2025-02-26",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 35.41311547240548,
+    "expected_cash_gain": 29.98566867743648
+  },
+  {
+    "date": "2025-02-27",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 570.7961013600689,
+    "expected_cash_gain": 494.673980235566
+  },
+  {
+    "date": "2025-02-27",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 146.26590217557168,
+    "expected_cash_gain": 135.86638334008603
+  },
+  {
+    "date": "2025-02-27",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 35.07924492477105,
+    "expected_cash_gain": 29.440474979317514
+  },
+  {
+    "date": "2025-02-28",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 912.8049602449428,
+    "expected_cash_gain": 710.7201342333428
+  },
+  {
+    "date": "2025-02-28",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 60.5321463310047,
+    "expected_cash_gain": 61.234803623347034
+  },
+  {
+    "date": "2025-02-28",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 36.40456168922174,
+    "expected_cash_gain": 28.208160070433223
+  },
+  {
+    "date": "2025-03-01",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 347.25672111055246,
+    "expected_cash_gain": 245.2764298439688
+  },
+  {
+    "date": "2025-03-01",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 146.43512844907673,
+    "expected_cash_gain": 116.64382155822568
+  },
+  {
+    "date": "2025-03-01",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 90.29327424729036,
+    "expected_cash_gain": 87.48371253416735
+  },
+  {
+    "date": "2025-03-02",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 1423.9972080167354,
+    "expected_cash_gain": 1327.5010913239676
+  },
+  {
+    "date": "2025-03-02",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 640.2610260931688,
+    "expected_cash_gain": 610.1814390003783
+  },
+  {
+    "date": "2025-03-02",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 133.68606955560608,
+    "expected_cash_gain": 100.63927063681695
+  },
+  {
+    "date": "2025-03-03",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 937.1711807920219,
+    "expected_cash_gain": 829.2457636861218
+  },
+  {
+    "date": "2025-03-03",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 422.77141503099847,
+    "expected_cash_gain": 339.76625100283854
+  },
+  {
+    "date": "2025-03-03",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 52.779709526479564,
+    "expected_cash_gain": 50.72087388860746
+  },
+  {
+    "date": "2025-03-04",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 463.6165191432301,
+    "expected_cash_gain": 429.7389313844178
+  },
+  {
+    "date": "2025-03-04",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 274.32964648280904,
+    "expected_cash_gain": 278.7539942141884
+  },
+  {
+    "date": "2025-03-04",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 88.89626243555176,
+    "expected_cash_gain": 75.44984926241887
+  },
+  {
+    "date": "2025-03-05",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 348.8281868799313,
+    "expected_cash_gain": 325.55729087038344
+  },
+  {
+    "date": "2025-03-05",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 584.9733331572388,
+    "expected_cash_gain": 582.6518221887454
+  },
+  {
+    "date": "2025-03-05",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 56.48603078755332,
+    "expected_cash_gain": 64.7986352448388
+  },
+  {
+    "date": "2025-03-06",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 923.8042234795575,
+    "expected_cash_gain": 928.828625719827
+  },
+  {
+    "date": "2025-03-06",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 915.1946297552568,
+    "expected_cash_gain": 747.4739202307319
+  },
+  {
+    "date": "2025-03-06",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 67.44782352125912,
+    "expected_cash_gain": 62.595789258564764
+  },
+  {
+    "date": "2025-03-07",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 158.96802521423706,
+    "expected_cash_gain": 148.77779066639778
+  },
+  {
+    "date": "2025-03-07",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 165.12851621371192,
+    "expected_cash_gain": 151.6653771293877
+  },
+  {
+    "date": "2025-03-07",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 30.644707790232133,
+    "expected_cash_gain": 23.197557446527753
+  },
+  {
+    "date": "2025-03-08",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 70.43670462967202,
+    "expected_cash_gain": 59.18830384632929
+  },
+  {
+    "date": "2025-03-08",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 120.14157697032715,
+    "expected_cash_gain": 119.57732391674654
+  },
+  {
+    "date": "2025-03-08",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 32.186350484723334,
+    "expected_cash_gain": 27.0117228718118
+  },
+  {
+    "date": "2025-03-09",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 1202.2349617108994,
+    "expected_cash_gain": 1213.7120767005908
+  },
+  {
+    "date": "2025-03-09",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 1644.138012901989,
+    "expected_cash_gain": 1433.7023470604217
+  },
+  {
+    "date": "2025-03-09",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 33.06163180569638,
+    "expected_cash_gain": 33.17925863124765
+  },
+  {
+    "date": "2025-03-10",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 1483.2776119575137,
+    "expected_cash_gain": 1303.2085935633731
+  },
+  {
+    "date": "2025-03-10",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 695.459422810276,
+    "expected_cash_gain": 596.6604356942335
+  },
+  {
+    "date": "2025-03-10",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 25.90352035806245,
+    "expected_cash_gain": 26.70231769284146
+  },
+  {
+    "date": "2025-03-11",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 1656.5808961510047,
+    "expected_cash_gain": 1368.772086147168
+  },
+  {
+    "date": "2025-03-11",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 1378.0357002570963,
+    "expected_cash_gain": 1399.0122453472177
+  },
+  {
+    "date": "2025-03-11",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 65.29998236726533,
+    "expected_cash_gain": 63.32945668992761
+  },
+  {
+    "date": "2025-03-12",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 1137.4799711007508,
+    "expected_cash_gain": 1138.8111943077238
+  },
+  {
+    "date": "2025-03-12",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 1616.6649835147327,
+    "expected_cash_gain": 1479.4091931494295
+  },
+  {
+    "date": "2025-03-12",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 32.93258313158367,
+    "expected_cash_gain": 26.860103191702365
+  },
+  {
+    "date": "2025-03-13",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 1488.5612677448007,
+    "expected_cash_gain": 1364.0496007432812
+  },
+  {
+    "date": "2025-03-13",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 406.9823873826426,
+    "expected_cash_gain": 377.3967073231215
+  },
+  {
+    "date": "2025-03-13",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 128.28925037824592,
+    "expected_cash_gain": 120.45233883388937
+  },
+  {
+    "date": "2025-03-14",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 422.59021076266436,
+    "expected_cash_gain": 378.26524357432027
+  },
+  {
+    "date": "2025-03-14",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 336.0580469141987,
+    "expected_cash_gain": 321.92087086520405
+  },
+  {
+    "date": "2025-03-14",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 37.494371666918596,
+    "expected_cash_gain": 38.92972886720145
+  },
+  {
+    "date": "2025-03-15",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 1567.3470555780386,
+    "expected_cash_gain": 1399.0607143364614
+  },
+  {
+    "date": "2025-03-15",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 167.89578711816284,
+    "expected_cash_gain": 168.57113510370618
+  },
+  {
+    "date": "2025-03-15",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 37.18443491769176,
+    "expected_cash_gain": 34.97259665404545
+  },
+  {
+    "date": "2025-03-16",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 725.7707894618507,
+    "expected_cash_gain": 577.1820624033498
+  },
+  {
+    "date": "2025-03-16",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 539.1634911723086,
+    "expected_cash_gain": 533.0563805822312
+  },
+  {
+    "date": "2025-03-16",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 52.397207899663044,
+    "expected_cash_gain": 47.700304916004825
+  },
+  {
+    "date": "2025-03-17",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 1146.3910831950852,
+    "expected_cash_gain": 1141.8009101838834
+  },
+  {
+    "date": "2025-03-17",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 876.0750394428178,
+    "expected_cash_gain": 786.6312301567777
+  },
+  {
+    "date": "2025-03-17",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 50.291699455669004,
+    "expected_cash_gain": 47.416830308618955
+  },
+  {
+    "date": "2025-03-18",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 1300.5147894635884,
+    "expected_cash_gain": 1157.6715638838214
+  },
+  {
+    "date": "2025-03-18",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 586.6619254319885,
+    "expected_cash_gain": 595.6793279835365
+  },
+  {
+    "date": "2025-03-18",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 63.261352271245414,
+    "expected_cash_gain": 64.1542637622806
+  },
+  {
+    "date": "2025-03-19",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 2201.2702718269575,
+    "expected_cash_gain": 1950.197369869522
+  },
+  {
+    "date": "2025-03-19",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 647.7385020529691,
+    "expected_cash_gain": 663.4804354491644
+  },
+  {
+    "date": "2025-03-19",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 53.921419275307926,
+    "expected_cash_gain": 54.910707402206754
+  },
+  {
+    "date": "2025-03-20",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 1273.527821666983,
+    "expected_cash_gain": 1219.7140824406524
+  },
+  {
+    "date": "2025-03-20",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 1359.7317624780408,
+    "expected_cash_gain": 1187.2859393768194
+  },
+  {
+    "date": "2025-03-20",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 72.74576020512359,
+    "expected_cash_gain": 60.42322990511457
+  },
+  {
+    "date": "2025-03-21",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 189.2541152570102,
+    "expected_cash_gain": 177.1594870753961
+  },
+  {
+    "date": "2025-03-21",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 316.80482997438594,
+    "expected_cash_gain": 275.8659878571616
+  },
+  {
+    "date": "2025-03-21",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 40.752598815577585,
+    "expected_cash_gain": 38.782169932809666
+  },
+  {
+    "date": "2025-03-22",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 70.50052123208843,
+    "expected_cash_gain": 70.1467446288716
+  },
+  {
+    "date": "2025-03-22",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 560.5383355864597,
+    "expected_cash_gain": 479.81149118446956
+  },
+  {
+    "date": "2025-03-22",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 52.27635822818138,
+    "expected_cash_gain": 48.608385634018305
+  },
+  {
+    "date": "2025-03-23",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 657.658358388202,
+    "expected_cash_gain": 597.896895705846
+  },
+  {
+    "date": "2025-03-23",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 538.596757616051,
+    "expected_cash_gain": 554.4288294002545
+  },
+  {
+    "date": "2025-03-23",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 40.14387624066694,
+    "expected_cash_gain": 58.309347348516894
+  },
+  {
+    "date": "2025-03-24",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 501.1478124711539,
+    "expected_cash_gain": 434.4498074004732
+  },
+  {
+    "date": "2025-03-24",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 378.21726885008684,
+    "expected_cash_gain": 336.34125654963646
+  },
+  {
+    "date": "2025-03-24",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 44.63165217709138,
+    "expected_cash_gain": 57.21414874084803
+  },
+  {
+    "date": "2025-03-25",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 1110.7376493658594,
+    "expected_cash_gain": 1137.7204729278383
+  },
+  {
+    "date": "2025-03-25",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 785.9236903346391,
+    "expected_cash_gain": 697.471506478083
+  },
+  {
+    "date": "2025-03-25",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 49.25937854626682,
+    "expected_cash_gain": 49.4840693691076
+  },
+  {
+    "date": "2025-03-26",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 401.28222183865,
+    "expected_cash_gain": 367.06464552101534
+  },
+  {
+    "date": "2025-03-26",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 592.4137012737447,
+    "expected_cash_gain": 583.7639207224529
+  },
+  {
+    "date": "2025-03-26",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 45.467455124835396,
+    "expected_cash_gain": 40.245280657523836
+  },
+  {
+    "date": "2025-03-27",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 1755.455907118383,
+    "expected_cash_gain": 1488.568619448859
+  },
+  {
+    "date": "2025-03-27",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 1303.094476758335,
+    "expected_cash_gain": 1319.2912292774345
+  },
+  {
+    "date": "2025-03-27",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 91.42632706465156,
+    "expected_cash_gain": 84.86512703989865
+  },
+  {
+    "date": "2025-03-28",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 94.03605656441869,
+    "expected_cash_gain": 80.00611685219337
+  },
+  {
+    "date": "2025-03-28",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 188.8309779176725,
+    "expected_cash_gain": 167.59438322209826
+  },
+  {
+    "date": "2025-03-28",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 83.84733678386965,
+    "expected_cash_gain": 80.40569175504243
+  },
+  {
+    "date": "2025-03-29",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 188.28422519442756,
+    "expected_cash_gain": 149.90362589482356
+  },
+  {
+    "date": "2025-03-29",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 93.08740780487278,
+    "expected_cash_gain": 101.07485854327206
+  },
+  {
+    "date": "2025-03-29",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 62.4084631919668,
+    "expected_cash_gain": 61.68275110745708
+  },
+  {
+    "date": "2025-03-30",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 585.3002874953818,
+    "expected_cash_gain": 563.6990611144502
+  },
+  {
+    "date": "2025-03-30",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 324.3337304826782,
+    "expected_cash_gain": 304.21202111101593
+  },
+  {
+    "date": "2025-03-30",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 117.26441234392041,
+    "expected_cash_gain": 108.93862421267295
+  },
+  {
+    "date": "2025-03-31",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 6937.398617816409,
+    "expected_cash_gain": 6274.842213780248
+  },
+  {
+    "date": "2025-03-31",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 1669.0693492946702,
+    "expected_cash_gain": 1766.5255648434904
+  },
+  {
+    "date": "2025-03-31",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 54.31013222225374,
+    "expected_cash_gain": 45.53301721731623
+  },
+  {
+    "date": "2025-04-01",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 1176.9394273690414,
+    "expected_cash_gain": 1021.2750712601992
+  },
+  {
+    "date": "2025-04-01",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 533.1154161151862,
+    "expected_cash_gain": 545.0943432649983
+  },
+  {
+    "date": "2025-04-01",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 107.60686450554203,
+    "expected_cash_gain": 101.85017124936348
+  },
+  {
+    "date": "2025-04-02",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 348.97967927365244,
+    "expected_cash_gain": 319.1211247989195
+  },
+  {
+    "date": "2025-04-02",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 572.342620910109,
+    "expected_cash_gain": 557.4623938031837
+  },
+  {
+    "date": "2025-04-02",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 81.86642722018223,
+    "expected_cash_gain": 70.35772425746109
+  },
+  {
+    "date": "2025-04-03",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 651.8298061843525,
+    "expected_cash_gain": 639.630452180023
+  },
+  {
+    "date": "2025-04-03",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 453.85361237505276,
+    "expected_cash_gain": 391.75707098878047
+  },
+  {
+    "date": "2025-04-03",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 59.25496755979475,
+    "expected_cash_gain": 46.56241265945937
+  },
+  {
+    "date": "2025-04-04",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 93.98996826461735,
+    "expected_cash_gain": 87.22527671391072
+  },
+  {
+    "date": "2025-04-04",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 148.59151012667098,
+    "expected_cash_gain": 133.69926007035792
+  },
+  {
+    "date": "2025-04-04",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 59.703434830464175,
+    "expected_cash_gain": 55.51482475082503
+  },
+  {
+    "date": "2025-04-05",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 196.5790455041224,
+    "expected_cash_gain": 173.4386398600709
+  },
+  {
+    "date": "2025-04-05",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 118.65551021506872,
+    "expected_cash_gain": 108.8992226205828
+  },
+  {
+    "date": "2025-04-05",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 45.919513584917695,
+    "expected_cash_gain": 39.57994701668031
+  },
+  {
+    "date": "2025-04-06",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 558.8445421651777,
+    "expected_cash_gain": 541.1936345952163
+  },
+  {
+    "date": "2025-04-06",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 864.718353025899,
+    "expected_cash_gain": 755.0758787144368
+  },
+  {
+    "date": "2025-04-06",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 55.03089962980448,
+    "expected_cash_gain": 52.16203472741472
+  },
+  {
+    "date": "2025-04-07",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 2213.6593188437255,
+    "expected_cash_gain": 1898.0088835714741
+  },
+  {
+    "date": "2025-04-07",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 324.91610596696773,
+    "expected_cash_gain": 329.3657084891165
+  },
+  {
+    "date": "2025-04-07",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 44.535151552548996,
+    "expected_cash_gain": 30.845662940540933
+  },
+  {
+    "date": "2025-04-08",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 951.8398105815832,
+    "expected_cash_gain": 866.8724321284499
+  },
+  {
+    "date": "2025-04-08",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 336.8725707131998,
+    "expected_cash_gain": 306.26685717551663
+  },
+  {
+    "date": "2025-04-08",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 98.73568807909942,
+    "expected_cash_gain": 89.57531050008402
+  },
+  {
+    "date": "2025-04-09",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 891.4591424825921,
+    "expected_cash_gain": 753.2795829727656
+  },
+  {
+    "date": "2025-04-09",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 418.08979943908344,
+    "expected_cash_gain": 376.6126414197279
+  },
+  {
+    "date": "2025-04-09",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 73.46444263243757,
+    "expected_cash_gain": 65.41936545433782
+  },
+  {
+    "date": "2025-04-10",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 1349.0925125989233,
+    "expected_cash_gain": 1162.0580568565747
+  },
+  {
+    "date": "2025-04-10",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 888.1660228080291,
+    "expected_cash_gain": 859.7051298898623
+  },
+  {
+    "date": "2025-04-10",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 156.7726763417577,
+    "expected_cash_gain": 143.26686890592464
+  },
+  {
+    "date": "2025-04-11",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 271.21814172609083,
+    "expected_cash_gain": 237.71994944042854
+  },
+  {
+    "date": "2025-04-11",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 132.85761207126416,
+    "expected_cash_gain": 129.87877972827846
+  },
+  {
+    "date": "2025-04-11",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 70.90034009937699,
+    "expected_cash_gain": 67.96369501274148
+  },
+  {
+    "date": "2025-04-12",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 172.03937930131724,
+    "expected_cash_gain": 166.0460211988775
+  },
+  {
+    "date": "2025-04-12",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 223.71990150537385,
+    "expected_cash_gain": 198.56154613646504
+  },
+  {
+    "date": "2025-04-12",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 101.65160351643772,
+    "expected_cash_gain": 89.69555510058763
+  },
+  {
+    "date": "2025-04-13",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 567.3146294938269,
+    "expected_cash_gain": 514.937887657692
+  },
+  {
+    "date": "2025-04-13",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 488.9242626995692,
+    "expected_cash_gain": 467.94849264572986
+  },
+  {
+    "date": "2025-04-13",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 83.38317116054714,
+    "expected_cash_gain": 57.94386725675213
+  },
+  {
+    "date": "2025-04-14",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 1162.7937057051604,
+    "expected_cash_gain": 1172.3465711013632
+  },
+  {
+    "date": "2025-04-14",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 580.5915894866994,
+    "expected_cash_gain": 513.248529244258
+  },
+  {
+    "date": "2025-04-14",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 124.20902793270761,
+    "expected_cash_gain": 116.19353944099203
+  },
+  {
+    "date": "2025-04-15",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 2087.0184288262753,
+    "expected_cash_gain": 1783.246714183224
+  },
+  {
+    "date": "2025-04-15",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 633.2608501148643,
+    "expected_cash_gain": 675.4399157357657
+  },
+  {
+    "date": "2025-04-15",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 171.30172377227245,
+    "expected_cash_gain": 156.90690187266955
+  },
+  {
+    "date": "2025-04-16",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 2942.212498718345,
+    "expected_cash_gain": 2578.1712041291576
+  },
+  {
+    "date": "2025-04-16",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 660.6666736604166,
+    "expected_cash_gain": 700.8880279542973
+  },
+  {
+    "date": "2025-04-16",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 62.86087925801621,
+    "expected_cash_gain": 49.00393804258056
+  },
+  {
+    "date": "2025-04-17",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 1425.1667597580818,
+    "expected_cash_gain": 1090.1238406447228
+  },
+  {
+    "date": "2025-04-17",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 1064.90110952151,
+    "expected_cash_gain": 1059.864220374111
+  },
+  {
+    "date": "2025-04-17",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 64.27398432551854,
+    "expected_cash_gain": 54.73001307272352
+  },
+  {
+    "date": "2025-04-18",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 144.53203355325786,
+    "expected_cash_gain": 126.89047303455482
+  },
+  {
+    "date": "2025-04-18",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 153.64153727000485,
+    "expected_cash_gain": 136.98640346894535
+  },
+  {
+    "date": "2025-04-18",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 74.97556942109986,
+    "expected_cash_gain": 73.19808088739501
+  },
+  {
+    "date": "2025-04-19",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 100.72950974033938,
+    "expected_cash_gain": 98.36444777806446
+  },
+  {
+    "date": "2025-04-19",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 1175.4844733993687,
+    "expected_cash_gain": 1070.2368276064462
+  },
+  {
+    "date": "2025-04-19",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 43.26572078001482,
+    "expected_cash_gain": 39.52448565274153
+  },
+  {
+    "date": "2025-04-20",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 922.3135775540868,
+    "expected_cash_gain": 838.1248246375326
+  },
+  {
+    "date": "2025-04-20",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 447.56257171649486,
+    "expected_cash_gain": 374.21273348145405
+  },
+  {
+    "date": "2025-04-20",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 62.75579562128041,
+    "expected_cash_gain": 55.440456250213174
+  },
+  {
+    "date": "2025-04-21",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 837.6738852675917,
+    "expected_cash_gain": 865.9458517262829
+  },
+  {
+    "date": "2025-04-21",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 214.3859831052614,
+    "expected_cash_gain": 205.0889838079238
+  },
+  {
+    "date": "2025-04-21",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 44.421955237812654,
+    "expected_cash_gain": 38.154599270208564
+  },
+  {
+    "date": "2025-04-22",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 2327.6551711028987,
+    "expected_cash_gain": 1985.956503146237
+  },
+  {
+    "date": "2025-04-22",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 549.6667824112083,
+    "expected_cash_gain": 578.2973437413748
+  },
+  {
+    "date": "2025-04-22",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 29.212991494874586,
+    "expected_cash_gain": 30.806158974148275
+  },
+  {
+    "date": "2025-04-23",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 656.106378703902,
+    "expected_cash_gain": 508.1864134406387
+  },
+  {
+    "date": "2025-04-23",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 529.5188186311498,
+    "expected_cash_gain": 478.56389992174445
+  },
+  {
+    "date": "2025-04-23",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 35.271629644448694,
+    "expected_cash_gain": 27.107784815878404
+  },
+  {
+    "date": "2025-04-24",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 352.3200772903365,
+    "expected_cash_gain": 359.28183121128313
+  },
+  {
+    "date": "2025-04-24",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 840.1392421768687,
+    "expected_cash_gain": 734.1762414413424
+  },
+  {
+    "date": "2025-04-24",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 33.97144758365175,
+    "expected_cash_gain": 32.38017960464276
+  },
+  {
+    "date": "2025-04-25",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 137.1381959851069,
+    "expected_cash_gain": 124.23333430310777
+  },
+  {
+    "date": "2025-04-25",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 328.25173106677994,
+    "expected_cash_gain": 295.25867965497855
+  },
+  {
+    "date": "2025-04-25",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 44.617748349544854,
+    "expected_cash_gain": 39.76262086198403
+  },
+  {
+    "date": "2025-04-26",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 95.40722319624729,
+    "expected_cash_gain": 86.68328250262493
+  },
+  {
+    "date": "2025-04-26",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 1040.2346660144358,
+    "expected_cash_gain": 892.2136359111028
+  },
+  {
+    "date": "2025-04-26",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 33.48890681163448,
+    "expected_cash_gain": 33.58352455998374
+  },
+  {
+    "date": "2025-04-27",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 2311.4333121404634,
+    "expected_cash_gain": 2120.2260654837337
+  },
+  {
+    "date": "2025-04-27",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 458.626815196425,
+    "expected_cash_gain": 387.22558676258996
+  },
+  {
+    "date": "2025-04-27",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 30.851695710458444,
+    "expected_cash_gain": 27.877659706091436
+  },
+  {
+    "date": "2025-04-28",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 6445.785148532308,
+    "expected_cash_gain": 5665.125962734321
+  },
+  {
+    "date": "2025-04-28",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 1383.0345317179454,
+    "expected_cash_gain": 1368.0867967662489
+  },
+  {
+    "date": "2025-04-28",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 76.0940962787663,
+    "expected_cash_gain": 69.96740533261982
+  },
+  {
+    "date": "2025-04-29",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 523.4836058312867,
+    "expected_cash_gain": 500.35565662576846
+  },
+  {
+    "date": "2025-04-29",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 648.0003820916245,
+    "expected_cash_gain": 522.6021777700807
+  },
+  {
+    "date": "2025-04-29",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 50.47792392100382,
+    "expected_cash_gain": 46.78865627736195
+  },
+  {
+    "date": "2025-04-30",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 501.4171421784122,
+    "expected_cash_gain": 426.49393500466977
+  },
+  {
+    "date": "2025-04-30",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 403.0130414424857,
+    "expected_cash_gain": 375.5854681883793
+  },
+  {
+    "date": "2025-04-30",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 81.59622522547943,
+    "expected_cash_gain": 72.09929834119794
+  },
+  {
+    "date": "2025-05-01",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 2418.308727655385,
+    "expected_cash_gain": 2260.389984297046
+  },
+  {
+    "date": "2025-05-01",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 645.4605533421709,
+    "expected_cash_gain": 572.8155545071495
+  },
+  {
+    "date": "2025-05-01",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 52.503861931973006,
+    "expected_cash_gain": 51.85471896178933
+  },
+  {
+    "date": "2025-05-02",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 1229.4772115063388,
+    "expected_cash_gain": 1099.8429494716656
+  },
+  {
+    "date": "2025-05-02",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 207.63630115271735,
+    "expected_cash_gain": 184.75302997712788
+  },
+  {
+    "date": "2025-05-02",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 50.95792434255054,
+    "expected_cash_gain": 44.60141472057876
+  },
+  {
+    "date": "2025-05-03",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 428.75162871053544,
+    "expected_cash_gain": 411.9749578890023
+  },
+  {
+    "date": "2025-05-03",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 123.20208731625826,
+    "expected_cash_gain": 90.23352729483486
+  },
+  {
+    "date": "2025-05-03",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 84.70762017309062,
+    "expected_cash_gain": 81.76328790112893
+  },
+  {
+    "date": "2025-05-04",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 965.6036390882437,
+    "expected_cash_gain": 916.0728549985834
+  },
+  {
+    "date": "2025-05-04",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 667.5446424330112,
+    "expected_cash_gain": 677.0963839584474
+  },
+  {
+    "date": "2025-05-04",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 39.820815807754116,
+    "expected_cash_gain": 41.80885913650491
+  },
+  {
+    "date": "2025-05-05",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 633.9095218014554,
+    "expected_cash_gain": 611.1130856175405
+  },
+  {
+    "date": "2025-05-05",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 674.4491073118697,
+    "expected_cash_gain": 606.2778483325746
+  },
+  {
+    "date": "2025-05-05",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 36.397332494321745,
+    "expected_cash_gain": 38.34755536953162
+  },
+  {
+    "date": "2025-05-06",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 1642.4097660858752,
+    "expected_cash_gain": 1570.2880491162905
+  },
+  {
+    "date": "2025-05-06",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 389.52673284602497,
+    "expected_cash_gain": 356.82080683523236
+  },
+  {
+    "date": "2025-05-06",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 46.45551708993844,
+    "expected_cash_gain": 44.92360023010406
+  },
+  {
+    "date": "2025-05-07",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 1204.9074546418851,
+    "expected_cash_gain": 1127.5308061263786
+  },
+  {
+    "date": "2025-05-07",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 372.6510881740396,
+    "expected_cash_gain": 374.8316480890426
+  },
+  {
+    "date": "2025-05-07",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 35.7852289833354,
+    "expected_cash_gain": 38.41008992170828
+  },
+  {
+    "date": "2025-05-08",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 751.8960719189381,
+    "expected_cash_gain": 689.8990064438294
+  },
+  {
+    "date": "2025-05-08",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 504.5943690583117,
+    "expected_cash_gain": 507.93948180339066
+  },
+  {
+    "date": "2025-05-08",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 112.98080509781721,
+    "expected_cash_gain": 136.1236159947839
+  },
+  {
+    "date": "2025-05-09",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 80.2532788631961,
+    "expected_cash_gain": 74.71886457969777
+  },
+  {
+    "date": "2025-05-09",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 502.9027766499421,
+    "expected_cash_gain": 462.50202982478913
+  },
+  {
+    "date": "2025-05-09",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 31.079966391436756,
+    "expected_cash_gain": 31.479350405139485
+  },
+  {
+    "date": "2025-05-10",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 968.9198687866046,
+    "expected_cash_gain": 757.9054871413791
+  },
+  {
+    "date": "2025-05-10",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 696.361333825258,
+    "expected_cash_gain": 778.5077687928242
+  },
+  {
+    "date": "2025-05-10",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 41.78787598230156,
+    "expected_cash_gain": 30.963577279811943
+  },
+  {
+    "date": "2025-05-11",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 768.3693043075946,
+    "expected_cash_gain": 684.8504008354648
+  },
+  {
+    "date": "2025-05-11",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 501.8060129020596,
+    "expected_cash_gain": 500.7139702325003
+  },
+  {
+    "date": "2025-05-11",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 56.24793172372301,
+    "expected_cash_gain": 51.21098171994163
+  },
+  {
+    "date": "2025-05-12",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 2102.5253902491822,
+    "expected_cash_gain": 1938.6719284676183
+  },
+  {
+    "date": "2025-05-12",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 628.7518882732329,
+    "expected_cash_gain": 599.6743382597997
+  },
+  {
+    "date": "2025-05-12",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 49.54876596511167,
+    "expected_cash_gain": 42.57816275114601
+  },
+  {
+    "date": "2025-05-13",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 1005.9132295157688,
+    "expected_cash_gain": 966.2821453272263
+  },
+  {
+    "date": "2025-05-13",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 326.30284510638376,
+    "expected_cash_gain": 324.4759665849306
+  },
+  {
+    "date": "2025-05-13",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 64.02126704215516,
+    "expected_cash_gain": 58.04947405121493
+  },
+  {
+    "date": "2025-05-14",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 1787.9315392913486,
+    "expected_cash_gain": 1688.068249844393
+  },
+  {
+    "date": "2025-05-14",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 764.1642946633146,
+    "expected_cash_gain": 787.4398595391503
+  },
+  {
+    "date": "2025-05-14",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 37.20501600102398,
+    "expected_cash_gain": 26.567112547210854
+  },
+  {
+    "date": "2025-05-15",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 2077.9706496790714,
+    "expected_cash_gain": 1869.6156141746687
+  },
+  {
+    "date": "2025-05-15",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 1142.5913780209667,
+    "expected_cash_gain": 1086.5034240832247
+  },
+  {
+    "date": "2025-05-15",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 40.30475852260861,
+    "expected_cash_gain": 53.90066914623458
+  },
+  {
+    "date": "2025-05-16",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 158.2668631350316,
+    "expected_cash_gain": 172.69103540914148
+  },
+  {
+    "date": "2025-05-16",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 210.3748749129336,
+    "expected_cash_gain": 147.86423923636175
+  },
+  {
+    "date": "2025-05-16",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 185.3880211097021,
+    "expected_cash_gain": 186.48493616942687
+  },
+  {
+    "date": "2025-05-17",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 186.8377227631554,
+    "expected_cash_gain": 177.30644554765604
+  },
+  {
+    "date": "2025-05-17",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 198.94164711873054,
+    "expected_cash_gain": 172.4820500716014
+  },
+  {
+    "date": "2025-05-17",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 18.018410298172967,
+    "expected_cash_gain": 14.31532822389272
+  },
+  {
+    "date": "2025-05-18",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 519.134240501462,
+    "expected_cash_gain": 487.35011506293813
+  },
+  {
+    "date": "2025-05-18",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 422.1702880857156,
+    "expected_cash_gain": 411.0959391657889
+  },
+  {
+    "date": "2025-05-18",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 44.40093021328357,
+    "expected_cash_gain": 40.75500836361971
+  },
+  {
+    "date": "2025-05-19",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 487.0101031733102,
+    "expected_cash_gain": 457.3365518976825
+  },
+  {
+    "date": "2025-05-19",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 320.5441018790043,
+    "expected_cash_gain": 329.9577655094581
+  },
+  {
+    "date": "2025-05-19",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 37.035574279792854,
+    "expected_cash_gain": 20.917822877094295
+  },
+  {
+    "date": "2025-05-20",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 1295.1952938182658,
+    "expected_cash_gain": 1106.273178858668
+  },
+  {
+    "date": "2025-05-20",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 513.5880964290045,
+    "expected_cash_gain": 503.8901976946254
+  },
+  {
+    "date": "2025-05-20",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 79.81449648152375,
+    "expected_cash_gain": 114.80439812829354
+  },
+  {
+    "date": "2025-05-21",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 2458.083098352101,
+    "expected_cash_gain": 2225.7803692086527
+  },
+  {
+    "date": "2025-05-21",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 746.7490357455754,
+    "expected_cash_gain": 743.4517230018173
+  },
+  {
+    "date": "2025-05-21",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 47.90379786685298,
+    "expected_cash_gain": 62.36699808857884
+  },
+  {
+    "date": "2025-05-22",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 635.5244631924797,
+    "expected_cash_gain": 612.0531255686765
+  },
+  {
+    "date": "2025-05-22",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 243.70356070910202,
+    "expected_cash_gain": 239.7154900269561
+  },
+  {
+    "date": "2025-05-22",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 55.406656371513236,
+    "expected_cash_gain": 49.48813117588361
+  },
+  {
+    "date": "2025-05-23",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 101.96704202598085,
+    "expected_cash_gain": 98.0047846971247
+  },
+  {
+    "date": "2025-05-23",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 1108.5681945544748,
+    "expected_cash_gain": 1051.8837346089967
+  },
+  {
+    "date": "2025-05-23",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 93.68733889041869,
+    "expected_cash_gain": 76.45102834682075
+  },
+  {
+    "date": "2025-05-24",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 174.99339752410197,
+    "expected_cash_gain": 162.29695655772412
+  },
+  {
+    "date": "2025-05-24",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 221.10716795231747,
+    "expected_cash_gain": 191.2376670512349
+  },
+  {
+    "date": "2025-05-24",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 74.36181145366027,
+    "expected_cash_gain": 53.17008046103729
+  },
+  {
+    "date": "2025-05-25",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 597.2293026253174,
+    "expected_cash_gain": 537.8418677250884
+  },
+  {
+    "date": "2025-05-25",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 461.073823338229,
+    "expected_cash_gain": 486.47545997370617
+  },
+  {
+    "date": "2025-05-25",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 63.44415896349528,
+    "expected_cash_gain": 38.24282625913838
+  },
+  {
+    "date": "2025-05-26",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 2375.622496460841,
+    "expected_cash_gain": 2118.830681126765
+  },
+  {
+    "date": "2025-05-26",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 2332.7439148628764,
+    "expected_cash_gain": 2169.9701989817477
+  },
+  {
+    "date": "2025-05-26",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 86.88235532168073,
+    "expected_cash_gain": 46.17969655623892
+  },
+  {
+    "date": "2025-05-27",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 1367.1999059457157,
+    "expected_cash_gain": 1254.2985098683712
+  },
+  {
+    "date": "2025-05-27",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 867.0969334794645,
+    "expected_cash_gain": 837.711027942456
+  },
+  {
+    "date": "2025-05-27",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 57.152127202451084,
+    "expected_cash_gain": 60.69368893316641
+  },
+  {
+    "date": "2025-05-28",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 396.0591753456538,
+    "expected_cash_gain": 341.36661756674584
+  },
+  {
+    "date": "2025-05-28",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 339.40921893220366,
+    "expected_cash_gain": 370.4435125648233
+  },
+  {
+    "date": "2025-05-28",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 24.365533129726828,
+    "expected_cash_gain": 15.387244519723026
+  },
+  {
+    "date": "2025-05-29",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 1239.6816872134004,
+    "expected_cash_gain": 1064.846746163159
+  },
+  {
+    "date": "2025-05-29",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 1013.0536674781397,
+    "expected_cash_gain": 992.4484387208977
+  },
+  {
+    "date": "2025-05-29",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 50.68197767042693,
+    "expected_cash_gain": 75.41981638051948
+  },
+  {
+    "date": "2025-05-30",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 111.86006763395017,
+    "expected_cash_gain": 115.09894697733762
+  },
+  {
+    "date": "2025-05-30",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 124.63617240769963,
+    "expected_cash_gain": 122.78224347057221
+  },
+  {
+    "date": "2025-05-30",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 73.93069839379314,
+    "expected_cash_gain": 57.659628401659575
+  },
+  {
+    "date": "2025-05-31",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 173.07897354136367,
+    "expected_cash_gain": 153.8412841517329
+  },
+  {
+    "date": "2025-05-31",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 131.31795104236153,
+    "expected_cash_gain": 112.62942024008044
+  },
+  {
+    "date": "2025-05-31",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 45.8037029854313,
+    "expected_cash_gain": 40.77341134496055
+  },
+  {
+    "date": "2025-06-01",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 2154.2830782324236,
+    "expected_cash_gain": 2069.729897340985
+  },
+  {
+    "date": "2025-06-01",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 500.6319785845444,
+    "expected_cash_gain": 489.87958332713606
+  },
+  {
+    "date": "2025-06-01",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 36.904999659960595,
+    "expected_cash_gain": 5.670590519061079
+  },
+  {
+    "date": "2025-06-02",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 1492.7405983701829,
+    "expected_cash_gain": 1455.708298749676
+  },
+  {
+    "date": "2025-06-02",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 1044.84204728232,
+    "expected_cash_gain": 977.2153216856459
+  },
+  {
+    "date": "2025-06-02",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 77.09051117889067,
+    "expected_cash_gain": 48.991165836581786
+  },
+  {
+    "date": "2025-06-03",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 2785.290351720025,
+    "expected_cash_gain": 2382.740975108245
+  },
+  {
+    "date": "2025-06-03",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 1153.4538754312925,
+    "expected_cash_gain": 1247.4410691553567
+  },
+  {
+    "date": "2025-06-03",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 49.327654587685174,
+    "expected_cash_gain": 22.07832134994169
+  },
+  {
+    "date": "2025-06-04",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 2895.921056186533,
+    "expected_cash_gain": 2979.999569114392
+  },
+  {
+    "date": "2025-06-04",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 9087.844594085072,
+    "expected_cash_gain": 8226.947037244681
+  },
+  {
+    "date": "2025-06-04",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 67.49282055335607,
+    "expected_cash_gain": 64.4728390312739
+  },
+  {
+    "date": "2025-06-05",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 560.8563060680681,
+    "expected_cash_gain": 445.0895836034906
+  },
+  {
+    "date": "2025-06-05",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 414.976217342788,
+    "expected_cash_gain": 424.96295637387084
+  },
+  {
+    "date": "2025-06-05",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 84.44682186864702,
+    "expected_cash_gain": 40.83090527712557
+  },
+  {
+    "date": "2025-06-06",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 617.6901463386439,
+    "expected_cash_gain": 460.1971842095227
+  },
+  {
+    "date": "2025-06-06",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 141.39432815806686,
+    "expected_cash_gain": 143.51283785496707
+  },
+  {
+    "date": "2025-06-06",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 39.361041821209255,
+    "expected_cash_gain": 32.2584553429715
+  },
+  {
+    "date": "2025-06-07",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 520.6588926273816,
+    "expected_cash_gain": 401.0551933610441
+  },
+  {
+    "date": "2025-06-07",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 437.62409475657114,
+    "expected_cash_gain": 341.06069881171425
+  },
+  {
+    "date": "2025-06-07",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 83.13715326650345,
+    "expected_cash_gain": 67.97786650467606
+  },
+  {
+    "date": "2025-06-08",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 2050.520749192765,
+    "expected_cash_gain": 1937.813003170988
+  },
+  {
+    "date": "2025-06-08",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 586.9289040743388,
+    "expected_cash_gain": 590.4499908006183
+  },
+  {
+    "date": "2025-06-08",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 81.3316814248974,
+    "expected_cash_gain": 58.30865884098603
+  },
+  {
+    "date": "2025-06-09",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 917.6834264408753,
+    "expected_cash_gain": 933.4438790970453
+  },
+  {
+    "date": "2025-06-09",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 365.4483259985136,
+    "expected_cash_gain": 299.15530729271995
+  },
+  {
+    "date": "2025-06-09",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 76.50002032396878,
+    "expected_cash_gain": 67.37620410548698
+  },
+  {
+    "date": "2025-06-10",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 734.9951733805356,
+    "expected_cash_gain": 632.051956781208
+  },
+  {
+    "date": "2025-06-10",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 714.0022859944365,
+    "expected_cash_gain": 703.3635040836161
+  },
+  {
+    "date": "2025-06-10",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 49.5927424391848,
+    "expected_cash_gain": 71.06249352285886
+  },
+  {
+    "date": "2025-06-11",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 3302.0417772003275,
+    "expected_cash_gain": 2928.114648238814
+  },
+  {
+    "date": "2025-06-11",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 1213.0724904003582,
+    "expected_cash_gain": 1082.9124460612802
+  },
+  {
+    "date": "2025-06-11",
+    "model": 0,
+    "hour": 18,
+    "accepted": false,
+    "expected_gain": 16.551548115468904,
+    "expected_cash_gain": 5.2835860818195215
+  },
+  {
+    "date": "2025-06-12",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 713.9170908161832,
+    "expected_cash_gain": 649.7938239761424
+  },
+  {
+    "date": "2025-06-12",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 403.9761272379328,
+    "expected_cash_gain": 312.3626969724064
+  },
+  {
+    "date": "2025-06-12",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 80.00415026016708,
+    "expected_cash_gain": 98.53785870856882
+  },
+  {
+    "date": "2025-06-13",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 887.8164485610541,
+    "expected_cash_gain": 806.1975996628898
+  },
+  {
+    "date": "2025-06-13",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 396.6166945213372,
+    "expected_cash_gain": 292.7319112749901
+  },
+  {
+    "date": "2025-06-13",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 89.88683602819037,
+    "expected_cash_gain": 62.29738765584443
+  },
+  {
+    "date": "2025-06-14",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 446.6473704428936,
+    "expected_cash_gain": 454.8929595939553
+  },
+  {
+    "date": "2025-06-14",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 223.44116835597742,
+    "expected_cash_gain": 178.37721002070248
+  },
+  {
+    "date": "2025-06-14",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 84.34153860430615,
+    "expected_cash_gain": 93.95915035239523
+  },
+  {
+    "date": "2025-06-15",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 1065.5355763876141,
+    "expected_cash_gain": 985.4467823376253
+  },
+  {
+    "date": "2025-06-15",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 113.98098175953783,
+    "expected_cash_gain": 106.37866698707512
+  },
+  {
+    "date": "2025-06-15",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 33.83273767790524,
+    "expected_cash_gain": 37.2021816061133
+  },
+  {
+    "date": "2025-06-16",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 1170.893775787903,
+    "expected_cash_gain": 1101.6396029509851
+  },
+  {
+    "date": "2025-06-16",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 681.662113809216,
+    "expected_cash_gain": 557.0411817217391
+  },
+  {
+    "date": "2025-06-16",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 65.5355164524517,
+    "expected_cash_gain": 47.57529564573997
+  },
+  {
+    "date": "2025-06-17",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 2068.165027684692,
+    "expected_cash_gain": 1660.8646625222245
+  },
+  {
+    "date": "2025-06-17",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 1970.6428726368395,
+    "expected_cash_gain": 2016.542298615088
+  },
+  {
+    "date": "2025-06-17",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 47.28348109572107,
+    "expected_cash_gain": 85.14990289162961
+  },
+  {
+    "date": "2025-06-18",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 1138.547156055567,
+    "expected_cash_gain": 899.4785341380048
+  },
+  {
+    "date": "2025-06-18",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 1429.0229100037177,
+    "expected_cash_gain": 1540.2620566172045
+  },
+  {
+    "date": "2025-06-18",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 87.12732773536845,
+    "expected_cash_gain": 40.632386495552055
+  },
+  {
+    "date": "2025-06-19",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 1789.3821641869436,
+    "expected_cash_gain": 1663.3994600773003
+  },
+  {
+    "date": "2025-06-19",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 730.3893656375876,
+    "expected_cash_gain": 613.9580266811245
+  },
+  {
+    "date": "2025-06-19",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 68.87072462275319,
+    "expected_cash_gain": 44.8132665784251
+  },
+  {
+    "date": "2025-06-20",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 530.0196289698906,
+    "expected_cash_gain": 427.22695412810936
+  },
+  {
+    "date": "2025-06-20",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 546.8939984885237,
+    "expected_cash_gain": 554.3114823227334
+  },
+  {
+    "date": "2025-06-20",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 77.46269577347812,
+    "expected_cash_gain": 73.71190383531393
+  },
+  {
+    "date": "2025-06-21",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 238.2520732385874,
+    "expected_cash_gain": 153.1038556814674
+  },
+  {
+    "date": "2025-06-21",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 230.27163099544123,
+    "expected_cash_gain": 279.0936645434558
+  },
+  {
+    "date": "2025-06-21",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 89.06557795748904,
+    "expected_cash_gain": 92.11096854206698
+  },
+  {
+    "date": "2025-06-22",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 2834.2322533033002,
+    "expected_cash_gain": 2397.0422992111853
+  },
+  {
+    "date": "2025-06-22",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 958.1779627217111,
+    "expected_cash_gain": 1139.0892140050855
+  },
+  {
+    "date": "2025-06-22",
+    "model": 0,
+    "hour": 18,
+    "accepted": false,
+    "expected_gain": 23.03068706243721,
+    "expected_cash_gain": 27.284129670177208
+  },
+  {
+    "date": "2025-06-23",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 522.9049465609714,
+    "expected_cash_gain": 518.3895718536442
+  },
+  {
+    "date": "2025-06-23",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 606.7001418865402,
+    "expected_cash_gain": 562.1266066309108
+  },
+  {
+    "date": "2025-06-23",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 78.81790605508286,
+    "expected_cash_gain": 67.69569413328645
+  },
+  {
+    "date": "2025-06-24",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 1492.5255766716,
+    "expected_cash_gain": 1462.1016881278192
+  },
+  {
+    "date": "2025-06-24",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 585.6685775796504,
+    "expected_cash_gain": 512.6811609734141
+  },
+  {
+    "date": "2025-06-24",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 35.905939873267926,
+    "expected_cash_gain": 60.29639617724388
+  },
+  {
+    "date": "2025-06-25",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 900.8736658698326,
+    "expected_cash_gain": 826.0454082856158
+  },
+  {
+    "date": "2025-06-25",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 271.6461488534551,
+    "expected_cash_gain": 259.0293468891905
+  },
+  {
+    "date": "2025-06-25",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 59.4908181819701,
+    "expected_cash_gain": 101.68382046904298
+  },
+  {
+    "date": "2025-06-26",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 1280.6592002966063,
+    "expected_cash_gain": 1177.1104729659128
+  },
+  {
+    "date": "2025-06-26",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 635.1236367716338,
+    "expected_cash_gain": 568.6959247807972
+  },
+  {
+    "date": "2025-06-26",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 65.13807792746229,
+    "expected_cash_gain": 68.11585329422451
+  },
+  {
+    "date": "2025-06-27",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 215.3150557942463,
+    "expected_cash_gain": 206.53355561037824
+  },
+  {
+    "date": "2025-06-27",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 405.98080125889464,
+    "expected_cash_gain": 336.96407001685293
+  },
+  {
+    "date": "2025-06-27",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 56.656370299653645,
+    "expected_cash_gain": 53.63473640086886
+  },
+  {
+    "date": "2025-06-28",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 716.294990110895,
+    "expected_cash_gain": 581.6082060961999
+  },
+  {
+    "date": "2025-06-28",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 495.8722543897784,
+    "expected_cash_gain": 472.0246431643682
+  },
+  {
+    "date": "2025-06-28",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 92.69334928340322,
+    "expected_cash_gain": 80.83464675189316
+  },
+  {
+    "date": "2025-06-29",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 1174.4600088704392,
+    "expected_cash_gain": 1100.901739329267
+  },
+  {
+    "date": "2025-06-29",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 1136.0389650377183,
+    "expected_cash_gain": 933.8371660973935
+  },
+  {
+    "date": "2025-06-29",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 131.36595757331088,
+    "expected_cash_gain": 157.02676069038716
+  },
+  {
+    "date": "2025-06-30",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 1140.1304780786522,
+    "expected_cash_gain": 1017.3378724167924
+  },
+  {
+    "date": "2025-06-30",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 389.06569860249147,
+    "expected_cash_gain": 421.76722286627773
+  },
+  {
+    "date": "2025-06-30",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 31.370228659303393,
+    "expected_cash_gain": 54.54287461354761
+  },
+  {
+    "date": "2025-07-01",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 780.970762934332,
+    "expected_cash_gain": 784.225184584735
+  },
+  {
+    "date": "2025-07-01",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 540.8972389739065,
+    "expected_cash_gain": 478.5767541356836
+  },
+  {
+    "date": "2025-07-01",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 59.921700435956154,
+    "expected_cash_gain": 62.80957703962122
+  },
+  {
+    "date": "2025-07-02",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 1465.8013468996141,
+    "expected_cash_gain": 1462.3392760455536
+  },
+  {
+    "date": "2025-07-02",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 579.9538046946473,
+    "expected_cash_gain": 429.91158370035555
+  },
+  {
+    "date": "2025-07-02",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 50.9132859430465,
+    "expected_cash_gain": 22.938266911838582
+  },
+  {
+    "date": "2025-07-03",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 1765.1800793693765,
+    "expected_cash_gain": 1602.4872893916836
+  },
+  {
+    "date": "2025-07-03",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 776.2461107984564,
+    "expected_cash_gain": 700.0049403646844
+  },
+  {
+    "date": "2025-07-03",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 42.50641494122465,
+    "expected_cash_gain": 49.825421091947646
+  },
+  {
+    "date": "2025-07-04",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 3222.129848499415,
+    "expected_cash_gain": 2794.9713498930796
+  },
+  {
+    "date": "2025-07-04",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 398.12067279474286,
+    "expected_cash_gain": 340.88452051113927
+  },
+  {
+    "date": "2025-07-04",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 32.67606643422914,
+    "expected_cash_gain": 17.92118740784099
+  },
+  {
+    "date": "2025-07-05",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 819.6058671290557,
+    "expected_cash_gain": 668.6496135608359
+  },
+  {
+    "date": "2025-07-05",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 176.46668190431956,
+    "expected_cash_gain": 133.74749395504114
+  },
+  {
+    "date": "2025-07-05",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 59.24287875164373,
+    "expected_cash_gain": 56.941264548493564
+  },
+  {
+    "date": "2025-07-06",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 5961.573914210734,
+    "expected_cash_gain": 5275.3716428488915
+  },
+  {
+    "date": "2025-07-06",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 942.4865802628265,
+    "expected_cash_gain": 589.6845223885612
+  },
+  {
+    "date": "2025-07-06",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 379.1124086072159,
+    "expected_cash_gain": 326.95590043885386
+  },
+  {
+    "date": "2025-07-07",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 984.0802541382291,
+    "expected_cash_gain": 1052.4627354540353
+  },
+  {
+    "date": "2025-07-07",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 1143.5531208035827,
+    "expected_cash_gain": 979.3961730483134
+  },
+  {
+    "date": "2025-07-07",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 73.10687846151995,
+    "expected_cash_gain": 22.891879504255485
+  },
+  {
+    "date": "2025-07-08",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 1150.6717709030563,
+    "expected_cash_gain": 1098.7968321995068
+  },
+  {
+    "date": "2025-07-08",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 1868.6351682517052,
+    "expected_cash_gain": 1456.7684663839464
+  },
+  {
+    "date": "2025-07-08",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 261.319161757041,
+    "expected_cash_gain": 179.14100940672506
+  },
+  {
+    "date": "2025-07-09",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 785.1271580556349,
+    "expected_cash_gain": 726.6063399521518
+  },
+  {
+    "date": "2025-07-09",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 565.1323858693213,
+    "expected_cash_gain": 619.3288773917229
+  },
+  {
+    "date": "2025-07-09",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 114.14068617599696,
+    "expected_cash_gain": 52.78649894448972
+  },
+  {
+    "date": "2025-07-10",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 1909.2366423385392,
+    "expected_cash_gain": 1814.1730438474187
+  },
+  {
+    "date": "2025-07-10",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 881.6583402809629,
+    "expected_cash_gain": 855.2072419262768
+  },
+  {
+    "date": "2025-07-10",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 466.4438817195405,
+    "expected_cash_gain": 383.1825444447968
+  },
+  {
+    "date": "2025-07-11",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 617.7921509482403,
+    "expected_cash_gain": 552.4104228102333
+  },
+  {
+    "date": "2025-07-11",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 193.71954303166967,
+    "expected_cash_gain": 182.6878037394781
+  },
+  {
+    "date": "2025-07-11",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 52.313342666760946,
+    "expected_cash_gain": 39.635154484403756
+  },
+  {
+    "date": "2025-07-12",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 2006.3736957050533,
+    "expected_cash_gain": 1673.78316533838
+  },
+  {
+    "date": "2025-07-12",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 310.4949360069295,
+    "expected_cash_gain": 280.2219788174807
+  },
+  {
+    "date": "2025-07-12",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 188.44225932954396,
+    "expected_cash_gain": 145.1048229772059
+  },
+  {
+    "date": "2025-07-13",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 1655.7893372433828,
+    "expected_cash_gain": 1730.428693064714
+  },
+  {
+    "date": "2025-07-13",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 405.96699936010555,
+    "expected_cash_gain": 419.96264507521846
+  },
+  {
+    "date": "2025-07-13",
+    "model": 0,
+    "hour": 18,
+    "accepted": false,
+    "expected_gain": 22.954712377428223,
+    "expected_cash_gain": 15.630740270953538
+  },
+  {
+    "date": "2025-07-14",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 791.4021713328184,
+    "expected_cash_gain": 795.1535323395947
+  },
+  {
+    "date": "2025-07-14",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 205.62686431748443,
+    "expected_cash_gain": 133.115103642951
+  },
+  {
+    "date": "2025-07-14",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 92.36116797147406,
+    "expected_cash_gain": 42.152142736089445
+  },
+  {
+    "date": "2025-07-15",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 625.1956816703678,
+    "expected_cash_gain": 631.4064453531319
+  },
+  {
+    "date": "2025-07-15",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 611.1441182100752,
+    "expected_cash_gain": 518.6074375932731
+  },
+  {
+    "date": "2025-07-15",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 68.10686115201679,
+    "expected_cash_gain": 53.62827092156658
+  },
+  {
+    "date": "2025-07-16",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 889.5766553599897,
+    "expected_cash_gain": 877.6487228784245
+  },
+  {
+    "date": "2025-07-16",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 455.8390855745529,
+    "expected_cash_gain": 361.49084001510346
+  },
+  {
+    "date": "2025-07-16",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 67.94394725026723,
+    "expected_cash_gain": 52.80620502974489
+  },
+  {
+    "date": "2025-07-17",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 1099.291619726413,
+    "expected_cash_gain": 977.1281290023835
+  },
+  {
+    "date": "2025-07-17",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 371.42980613831605,
+    "expected_cash_gain": 208.4346596269752
+  },
+  {
+    "date": "2025-07-17",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 44.43534485517375,
+    "expected_cash_gain": 67.98997566959588
+  },
+  {
+    "date": "2025-07-18",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 711.7343333661047,
+    "expected_cash_gain": 678.5347981709165
+  },
+  {
+    "date": "2025-07-18",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 331.1762401729502,
+    "expected_cash_gain": 297.41065888342564
+  },
+  {
+    "date": "2025-07-18",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 67.45940568681908,
+    "expected_cash_gain": 30.16994371389228
+  },
+  {
+    "date": "2025-07-19",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 357.4707625488736,
+    "expected_cash_gain": 368.71131619740845
+  },
+  {
+    "date": "2025-07-19",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 930.3089280224885,
+    "expected_cash_gain": 673.2529801499004
+  },
+  {
+    "date": "2025-07-19",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 195.58544920805252,
+    "expected_cash_gain": 180.265634401876
+  },
+  {
+    "date": "2025-07-20",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 922.8263418308052,
+    "expected_cash_gain": 937.1467834288342
+  },
+  {
+    "date": "2025-07-20",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 481.56759375010006,
+    "expected_cash_gain": 449.9631876678395
+  },
+  {
+    "date": "2025-07-20",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 54.61321867553488,
+    "expected_cash_gain": 21.118484393751714
+  },
+  {
+    "date": "2025-07-21",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 605.2844734296523,
+    "expected_cash_gain": 582.2547322007813
+  },
+  {
+    "date": "2025-07-21",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 1433.3709733726064,
+    "expected_cash_gain": 1229.8911892827746
+  },
+  {
+    "date": "2025-07-21",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 60.74782035849785,
+    "expected_cash_gain": 136.47356711410976
+  },
+  {
+    "date": "2025-07-22",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 13201.5362877234,
+    "expected_cash_gain": 11891.95147017105
+  },
+  {
+    "date": "2025-07-22",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 4313.275147691296,
+    "expected_cash_gain": 4711.166627674305
+  },
+  {
+    "date": "2025-07-22",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 60.638110881172906,
+    "expected_cash_gain": 29.771601014537737
+  },
+  {
+    "date": "2025-07-23",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 888.0234766224021,
+    "expected_cash_gain": 953.2677235331648
+  },
+  {
+    "date": "2025-07-23",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 654.8708149590093,
+    "expected_cash_gain": 495.57061122594314
+  },
+  {
+    "date": "2025-07-23",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 65.78286934661446,
+    "expected_cash_gain": 63.61117127337275
+  },
+  {
+    "date": "2025-07-24",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 638.5268390888668,
+    "expected_cash_gain": 705.5331199676948
+  },
+  {
+    "date": "2025-07-24",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 368.0537015707814,
+    "expected_cash_gain": 295.70615723544324
+  },
+  {
+    "date": "2025-07-24",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 55.029542964584834,
+    "expected_cash_gain": 158.9247549163374
+  },
+  {
+    "date": "2025-07-25",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 2643.6138543138077,
+    "expected_cash_gain": 2415.0015893463315
+  },
+  {
+    "date": "2025-07-25",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 71.72501673758234,
+    "expected_cash_gain": 44.17349389399169
+  },
+  {
+    "date": "2025-07-25",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 143.6833989325478,
+    "expected_cash_gain": 137.42476529543274
+  },
+  {
+    "date": "2025-07-26",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 153.16836878336835,
+    "expected_cash_gain": 143.51262041733935
+  },
+  {
+    "date": "2025-07-26",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 79.9024852223938,
+    "expected_cash_gain": 64.73184660043262
+  },
+  {
+    "date": "2025-07-26",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 57.248687257153506,
+    "expected_cash_gain": 47.66712350731541
+  },
+  {
+    "date": "2025-07-27",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 724.1768256414507,
+    "expected_cash_gain": 663.3515274689416
+  },
+  {
+    "date": "2025-07-27",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 903.292730133282,
+    "expected_cash_gain": 900.656309413971
+  },
+  {
+    "date": "2025-07-27",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 575.4849047237949,
+    "expected_cash_gain": 321.9430109410969
+  },
+  {
+    "date": "2025-07-28",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 1907.851671263481,
+    "expected_cash_gain": 1456.1570938868172
+  },
+  {
+    "date": "2025-07-28",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 1295.4437554145334,
+    "expected_cash_gain": 1484.4357319929768
+  },
+  {
+    "date": "2025-07-28",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 160.16894201151808,
+    "expected_cash_gain": 143.59781140958876
+  },
+  {
+    "date": "2025-07-29",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 3643.6975271340925,
+    "expected_cash_gain": 3295.734260864374
+  },
+  {
+    "date": "2025-07-29",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 633.0721192069759,
+    "expected_cash_gain": 553.1750008840027
+  },
+  {
+    "date": "2025-07-29",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 119.93029073002981,
+    "expected_cash_gain": 78.52028064658589
+  },
+  {
+    "date": "2025-07-30",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 3179.716032809156,
+    "expected_cash_gain": 2538.9513351623245
+  },
+  {
+    "date": "2025-07-30",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 858.9108438067778,
+    "expected_cash_gain": 805.4028532219381
+  },
+  {
+    "date": "2025-07-30",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 55.11699887290888,
+    "expected_cash_gain": 30.2295907457883
+  },
+  {
+    "date": "2025-07-31",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 667.3241687665286,
+    "expected_cash_gain": 567.1780590060589
+  },
+  {
+    "date": "2025-07-31",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 701.8839526678639,
+    "expected_cash_gain": 549.1905652446658
+  },
+  {
+    "date": "2025-07-31",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 188.76517574656827,
+    "expected_cash_gain": 126.11624730399126
+  },
+  {
+    "date": "2025-08-01",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 231.34918063988698,
+    "expected_cash_gain": 219.3971045506878
+  },
+  {
+    "date": "2025-08-01",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 332.57321366987344,
+    "expected_cash_gain": 244.12169832415748
+  },
+  {
+    "date": "2025-08-01",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 107.3641952718117,
+    "expected_cash_gain": 91.80056889956904
+  },
+  {
+    "date": "2025-08-02",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 63.95615493151854,
+    "expected_cash_gain": 71.57949233169711
+  },
+  {
+    "date": "2025-08-02",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 117.79063008241792,
+    "expected_cash_gain": 98.94806884965874
+  },
+  {
+    "date": "2025-08-02",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 153.37806342231852,
+    "expected_cash_gain": 133.8495827906554
+  },
+  {
+    "date": "2025-08-03",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 713.2535964107738,
+    "expected_cash_gain": 681.3783758041318
+  },
+  {
+    "date": "2025-08-03",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 453.66724984745815,
+    "expected_cash_gain": 484.34290808417427
+  },
+  {
+    "date": "2025-08-03",
+    "model": 0,
+    "hour": 18,
+    "accepted": false,
+    "expected_gain": 22.463475346317864,
+    "expected_cash_gain": -7.509924061643687
+  },
+  {
+    "date": "2025-08-04",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 1425.9779445906097,
+    "expected_cash_gain": 1236.7125045862413
+  },
+  {
+    "date": "2025-08-04",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 969.8459438548452,
+    "expected_cash_gain": 943.659337828045
+  },
+  {
+    "date": "2025-08-04",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 51.4711880158502,
+    "expected_cash_gain": 26.361361906390812
+  },
+  {
+    "date": "2025-08-05",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 850.4241682837455,
+    "expected_cash_gain": 701.9638316120399
+  },
+  {
+    "date": "2025-08-05",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 420.4807530807302,
+    "expected_cash_gain": 407.5460352697264
+  },
+  {
+    "date": "2025-08-05",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 33.594872660734836,
+    "expected_cash_gain": 34.510144515727006
+  },
+  {
+    "date": "2025-08-06",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 387.2319948329314,
+    "expected_cash_gain": 405.04561219509196
+  },
+  {
+    "date": "2025-08-06",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 453.3731801224567,
+    "expected_cash_gain": 380.7652741061538
+  },
+  {
+    "date": "2025-08-06",
+    "model": 0,
+    "hour": 18,
+    "accepted": false,
+    "expected_gain": 25.842759151539212,
+    "expected_cash_gain": 7.145773842643393
+  },
+  {
+    "date": "2025-08-07",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 902.6361873501082,
+    "expected_cash_gain": 856.9978555803827
+  },
+  {
+    "date": "2025-08-07",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 550.1248334303455,
+    "expected_cash_gain": 494.53355469663074
+  },
+  {
+    "date": "2025-08-07",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 124.14818069412286,
+    "expected_cash_gain": 180.2002966761429
+  },
+  {
+    "date": "2025-08-08",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 91.71995954697559,
+    "expected_cash_gain": 87.51641939039109
+  },
+  {
+    "date": "2025-08-08",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 186.99597254609034,
+    "expected_cash_gain": 178.8111356423251
+  },
+  {
+    "date": "2025-08-08",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 102.66065910250836,
+    "expected_cash_gain": 63.66856752386229
+  },
+  {
+    "date": "2025-08-09",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 145.42601930776436,
+    "expected_cash_gain": 188.18719448954653
+  },
+  {
+    "date": "2025-08-09",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 360.4647125858937,
+    "expected_cash_gain": 262.69725960544383
+  },
+  {
+    "date": "2025-08-09",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 93.60163670397742,
+    "expected_cash_gain": 69.04048870288898
+  },
+  {
+    "date": "2025-08-10",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 551.7131486222279,
+    "expected_cash_gain": 488.2425384012313
+  },
+  {
+    "date": "2025-08-10",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 245.28216349326976,
+    "expected_cash_gain": 258.62835060894577
+  },
+  {
+    "date": "2025-08-10",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 102.75723195650062,
+    "expected_cash_gain": 52.71893771916439
+  },
+  {
+    "date": "2025-08-11",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 570.8554163276567,
+    "expected_cash_gain": 480.8613441012494
+  },
+  {
+    "date": "2025-08-11",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 230.06152610466233,
+    "expected_cash_gain": 205.2212911397728
+  },
+  {
+    "date": "2025-08-11",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 86.80930700806857,
+    "expected_cash_gain": 74.36646703151928
+  },
+  {
+    "date": "2025-08-12",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 867.6157801315494,
+    "expected_cash_gain": 722.4044171231944
+  },
+  {
+    "date": "2025-08-12",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 283.85006619286287,
+    "expected_cash_gain": 246.7482843586622
+  },
+  {
+    "date": "2025-08-12",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 50.508660586318,
+    "expected_cash_gain": 58.8007713436491
+  },
+  {
+    "date": "2025-08-13",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 1193.325975083324,
+    "expected_cash_gain": 1106.2901216281898
+  },
+  {
+    "date": "2025-08-13",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 159.02866601555434,
+    "expected_cash_gain": 180.3353766692453
+  },
+  {
+    "date": "2025-08-13",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 65.0417883382288,
+    "expected_cash_gain": 70.54541158290158
+  },
+  {
+    "date": "2025-08-14",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 1043.1345901925088,
+    "expected_cash_gain": 931.7320884686342
+  },
+  {
+    "date": "2025-08-14",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 462.9918923650839,
+    "expected_cash_gain": 477.8346256270597
+  },
+  {
+    "date": "2025-08-14",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 58.4362406532091,
+    "expected_cash_gain": 67.4841903980232
+  },
+  {
+    "date": "2025-08-15",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 163.50888955203118,
+    "expected_cash_gain": 217.5845133011826
+  },
+  {
+    "date": "2025-08-15",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 201.72110977902412,
+    "expected_cash_gain": 198.10824119156678
+  },
+  {
+    "date": "2025-08-15",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 48.451778304082836,
+    "expected_cash_gain": 23.7602160571696
+  },
+  {
+    "date": "2025-08-16",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 122.80169211847169,
+    "expected_cash_gain": 130.8509941303746
+  },
+  {
+    "date": "2025-08-16",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 535.1323461215798,
+    "expected_cash_gain": 479.173729995302
+  },
+  {
+    "date": "2025-08-16",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 34.85848077398623,
+    "expected_cash_gain": 24.705837013307246
+  },
+  {
+    "date": "2025-08-17",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 603.6116224859652,
+    "expected_cash_gain": 556.6874233065246
+  },
+  {
+    "date": "2025-08-17",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 600.882669243445,
+    "expected_cash_gain": 549.5559492293105
+  },
+  {
+    "date": "2025-08-17",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 65.19740467755037,
+    "expected_cash_gain": 72.17671053958838
+  },
+  {
+    "date": "2025-08-18",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 552.5066783326183,
+    "expected_cash_gain": 484.3590339044749
+  },
+  {
+    "date": "2025-08-18",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 245.41505648615566,
+    "expected_cash_gain": 244.69994120003685
+  },
+  {
+    "date": "2025-08-18",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 48.5182789406208,
+    "expected_cash_gain": 26.72253332272885
+  },
+  {
+    "date": "2025-08-19",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 673.0827884718528,
+    "expected_cash_gain": 647.992952234883
+  },
+  {
+    "date": "2025-08-19",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 573.429131911711,
+    "expected_cash_gain": 513.00835514973
+  },
+  {
+    "date": "2025-08-19",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 59.473294250183244,
+    "expected_cash_gain": 60.77651973551838
+  },
+  {
+    "date": "2025-08-20",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 3768.2899907061947,
+    "expected_cash_gain": 3502.29289860306
+  },
+  {
+    "date": "2025-08-20",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 427.50428185242345,
+    "expected_cash_gain": 356.3889089283184
+  },
+  {
+    "date": "2025-08-20",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 173.69196849323998,
+    "expected_cash_gain": 169.79067304505952
+  },
+  {
+    "date": "2025-08-21",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 690.1732707343399,
+    "expected_cash_gain": 678.285213408999
+  },
+  {
+    "date": "2025-08-21",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 477.83108467707643,
+    "expected_cash_gain": 338.59905800932756
+  },
+  {
+    "date": "2025-08-21",
+    "model": 0,
+    "hour": 18,
+    "accepted": false,
+    "expected_gain": 8.668272115268337,
+    "expected_cash_gain": 5.414103287439502
+  },
+  {
+    "date": "2025-08-22",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 130.74985631150594,
+    "expected_cash_gain": 114.55784324983688
+  },
+  {
+    "date": "2025-08-22",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 431.4261468240675,
+    "expected_cash_gain": 353.53278957348084
+  },
+  {
+    "date": "2025-08-22",
+    "model": 0,
+    "hour": 18,
+    "accepted": false,
+    "expected_gain": 14.338407809547789,
+    "expected_cash_gain": 12.895188444588712
+  },
+  {
+    "date": "2025-08-23",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 120.93523504515179,
+    "expected_cash_gain": 114.58034173670603
+  },
+  {
+    "date": "2025-08-23",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 480.8911516616754,
+    "expected_cash_gain": 366.2592653056199
+  },
+  {
+    "date": "2025-08-23",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 47.68729218828594,
+    "expected_cash_gain": 42.41696400606452
+  },
+  {
+    "date": "2025-08-24",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 538.2831402080556,
+    "expected_cash_gain": 563.0461308033118
+  },
+  {
+    "date": "2025-08-24",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 1706.892266934694,
+    "expected_cash_gain": 1549.7346078202536
+  },
+  {
+    "date": "2025-08-24",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 151.30570908499794,
+    "expected_cash_gain": 149.2570728356477
+  },
+  {
+    "date": "2025-08-25",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 917.305244860574,
+    "expected_cash_gain": 827.4291099482143
+  },
+  {
+    "date": "2025-08-25",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 410.146341126012,
+    "expected_cash_gain": 391.2967518568403
+  },
+  {
+    "date": "2025-08-25",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 46.789968845885596,
+    "expected_cash_gain": 46.193358328429895
+  },
+  {
+    "date": "2025-08-26",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 1153.4828745323393,
+    "expected_cash_gain": 1003.1214217872621
+  },
+  {
+    "date": "2025-08-26",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 771.6682174629532,
+    "expected_cash_gain": 705.2200033633999
+  },
+  {
+    "date": "2025-08-26",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 72.48543413426523,
+    "expected_cash_gain": 65.69513426632693
+  },
+  {
+    "date": "2025-08-27",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 7754.446217185505,
+    "expected_cash_gain": 6934.510288241858
+  },
+  {
+    "date": "2025-08-27",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 1144.7116984725144,
+    "expected_cash_gain": 1254.5532131982472
+  },
+  {
+    "date": "2025-08-27",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 41.31032822898487,
+    "expected_cash_gain": 33.59033392880883
+  },
+  {
+    "date": "2025-08-28",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 1929.185224556095,
+    "expected_cash_gain": 1624.84438039823
+  },
+  {
+    "date": "2025-08-28",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 1211.0988614084781,
+    "expected_cash_gain": 1342.584112974626
+  },
+  {
+    "date": "2025-08-28",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 63.054637266672216,
+    "expected_cash_gain": 46.03874370534686
+  },
+  {
+    "date": "2025-08-29",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 185.40352133104534,
+    "expected_cash_gain": 230.72967601002892
+  },
+  {
+    "date": "2025-08-29",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 326.57121515578365,
+    "expected_cash_gain": 257.4554305118436
+  },
+  {
+    "date": "2025-08-29",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 66.63072989858847,
+    "expected_cash_gain": 70.51890149220344
+  },
+  {
+    "date": "2025-08-30",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 174.95796401130247,
+    "expected_cash_gain": 167.18683593441165
+  },
+  {
+    "date": "2025-08-30",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 83.48542130990973,
+    "expected_cash_gain": 66.32660777846468
+  },
+  {
+    "date": "2025-08-30",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 110.67633587331511,
+    "expected_cash_gain": 130.08754778396178
+  },
+  {
+    "date": "2025-08-31",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 1218.8302538299176,
+    "expected_cash_gain": 1077.6428463471093
+  },
+  {
+    "date": "2025-08-31",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 578.2278388307896,
+    "expected_cash_gain": 598.9547316769458
+  },
+  {
+    "date": "2025-08-31",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 58.50307975622127,
+    "expected_cash_gain": 23.100188683172746
+  },
+  {
+    "date": "2025-09-01",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 859.7853352899474,
+    "expected_cash_gain": 916.2449777624715
+  },
+  {
+    "date": "2025-09-01",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 740.2675818135758,
+    "expected_cash_gain": 645.2610901586158
+  },
+  {
+    "date": "2025-09-01",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 32.81558464669797,
+    "expected_cash_gain": 21.017881511368614
+  },
+  {
+    "date": "2025-09-02",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 2316.5548817297604,
+    "expected_cash_gain": 2088.5768114808743
+  },
+  {
+    "date": "2025-09-02",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 1019.8589394143492,
+    "expected_cash_gain": 1030.5240932413726
+  },
+  {
+    "date": "2025-09-02",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 60.1825385570628,
+    "expected_cash_gain": 52.84506427800443
+  },
+  {
+    "date": "2025-09-03",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 757.3026090944768,
+    "expected_cash_gain": 701.1507263300737
+  },
+  {
+    "date": "2025-09-03",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 395.47644021312954,
+    "expected_cash_gain": 281.99815260210744
+  },
+  {
+    "date": "2025-09-03",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 96.06494573717282,
+    "expected_cash_gain": 95.69950997253181
+  },
+  {
+    "date": "2025-09-04",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 880.3490379340219,
+    "expected_cash_gain": 746.4246459868373
+  },
+  {
+    "date": "2025-09-04",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 564.2493043274444,
+    "expected_cash_gain": 546.3381672167525
+  },
+  {
+    "date": "2025-09-04",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 49.45495702120752,
+    "expected_cash_gain": 50.30769783842334
+  },
+  {
+    "date": "2025-09-05",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 155.41565248285224,
+    "expected_cash_gain": 150.76613973217354
+  },
+  {
+    "date": "2025-09-05",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 207.7977573818407,
+    "expected_cash_gain": 203.82383059768654
+  },
+  {
+    "date": "2025-09-05",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 85.48264577856025,
+    "expected_cash_gain": 81.67312679148745
+  },
+  {
+    "date": "2025-09-06",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 146.79211757379016,
+    "expected_cash_gain": 146.16339868550858
+  },
+  {
+    "date": "2025-09-06",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 162.32557036569415,
+    "expected_cash_gain": 158.02541269775793
+  },
+  {
+    "date": "2025-09-06",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 99.86831350222565,
+    "expected_cash_gain": 100.9846637246701
+  },
+  {
+    "date": "2025-09-07",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 2537.6032360418976,
+    "expected_cash_gain": 2208.3435916134113
+  },
+  {
+    "date": "2025-09-07",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 905.0506112825096,
+    "expected_cash_gain": 890.7281551991546
+  },
+  {
+    "date": "2025-09-07",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 29.250659369801724,
+    "expected_cash_gain": 28.173942439752864
+  },
+  {
+    "date": "2025-09-08",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 984.0491089966308,
+    "expected_cash_gain": 852.8952387639074
+  },
+  {
+    "date": "2025-09-08",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 1442.9293011045083,
+    "expected_cash_gain": 1196.8757619096941
+  },
+  {
+    "date": "2025-09-08",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 147.51281728804497,
+    "expected_cash_gain": 124.92400943016037
+  },
+  {
+    "date": "2025-09-09",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 2243.6293773043,
+    "expected_cash_gain": 1843.1560329954882
+  },
+  {
+    "date": "2025-09-09",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 1161.467105395699,
+    "expected_cash_gain": 1228.5429805300264
+  },
+  {
+    "date": "2025-09-09",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 96.4153187286247,
+    "expected_cash_gain": 103.69988904970887
+  },
+  {
+    "date": "2025-09-10",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 500.78453459611774,
+    "expected_cash_gain": 522.0886491630226
+  },
+  {
+    "date": "2025-09-10",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 2192.6218634755787,
+    "expected_cash_gain": 1832.2052097725173
+  },
+  {
+    "date": "2025-09-10",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 57.54959809115462,
+    "expected_cash_gain": 45.90417074420475
+  },
+  {
+    "date": "2025-09-11",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 1151.5252971339069,
+    "expected_cash_gain": 1158.3092676408778
+  },
+  {
+    "date": "2025-09-11",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 623.8602499754306,
+    "expected_cash_gain": 560.4030832639619
+  },
+  {
+    "date": "2025-09-11",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 48.33797238326406,
+    "expected_cash_gain": 38.55033755051409
+  },
+  {
+    "date": "2025-09-12",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 110.42379078786325,
+    "expected_cash_gain": 116.94927707227725
+  },
+  {
+    "date": "2025-09-12",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 757.2758921262903,
+    "expected_cash_gain": 671.8875479398666
+  },
+  {
+    "date": "2025-09-12",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 86.04454406528566,
+    "expected_cash_gain": 79.44964349981092
+  },
+  {
+    "date": "2025-09-13",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 155.03217823691193,
+    "expected_cash_gain": 141.16452922144708
+  },
+  {
+    "date": "2025-09-13",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 101.65614339479544,
+    "expected_cash_gain": 90.36811079547988
+  },
+  {
+    "date": "2025-09-13",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 31.783780094829126,
+    "expected_cash_gain": 24.05275903112488
+  },
+  {
+    "date": "2025-09-14",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 463.0188568422818,
+    "expected_cash_gain": 449.2874372416991
+  },
+  {
+    "date": "2025-09-14",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 882.2889407118637,
+    "expected_cash_gain": 858.4114926045004
+  },
+  {
+    "date": "2025-09-14",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 170.87713861216253,
+    "expected_cash_gain": 98.84228378325497
+  },
+  {
+    "date": "2025-09-15",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 383.3112075289537,
+    "expected_cash_gain": 331.72656715377525
+  },
+  {
+    "date": "2025-09-15",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 311.16555094633804,
+    "expected_cash_gain": 290.49913744960213
+  },
+  {
+    "date": "2025-09-15",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 114.30108477688373,
+    "expected_cash_gain": 107.97653606878885
+  },
+  {
+    "date": "2025-09-16",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 548.5132956017114,
+    "expected_cash_gain": 471.3759973217748
+  },
+  {
+    "date": "2025-09-16",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 526.2746278539271,
+    "expected_cash_gain": 527.6233572543752
+  },
+  {
+    "date": "2025-09-16",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 97.1440591108385,
+    "expected_cash_gain": 105.01321680073306
+  },
+  {
+    "date": "2025-09-17",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 772.1448876532922,
+    "expected_cash_gain": 693.4095894756538
+  },
+  {
+    "date": "2025-09-17",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 708.115976252484,
+    "expected_cash_gain": 665.0847870480175
+  },
+  {
+    "date": "2025-09-17",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 146.91782345332103,
+    "expected_cash_gain": 127.55489646660862
+  },
+  {
+    "date": "2025-09-18",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 2979.5352214318555,
+    "expected_cash_gain": 2382.7702643581506
+  },
+  {
+    "date": "2025-09-18",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 1235.56896932557,
+    "expected_cash_gain": 1243.9700819594982
+  },
+  {
+    "date": "2025-09-18",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 29.087136547044793,
+    "expected_cash_gain": 33.138228545220045
+  },
+  {
+    "date": "2025-09-19",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 188.56792131341535,
+    "expected_cash_gain": 147.4479079144603
+  },
+  {
+    "date": "2025-09-19",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 229.30126260912402,
+    "expected_cash_gain": 230.08459455088996
+  },
+  {
+    "date": "2025-09-19",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 38.28183082798569,
+    "expected_cash_gain": 43.3130160937817
+  },
+  {
+    "date": "2025-09-20",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 251.02532072109716,
+    "expected_cash_gain": 233.3553275717968
+  },
+  {
+    "date": "2025-09-20",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 112.02459013527186,
+    "expected_cash_gain": 87.90827256025295
+  },
+  {
+    "date": "2025-09-20",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 81.47336309655657,
+    "expected_cash_gain": 73.55261045836778
+  },
+  {
+    "date": "2025-09-21",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 1289.9247158388898,
+    "expected_cash_gain": 1145.193742971307
+  },
+  {
+    "date": "2025-09-21",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 642.0015638050099,
+    "expected_cash_gain": 622.6941142644173
+  },
+  {
+    "date": "2025-09-21",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 69.04880409590078,
+    "expected_cash_gain": 62.57425157142643
+  },
+  {
+    "date": "2025-09-22",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 442.627630757459,
+    "expected_cash_gain": 503.6117258294835
+  },
+  {
+    "date": "2025-09-22",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 467.39517619320395,
+    "expected_cash_gain": 466.27086164962384
+  },
+  {
+    "date": "2025-09-22",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 67.59903758768814,
+    "expected_cash_gain": 83.0647898183015
+  },
+  {
+    "date": "2025-09-23",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 356.63218829163816,
+    "expected_cash_gain": 338.52420215713937
+  },
+  {
+    "date": "2025-09-23",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 232.94027023510716,
+    "expected_cash_gain": 244.86569843538018
+  },
+  {
+    "date": "2025-09-23",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 45.39820366680215,
+    "expected_cash_gain": 13.760189775461185
+  },
+  {
+    "date": "2025-09-24",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 948.7831134007283,
+    "expected_cash_gain": 811.278487041076
+  },
+  {
+    "date": "2025-09-24",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 264.33690832918364,
+    "expected_cash_gain": 232.39922002860112
+  },
+  {
+    "date": "2025-09-24",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 21.3811569999707,
+    "expected_cash_gain": 24.75261643934209
+  },
+  {
+    "date": "2025-09-25",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 443.05250525494193,
+    "expected_cash_gain": 393.5940333906183
+  },
+  {
+    "date": "2025-09-25",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 309.9734640889219,
+    "expected_cash_gain": 246.86335148999206
+  },
+  {
+    "date": "2025-09-25",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 58.316272145202674,
+    "expected_cash_gain": 69.70714033713739
+  },
+  {
+    "date": "2025-09-26",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 208.92070043619242,
+    "expected_cash_gain": 211.5892114901617
+  },
+  {
+    "date": "2025-09-26",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 118.89973407095022,
+    "expected_cash_gain": 103.08511901512065
+  },
+  {
+    "date": "2025-09-26",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 60.917760588870806,
+    "expected_cash_gain": 44.70824361119958
+  },
+  {
+    "date": "2025-09-27",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 2890.2963330512302,
+    "expected_cash_gain": 2590.4527773351274
+  },
+  {
+    "date": "2025-09-27",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 302.16730205878594,
+    "expected_cash_gain": 300.6519780714316
+  },
+  {
+    "date": "2025-09-27",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 77.01892220216178,
+    "expected_cash_gain": 57.728634716640954
+  },
+  {
+    "date": "2025-09-28",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 2937.2385484931074,
+    "expected_cash_gain": 2397.144228740319
+  },
+  {
+    "date": "2025-09-28",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 1956.0707640017936,
+    "expected_cash_gain": 1938.823421747271
+  },
+  {
+    "date": "2025-09-28",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 39.560860782148666,
+    "expected_cash_gain": 39.56134068642859
+  },
+  {
+    "date": "2025-09-29",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 773.9881996300319,
+    "expected_cash_gain": 776.9295383080971
+  },
+  {
+    "date": "2025-09-29",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 794.6235475115827,
+    "expected_cash_gain": 746.942767395587
+  },
+  {
+    "date": "2025-09-29",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 285.79093293037477,
+    "expected_cash_gain": 247.67093895395374
+  },
+  {
+    "date": "2025-09-30",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 651.705888820703,
+    "expected_cash_gain": 607.226624891664
+  },
+  {
+    "date": "2025-09-30",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 546.8479155204623,
+    "expected_cash_gain": 434.8006941842177
+  },
+  {
+    "date": "2025-09-30",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 60.05009417391557,
+    "expected_cash_gain": 55.11626195774079
+  },
+  {
+    "date": "2025-10-01",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 735.2763818173917,
+    "expected_cash_gain": 741.9156261438839
+  },
+  {
+    "date": "2025-10-01",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 524.1587309302777,
+    "expected_cash_gain": 548.296888974277
+  },
+  {
+    "date": "2025-10-01",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 46.60567398736566,
+    "expected_cash_gain": 54.394227896103985
+  },
+  {
+    "date": "2025-10-02",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 818.4222947262315,
+    "expected_cash_gain": 791.5515870254385
+  },
+  {
+    "date": "2025-10-02",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 638.0586848841122,
+    "expected_cash_gain": 650.3674716748792
+  },
+  {
+    "date": "2025-10-02",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 133.81846013199174,
+    "expected_cash_gain": 103.1816805577073
+  },
+  {
+    "date": "2025-10-03",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 110.47028580486585,
+    "expected_cash_gain": 87.42698328972074
+  },
+  {
+    "date": "2025-10-03",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 212.06605361179936,
+    "expected_cash_gain": 179.1278053871083
+  },
+  {
+    "date": "2025-10-03",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 66.76692534690301,
+    "expected_cash_gain": 61.15966857210151
+  },
+  {
+    "date": "2025-10-04",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 112.63374519058016,
+    "expected_cash_gain": 119.3261633813072
+  },
+  {
+    "date": "2025-10-04",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 115.99077548250534,
+    "expected_cash_gain": 99.57437383283104
+  },
+  {
+    "date": "2025-10-04",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 62.06867837646496,
+    "expected_cash_gain": 59.05075809358459
+  },
+  {
+    "date": "2025-10-05",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 927.7651745277653,
+    "expected_cash_gain": 925.4487510898616
+  },
+  {
+    "date": "2025-10-05",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 345.63864945185924,
+    "expected_cash_gain": 297.92488915118884
+  },
+  {
+    "date": "2025-10-05",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 70.11080794752343,
+    "expected_cash_gain": 77.37028967179504
+  },
+  {
+    "date": "2025-10-06",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 990.5751720321132,
+    "expected_cash_gain": 867.0559660412546
+  },
+  {
+    "date": "2025-10-06",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 277.7135244504898,
+    "expected_cash_gain": 270.19225454829575
+  },
+  {
+    "date": "2025-10-06",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 41.310417060069085,
+    "expected_cash_gain": 32.13645295290189
+  },
+  {
+    "date": "2025-10-07",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 369.48852314781834,
+    "expected_cash_gain": 333.9410556557923
+  },
+  {
+    "date": "2025-10-07",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 611.0787627538157,
+    "expected_cash_gain": 563.750664412888
+  },
+  {
+    "date": "2025-10-07",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 42.25250977095857,
+    "expected_cash_gain": 23.265188958193903
+  },
+  {
+    "date": "2025-10-08",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 423.54567468413006,
+    "expected_cash_gain": 456.36168264254957
+  },
+  {
+    "date": "2025-10-08",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 254.98980376322288,
+    "expected_cash_gain": 225.7648463838559
+  },
+  {
+    "date": "2025-10-08",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 76.79038094525276,
+    "expected_cash_gain": 68.89238082614247
+  },
+  {
+    "date": "2025-10-09",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 1004.9092754710509,
+    "expected_cash_gain": 1018.8195610928524
+  },
+  {
+    "date": "2025-10-09",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 455.92991866559896,
+    "expected_cash_gain": 415.1207156972632
+  },
+  {
+    "date": "2025-10-09",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 46.15238421596587,
+    "expected_cash_gain": 31.098524815330165
+  },
+  {
+    "date": "2025-10-10",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 108.94596593987626,
+    "expected_cash_gain": 101.53118141149389
+  },
+  {
+    "date": "2025-10-10",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 114.78805697858115,
+    "expected_cash_gain": 92.7839996266157
+  },
+  {
+    "date": "2025-10-10",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 116.26600295478238,
+    "expected_cash_gain": 115.31474852727297
+  },
+  {
+    "date": "2025-10-11",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 213.32302298262766,
+    "expected_cash_gain": 179.80800232823458
+  },
+  {
+    "date": "2025-10-11",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 143.01766412269353,
+    "expected_cash_gain": 125.69290956224904
+  },
+  {
+    "date": "2025-10-11",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 22.876363662069707,
+    "expected_cash_gain": 20.579295316909338
+  },
+  {
+    "date": "2025-10-12",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 721.0760778498225,
+    "expected_cash_gain": 588.6960968303902
+  },
+  {
+    "date": "2025-10-12",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 498.20889245501894,
+    "expected_cash_gain": 503.28248459799215
+  },
+  {
+    "date": "2025-10-12",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 99.42049072906593,
+    "expected_cash_gain": 90.1086321357725
+  },
+  {
+    "date": "2025-10-13",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 567.9856597603357,
+    "expected_cash_gain": 600.137341020316
+  },
+  {
+    "date": "2025-10-13",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 375.533548200372,
+    "expected_cash_gain": 318.5825061010037
+  },
+  {
+    "date": "2025-10-13",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 54.292111720387766,
+    "expected_cash_gain": 61.52318777548862
+  },
+  {
+    "date": "2025-10-14",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 981.698503913598,
+    "expected_cash_gain": 988.9933635074631
+  },
+  {
+    "date": "2025-10-14",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 2627.0730199304307,
+    "expected_cash_gain": 2392.9327867207903
+  },
+  {
+    "date": "2025-10-14",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 67.57966646999193,
+    "expected_cash_gain": 54.94586140442334
+  },
+  {
+    "date": "2025-10-15",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 459.5676955261806,
+    "expected_cash_gain": 472.6481468201964
+  },
+  {
+    "date": "2025-10-15",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 312.968664533415,
+    "expected_cash_gain": 293.9889560139418
+  },
+  {
+    "date": "2025-10-15",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 66.25223732249651,
+    "expected_cash_gain": 59.28378683694973
+  },
+  {
+    "date": "2025-10-16",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 366.2089508808058,
+    "expected_cash_gain": 295.95967581062723
+  },
+  {
+    "date": "2025-10-16",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 815.3580757102973,
+    "expected_cash_gain": 724.1592503676584
+  },
+  {
+    "date": "2025-10-16",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 125.8819821267025,
+    "expected_cash_gain": 92.90687865452128
+  },
+  {
+    "date": "2025-10-17",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 174.5162623648157,
+    "expected_cash_gain": 163.7383378743143
+  },
+  {
+    "date": "2025-10-17",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 163.0917759638196,
+    "expected_cash_gain": 123.4096708983343
+  },
+  {
+    "date": "2025-10-17",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 115.17396999222183,
+    "expected_cash_gain": 104.66477642005884
+  },
+  {
+    "date": "2025-10-18",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 961.3767697073408,
+    "expected_cash_gain": 869.8248895208089
+  },
+  {
+    "date": "2025-10-18",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 103.77856268650521,
+    "expected_cash_gain": 93.7513770737969
+  },
+  {
+    "date": "2025-10-18",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 44.11316274915225,
+    "expected_cash_gain": 41.9967143548929
+  },
+  {
+    "date": "2025-10-19",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 407.94790673771786,
+    "expected_cash_gain": 370.60784633901494
+  },
+  {
+    "date": "2025-10-19",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 627.0456098409741,
+    "expected_cash_gain": 517.985833156119
+  },
+  {
+    "date": "2025-10-19",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 72.65409196688779,
+    "expected_cash_gain": 92.20500995781185
+  },
+  {
+    "date": "2025-10-20",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 957.6811989746275,
+    "expected_cash_gain": 827.6624838863863
+  },
+  {
+    "date": "2025-10-20",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 425.54318303157197,
+    "expected_cash_gain": 387.95328476179566
+  },
+  {
+    "date": "2025-10-20",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 96.03076320665241,
+    "expected_cash_gain": 76.91493773022376
+  },
+  {
+    "date": "2025-10-21",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 702.7166748605014,
+    "expected_cash_gain": 649.2603232116599
+  },
+  {
+    "date": "2025-10-21",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 472.9595648743416,
+    "expected_cash_gain": 403.2372909941987
+  },
+  {
+    "date": "2025-10-21",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 97.04269886097973,
+    "expected_cash_gain": 88.74023516993475
+  },
+  {
+    "date": "2025-10-22",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 1210.8854372032656,
+    "expected_cash_gain": 1092.5684526899931
+  },
+  {
+    "date": "2025-10-22",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 1035.5438156685923,
+    "expected_cash_gain": 894.8757440434929
+  },
+  {
+    "date": "2025-10-22",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 125.48881126971173,
+    "expected_cash_gain": 115.78740854222633
+  },
+  {
+    "date": "2025-10-23",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 1033.1155548555253,
+    "expected_cash_gain": 1044.464091765687
+  },
+  {
+    "date": "2025-10-23",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 410.9430100535901,
+    "expected_cash_gain": 338.0833780496323
+  },
+  {
+    "date": "2025-10-23",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 117.12431174343146,
+    "expected_cash_gain": 122.27648581765607
+  },
+  {
+    "date": "2025-10-24",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 606.149843518795,
+    "expected_cash_gain": 529.9958149675094
+  },
+  {
+    "date": "2025-10-24",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 184.6767966958978,
+    "expected_cash_gain": 152.3938827729653
+  },
+  {
+    "date": "2025-10-24",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 21.76666529173872,
+    "expected_cash_gain": 16.027965182845946
+  },
+  {
+    "date": "2025-10-25",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 49.74637633213024,
+    "expected_cash_gain": 38.73490769034288
+  },
+  {
+    "date": "2025-10-25",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 249.7540898410407,
+    "expected_cash_gain": 237.20391855956768
+  },
+  {
+    "date": "2025-10-25",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 48.82413130488476,
+    "expected_cash_gain": 35.20626565042676
+  },
+  {
+    "date": "2025-10-26",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 725.905035324402,
+    "expected_cash_gain": 736.3405361260593
+  },
+  {
+    "date": "2025-10-26",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 716.0331888497822,
+    "expected_cash_gain": 658.2561475567272
+  },
+  {
+    "date": "2025-10-26",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 38.06276032192363,
+    "expected_cash_gain": 33.42249372242077
+  },
+  {
+    "date": "2025-10-27",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 909.9648496821246,
+    "expected_cash_gain": 707.5112420868172
+  },
+  {
+    "date": "2025-10-27",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 512.9485619530751,
+    "expected_cash_gain": 447.6033439765815
+  },
+  {
+    "date": "2025-10-27",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 43.05829907387488,
+    "expected_cash_gain": 49.6044746207408
+  },
+  {
+    "date": "2025-10-28",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 1590.4729057592704,
+    "expected_cash_gain": 1389.112002296708
+  },
+  {
+    "date": "2025-10-28",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 337.47659058036515,
+    "expected_cash_gain": 359.8065250301297
+  },
+  {
+    "date": "2025-10-28",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 53.70062424779826,
+    "expected_cash_gain": 31.29029795335373
+  },
+  {
+    "date": "2025-10-29",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 968.7996810783952,
+    "expected_cash_gain": 810.8034482872026
+  },
+  {
+    "date": "2025-10-29",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 407.89461493401905,
+    "expected_cash_gain": 382.37127185664576
+  },
+  {
+    "date": "2025-10-29",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 54.47680651374321,
+    "expected_cash_gain": 31.367435929350904
+  },
+  {
+    "date": "2025-10-30",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 518.9279850785751,
+    "expected_cash_gain": 488.18724352635763
+  },
+  {
+    "date": "2025-10-30",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 350.0878866269086,
+    "expected_cash_gain": 275.59829448010714
+  },
+  {
+    "date": "2025-10-30",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 107.42900048273987,
+    "expected_cash_gain": 110.44384553696
+  },
+  {
+    "date": "2025-10-31",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 229.10453963268264,
+    "expected_cash_gain": 203.4455730311529
+  },
+  {
+    "date": "2025-10-31",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 150.61978138742052,
+    "expected_cash_gain": 126.5756461309611
+  },
+  {
+    "date": "2025-10-31",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 57.3365024213017,
+    "expected_cash_gain": 53.05218663935739
+  },
+  {
+    "date": "2025-11-01",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 208.01630094300072,
+    "expected_cash_gain": 189.42906479398334
+  },
+  {
+    "date": "2025-11-01",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 457.5736019191545,
+    "expected_cash_gain": 381.53672302142513
+  },
+  {
+    "date": "2025-11-01",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 107.62980170210722,
+    "expected_cash_gain": 100.61801724734596
+  },
+  {
+    "date": "2025-11-02",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 1438.1294269453647,
+    "expected_cash_gain": 1232.5260464252715
+  },
+  {
+    "date": "2025-11-02",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 574.8419175873387,
+    "expected_cash_gain": 602.7646549717756
+  },
+  {
+    "date": "2025-11-02",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 37.88734481658685,
+    "expected_cash_gain": 62.15246356766875
+  },
+  {
+    "date": "2025-11-03",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 341.18998013655073,
+    "expected_cash_gain": 290.4826776809132
+  },
+  {
+    "date": "2025-11-03",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 156.0671865856566,
+    "expected_cash_gain": 110.3199647037618
+  },
+  {
+    "date": "2025-11-03",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 105.82394213596308,
+    "expected_cash_gain": 98.74172614567578
+  },
+  {
+    "date": "2025-11-04",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 499.46934358761064,
+    "expected_cash_gain": 393.7725805733862
+  },
+  {
+    "date": "2025-11-04",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 556.6713295517911,
+    "expected_cash_gain": 475.25205774456845
+  },
+  {
+    "date": "2025-11-04",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 84.90431773011733,
+    "expected_cash_gain": 83.26981176815389
+  },
+  {
+    "date": "2025-11-05",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 413.42010225271224,
+    "expected_cash_gain": 448.76643720668653
+  },
+  {
+    "date": "2025-11-05",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 302.68755180068547,
+    "expected_cash_gain": 254.92640129649953
+  },
+  {
+    "date": "2025-11-05",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 22.04124328391117,
+    "expected_cash_gain": 21.756667435431154
+  },
+  {
+    "date": "2025-11-06",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 504.6389976367136,
+    "expected_cash_gain": 395.7948979273424
+  },
+  {
+    "date": "2025-11-06",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 233.07497345462616,
+    "expected_cash_gain": 243.88804603143944
+  },
+  {
+    "date": "2025-11-06",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 98.43474410454655,
+    "expected_cash_gain": 65.20946219941106
+  },
+  {
+    "date": "2025-11-07",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 490.7173895954202,
+    "expected_cash_gain": 449.3857349166865
+  },
+  {
+    "date": "2025-11-07",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 110.99986518808328,
+    "expected_cash_gain": 94.69033019766539
+  },
+  {
+    "date": "2025-11-07",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 64.32368144714019,
+    "expected_cash_gain": 60.25575985575051
+  },
+  {
+    "date": "2025-11-08",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 50.922274008991735,
+    "expected_cash_gain": 42.16141235751638
+  },
+  {
+    "date": "2025-11-08",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 109.44958015991142,
+    "expected_cash_gain": 102.25791688374557
+  },
+  {
+    "date": "2025-11-08",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 41.89875551955629,
+    "expected_cash_gain": 34.45282603313535
+  },
+  {
+    "date": "2025-11-09",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 337.2551744762386,
+    "expected_cash_gain": 309.0480605206103
+  },
+  {
+    "date": "2025-11-09",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 539.4540309523582,
+    "expected_cash_gain": 473.10204104576405
+  },
+  {
+    "date": "2025-11-09",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 85.88663071515111,
+    "expected_cash_gain": 74.63908207892746
+  },
+  {
+    "date": "2025-11-10",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 2396.6551298637132,
+    "expected_cash_gain": 2203.020680006237
+  },
+  {
+    "date": "2025-11-10",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 1194.5662669712328,
+    "expected_cash_gain": 953.3566562680207
+  },
+  {
+    "date": "2025-11-10",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 145.8583071670946,
+    "expected_cash_gain": 129.01460809250784
+  },
+  {
+    "date": "2025-11-11",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 611.1646693347138,
+    "expected_cash_gain": 532.1703661141073
+  },
+  {
+    "date": "2025-11-11",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 239.534810317964,
+    "expected_cash_gain": 243.12051114428323
+  },
+  {
+    "date": "2025-11-11",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 72.6004376703113,
+    "expected_cash_gain": 75.73791759063897
+  },
+  {
+    "date": "2025-11-12",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 1594.3290068117058,
+    "expected_cash_gain": 1344.3027674751138
+  },
+  {
+    "date": "2025-11-12",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 1049.1852874345568,
+    "expected_cash_gain": 1064.5811620614695
+  },
+  {
+    "date": "2025-11-12",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 54.19248464834163,
+    "expected_cash_gain": 39.36941327374734
+  },
+  {
+    "date": "2025-11-13",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 1075.293987955185,
+    "expected_cash_gain": 939.878720492241
+  },
+  {
+    "date": "2025-11-13",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 581.0851433737698,
+    "expected_cash_gain": 441.0778134267748
+  },
+  {
+    "date": "2025-11-13",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 56.9033322851119,
+    "expected_cash_gain": 71.35973554581142
+  },
+  {
+    "date": "2025-11-14",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 163.96965916748013,
+    "expected_cash_gain": 154.912389502495
+  },
+  {
+    "date": "2025-11-14",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 872.5428553642378,
+    "expected_cash_gain": 744.3563480885223
+  },
+  {
+    "date": "2025-11-14",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 35.92256707478555,
+    "expected_cash_gain": 34.751088323148
+  },
+  {
+    "date": "2025-11-15",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 282.832458397952,
+    "expected_cash_gain": 251.0800299090606
+  },
+  {
+    "date": "2025-11-15",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 157.14507162346672,
+    "expected_cash_gain": 137.185623872796
+  },
+  {
+    "date": "2025-11-15",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 37.24732254278388,
+    "expected_cash_gain": 33.058215464147
+  },
+  {
+    "date": "2025-11-16",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 1395.1286076324468,
+    "expected_cash_gain": 1175.5524719778405
+  },
+  {
+    "date": "2025-11-16",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 279.0975040429621,
+    "expected_cash_gain": 344.49449973723677
+  },
+  {
+    "date": "2025-11-16",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 68.83224646581948,
+    "expected_cash_gain": 68.39471269033311
+  },
+  {
+    "date": "2025-11-17",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 2805.2084767722918,
+    "expected_cash_gain": 2552.3078041144254
+  },
+  {
+    "date": "2025-11-17",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 729.1208364038175,
+    "expected_cash_gain": 799.72905271114
+  },
+  {
+    "date": "2025-11-17",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 30.976120014598564,
+    "expected_cash_gain": 30.6731383515762
+  },
+  {
+    "date": "2025-11-18",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 433.6119421819385,
+    "expected_cash_gain": 403.8075673955682
+  },
+  {
+    "date": "2025-11-18",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 738.688275673725,
+    "expected_cash_gain": 598.62643985045
+  },
+  {
+    "date": "2025-11-18",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 127.8898002946571,
+    "expected_cash_gain": 105.79812365595353
+  },
+  {
+    "date": "2025-11-19",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 2141.072357555946,
+    "expected_cash_gain": 1841.471143187613
+  },
+  {
+    "date": "2025-11-19",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 547.8539521051825,
+    "expected_cash_gain": 534.1129434262257
+  },
+  {
+    "date": "2025-11-19",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 33.719946244553284,
+    "expected_cash_gain": 51.134430662244995
+  },
+  {
+    "date": "2025-11-20",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 547.706072226465,
+    "expected_cash_gain": 421.22649580280995
+  },
+  {
+    "date": "2025-11-20",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 274.6638459769092,
+    "expected_cash_gain": 253.2563098390674
+  },
+  {
+    "date": "2025-11-20",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 51.58058931744199,
+    "expected_cash_gain": 44.12345249887585
+  },
+  {
+    "date": "2025-11-21",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 985.1881737161475,
+    "expected_cash_gain": 923.6353612299463
+  },
+  {
+    "date": "2025-11-21",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 324.1900576529806,
+    "expected_cash_gain": 255.41293229994153
+  },
+  {
+    "date": "2025-11-21",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 29.01105364603245,
+    "expected_cash_gain": 26.60708486029762
+  },
+  {
+    "date": "2025-11-22",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 173.04643709625634,
+    "expected_cash_gain": 169.56250235981133
+  },
+  {
+    "date": "2025-11-22",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 151.0668218705705,
+    "expected_cash_gain": 125.44905328680034
+  },
+  {
+    "date": "2025-11-22",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 36.3082467457898,
+    "expected_cash_gain": 30.911401115447006
+  },
+  {
+    "date": "2025-11-23",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 938.3397261858772,
+    "expected_cash_gain": 770.3954245629357
+  },
+  {
+    "date": "2025-11-23",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 968.7657770852238,
+    "expected_cash_gain": 975.9568735764769
+  },
+  {
+    "date": "2025-11-23",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 28.721154235852737,
+    "expected_cash_gain": 16.562118897851178
+  },
+  {
+    "date": "2025-11-24",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 327.4361641985088,
+    "expected_cash_gain": 324.8642231543781
+  },
+  {
+    "date": "2025-11-24",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 262.13662698998814,
+    "expected_cash_gain": 207.85181577737967
+  },
+  {
+    "date": "2025-11-24",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 90.95951055885416,
+    "expected_cash_gain": 62.290933640066214
+  },
+  {
+    "date": "2025-11-25",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 377.4338155466248,
+    "expected_cash_gain": 339.0918447842487
+  },
+  {
+    "date": "2025-11-25",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 316.84247328901984,
+    "expected_cash_gain": 351.3702597609954
+  },
+  {
+    "date": "2025-11-25",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 110.90713987768868,
+    "expected_cash_gain": 76.01004142056263
+  },
+  {
+    "date": "2025-11-26",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 477.342332164706,
+    "expected_cash_gain": 426.24584748637426
+  },
+  {
+    "date": "2025-11-26",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 194.8505978114481,
+    "expected_cash_gain": 192.56065170276997
+  },
+  {
+    "date": "2025-11-26",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 77.74117665380436,
+    "expected_cash_gain": 45.62126785669534
+  },
+  {
+    "date": "2025-11-27",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 347.1783744315253,
+    "expected_cash_gain": 286.9582816766706
+  },
+  {
+    "date": "2025-11-27",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 434.27976045820105,
+    "expected_cash_gain": 402.7275049864111
+  },
+  {
+    "date": "2025-11-27",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 66.49851834603942,
+    "expected_cash_gain": 57.21868912057107
+  },
+  {
+    "date": "2025-11-28",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 295.2940288764621,
+    "expected_cash_gain": 265.6718505650988
+  },
+  {
+    "date": "2025-11-28",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 191.81299106020015,
+    "expected_cash_gain": 169.7674043905463
+  },
+  {
+    "date": "2025-11-28",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 49.157971420709146,
+    "expected_cash_gain": 36.55191794622078
+  },
+  {
+    "date": "2025-11-29",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 215.23353437454534,
+    "expected_cash_gain": 188.1757502636392
+  },
+  {
+    "date": "2025-11-29",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 715.0843344105451,
+    "expected_cash_gain": 607.6576036331917
+  },
+  {
+    "date": "2025-11-29",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 56.0370816478644,
+    "expected_cash_gain": 45.96567614999549
+  },
+  {
+    "date": "2025-11-30",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 790.885507652376,
+    "expected_cash_gain": 580.9975273850505
+  },
+  {
+    "date": "2025-11-30",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 351.5569469257971,
+    "expected_cash_gain": 397.08458144936594
+  },
+  {
+    "date": "2025-11-30",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 37.65419120268598,
+    "expected_cash_gain": 11.707195981041878
+  },
+  {
+    "date": "2025-12-01",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 1454.1554940984133,
+    "expected_cash_gain": 1243.7192307943042
+  },
+  {
+    "date": "2025-12-01",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 877.9983672274975,
+    "expected_cash_gain": 950.9925243176622
+  },
+  {
+    "date": "2025-12-01",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 56.9143225061016,
+    "expected_cash_gain": 47.89850402776574
+  },
+  {
+    "date": "2025-12-02",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 729.7151874665724,
+    "expected_cash_gain": 682.3244867325484
+  },
+  {
+    "date": "2025-12-02",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 411.05494050247216,
+    "expected_cash_gain": 431.64747410838027
+  },
+  {
+    "date": "2025-12-02",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 47.36318232298618,
+    "expected_cash_gain": 18.232172619598714
+  },
+  {
+    "date": "2025-12-03",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 2518.2718570036377,
+    "expected_cash_gain": 2270.9411698219847
+  },
+  {
+    "date": "2025-12-03",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 267.016875729234,
+    "expected_cash_gain": 258.65721306553314
+  },
+  {
+    "date": "2025-12-03",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 27.2168169254619,
+    "expected_cash_gain": 19.977195718398434
+  },
+  {
+    "date": "2025-12-04",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 472.80000224596006,
+    "expected_cash_gain": 431.0508981286184
+  },
+  {
+    "date": "2025-12-04",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 229.30362508055987,
+    "expected_cash_gain": 237.84595012876525
+  },
+  {
+    "date": "2025-12-04",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 42.8660941275939,
+    "expected_cash_gain": 34.84400166141495
+  },
+  {
+    "date": "2025-12-05",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 543.1714608649236,
+    "expected_cash_gain": 422.33838382497925
+  },
+  {
+    "date": "2025-12-05",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 188.65920072762856,
+    "expected_cash_gain": 195.67830322653572
+  },
+  {
+    "date": "2025-12-05",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 23.824543101199197,
+    "expected_cash_gain": 17.699819877679147
+  },
+  {
+    "date": "2025-12-06",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 552.1304267839005,
+    "expected_cash_gain": 477.20539771849144
+  },
+  {
+    "date": "2025-12-06",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 175.0495294864504,
+    "expected_cash_gain": 161.0165792060361
+  },
+  {
+    "date": "2025-12-06",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 106.95065659681313,
+    "expected_cash_gain": 96.8076927972379
+  },
+  {
+    "date": "2025-12-07",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 592.5982911172978,
+    "expected_cash_gain": 574.2879828098958
+  },
+  {
+    "date": "2025-12-07",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 284.1646904613517,
+    "expected_cash_gain": 203.87944740115927
+  },
+  {
+    "date": "2025-12-07",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 99.77607302503566,
+    "expected_cash_gain": 79.84342507983092
+  },
+  {
+    "date": "2025-12-08",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 2058.8291270393383,
+    "expected_cash_gain": 1883.0661019972176
+  },
+  {
+    "date": "2025-12-08",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 651.1204302646438,
+    "expected_cash_gain": 625.6120823665842
+  },
+  {
+    "date": "2025-12-08",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 61.37928213715713,
+    "expected_cash_gain": 50.88917334499274
+  },
+  {
+    "date": "2025-12-09",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 419.5263123534969,
+    "expected_cash_gain": 376.47089823342685
+  },
+  {
+    "date": "2025-12-09",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 217.34078384103486,
+    "expected_cash_gain": 176.76171298461122
+  },
+  {
+    "date": "2025-12-09",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 98.49667960470106,
+    "expected_cash_gain": 85.86309689021436
+  },
+  {
+    "date": "2025-12-10",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 643.6564996136658,
+    "expected_cash_gain": 605.3734549920919
+  },
+  {
+    "date": "2025-12-10",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 563.6801061601,
+    "expected_cash_gain": 548.09605542176
+  },
+  {
+    "date": "2025-12-10",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 52.99509911926725,
+    "expected_cash_gain": 45.759730297628266
+  },
+  {
+    "date": "2025-12-11",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 458.8228732851858,
+    "expected_cash_gain": 478.6285760332539
+  },
+  {
+    "date": "2025-12-11",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 422.5510085946298,
+    "expected_cash_gain": 452.1590546169682
+  },
+  {
+    "date": "2025-12-11",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 84.29077305696228,
+    "expected_cash_gain": 61.124159875693294
+  },
+  {
+    "date": "2025-12-12",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 1304.4473809295923,
+    "expected_cash_gain": 1093.3992762970047
+  },
+  {
+    "date": "2025-12-12",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 495.41346970129416,
+    "expected_cash_gain": 429.3691670818971
+  },
+  {
+    "date": "2025-12-12",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 47.11352289752904,
+    "expected_cash_gain": 33.94156721081163
+  },
+  {
+    "date": "2025-12-13",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 1167.027194574337,
+    "expected_cash_gain": 1093.655679929514
+  },
+  {
+    "date": "2025-12-13",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 753.2987512303862,
+    "expected_cash_gain": 678.5731188545342
+  },
+  {
+    "date": "2025-12-13",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 73.75610051412514,
+    "expected_cash_gain": 56.226774119542824
+  },
+  {
+    "date": "2025-12-14",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 917.5404759665253,
+    "expected_cash_gain": 871.6981781101058
+  },
+  {
+    "date": "2025-12-14",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 452.690177308541,
+    "expected_cash_gain": 409.5770855313458
+  },
+  {
+    "date": "2025-12-14",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 32.206105469442264,
+    "expected_cash_gain": 33.13524905815939
+  },
+  {
+    "date": "2025-12-15",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 771.3921559559167,
+    "expected_cash_gain": 656.7560938839306
+  },
+  {
+    "date": "2025-12-15",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 416.1936137431985,
+    "expected_cash_gain": 451.2572339631661
+  },
+  {
+    "date": "2025-12-15",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 125.36838502323553,
+    "expected_cash_gain": 124.17080067234929
+  },
+  {
+    "date": "2025-12-16",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 265.31195787167235,
+    "expected_cash_gain": 245.66314847052854
+  },
+  {
+    "date": "2025-12-16",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 396.77416767177056,
+    "expected_cash_gain": 390.2114806265672
+  },
+  {
+    "date": "2025-12-16",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 38.0195916633038,
+    "expected_cash_gain": 42.34807221727169
+  },
+  {
+    "date": "2025-12-17",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 496.3850051188783,
+    "expected_cash_gain": 485.3551846004557
+  },
+  {
+    "date": "2025-12-17",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 383.30826937195525,
+    "expected_cash_gain": 317.4569882335272
+  },
+  {
+    "date": "2025-12-17",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 139.20726312201077,
+    "expected_cash_gain": 160.1914065782803
+  },
+  {
+    "date": "2025-12-18",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 712.7242987912323,
+    "expected_cash_gain": 637.4737654698838
+  },
+  {
+    "date": "2025-12-18",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 755.3843837598615,
+    "expected_cash_gain": 696.425573492721
+  },
+  {
+    "date": "2025-12-18",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 102.44616101707288,
+    "expected_cash_gain": 91.61242145656797
+  },
+  {
+    "date": "2025-12-19",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 639.2252418061689,
+    "expected_cash_gain": 597.050911473998
+  },
+  {
+    "date": "2025-12-19",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 343.50706260586776,
+    "expected_cash_gain": 317.9333451292878
+  },
+  {
+    "date": "2025-12-19",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 25.588342760165688,
+    "expected_cash_gain": 20.102458322511666
+  },
+  {
+    "date": "2025-12-20",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 237.47446084922194,
+    "expected_cash_gain": 235.42716584587106
+  },
+  {
+    "date": "2025-12-20",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 227.1962264133017,
+    "expected_cash_gain": 210.2901211071894
+  },
+  {
+    "date": "2025-12-20",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 90.44153149280191,
+    "expected_cash_gain": 80.87331842265303
+  },
+  {
+    "date": "2025-12-21",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 780.6167582292401,
+    "expected_cash_gain": 802.9526650472035
+  },
+  {
+    "date": "2025-12-21",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 280.84886284905224,
+    "expected_cash_gain": 248.60873801080015
+  },
+  {
+    "date": "2025-12-21",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 65.39963088954573,
+    "expected_cash_gain": 58.8004067153779
+  },
+  {
+    "date": "2025-12-22",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 309.9817229874534,
+    "expected_cash_gain": 263.39066795928375
+  },
+  {
+    "date": "2025-12-22",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 356.3569328364174,
+    "expected_cash_gain": 315.72893277035473
+  },
+  {
+    "date": "2025-12-22",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 48.295149117964684,
+    "expected_cash_gain": 50.12835033035299
+  },
+  {
+    "date": "2025-12-23",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 486.50787418811524,
+    "expected_cash_gain": 466.49114109470975
+  },
+  {
+    "date": "2025-12-23",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 340.60226169019006,
+    "expected_cash_gain": 315.3865027966094
+  },
+  {
+    "date": "2025-12-23",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 51.93526537891012,
+    "expected_cash_gain": 38.71929301539785
+  },
+  {
+    "date": "2025-12-24",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 307.4844106948658,
+    "expected_cash_gain": 285.9247610495804
+  },
+  {
+    "date": "2025-12-24",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 356.2600474744977,
+    "expected_cash_gain": 342.9986308496955
+  },
+  {
+    "date": "2025-12-24",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 75.55513193983643,
+    "expected_cash_gain": 70.40660583748104
+  },
+  {
+    "date": "2025-12-25",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 384.6700162579291,
+    "expected_cash_gain": 373.73522320928896
+  },
+  {
+    "date": "2025-12-25",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 432.4330137592842,
+    "expected_cash_gain": 376.32369953833404
+  },
+  {
+    "date": "2025-12-25",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 105.99262368816017,
+    "expected_cash_gain": 75.16694747025758
+  },
+  {
+    "date": "2025-12-26",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 333.3967025182719,
+    "expected_cash_gain": 337.47776175069885
+  },
+  {
+    "date": "2025-12-26",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 357.50143317697257,
+    "expected_cash_gain": 325.98566874152493
+  },
+  {
+    "date": "2025-12-26",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 57.41757849692658,
+    "expected_cash_gain": 48.06143637102923
+  },
+  {
+    "date": "2025-12-27",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 300.4822491089544,
+    "expected_cash_gain": 251.0834561381489
+  },
+  {
+    "date": "2025-12-27",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 286.1277005623342,
+    "expected_cash_gain": 270.142583909761
+  },
+  {
+    "date": "2025-12-27",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 31.919343772841785,
+    "expected_cash_gain": 34.60287490689552
+  },
+  {
+    "date": "2025-12-28",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 394.3416919352021,
+    "expected_cash_gain": 403.3346641136959
+  },
+  {
+    "date": "2025-12-28",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 364.22071571876586,
+    "expected_cash_gain": 355.45640308714064
+  },
+  {
+    "date": "2025-12-28",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 56.18263693889094,
+    "expected_cash_gain": 50.16298524812737
+  },
+  {
+    "date": "2025-12-29",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 714.8450031132234,
+    "expected_cash_gain": 651.4825145789437
+  },
+  {
+    "date": "2025-12-29",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 216.03631724155275,
+    "expected_cash_gain": 189.80156757912482
+  },
+  {
+    "date": "2025-12-29",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 60.18943993834182,
+    "expected_cash_gain": 48.78982050010745
+  },
+  {
+    "date": "2025-12-30",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 497.7515510705125,
+    "expected_cash_gain": 517.887642870417
+  },
+  {
+    "date": "2025-12-30",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 999.9587250215191,
+    "expected_cash_gain": 1002.0937714249376
+  },
+  {
+    "date": "2025-12-30",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 47.95446391928999,
+    "expected_cash_gain": 43.92984970148973
+  },
+  {
+    "date": "2025-12-31",
+    "model": 0,
+    "hour": 6,
+    "accepted": true,
+    "expected_gain": 554.0762962994995,
+    "expected_cash_gain": 522.3420738301138
+  },
+  {
+    "date": "2025-12-31",
+    "model": 0,
+    "hour": 12,
+    "accepted": true,
+    "expected_gain": 292.7813275933513,
+    "expected_cash_gain": 315.21138007925765
+  },
+  {
+    "date": "2025-12-31",
+    "model": 0,
+    "hour": 18,
+    "accepted": true,
+    "expected_gain": 72.07224669454263,
+    "expected_cash_gain": 68.77761607757202
+  }
+]

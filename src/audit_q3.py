@@ -20,6 +20,8 @@ def main():
     fee=p*(a['purchase']+.5*np.abs(a['purchase']-a['baseline']))
     np.testing.assert_allclose(fee,a['grid_fee'],atol=1e-9,rtol=0)
     events=list(csv.DictReader(open(out/'main/adjustment_events.csv',encoding='utf-8-sig')))
+    assert set(int(e['hour']) for e in events)=={6,12}
+    assert json.loads((out/'main/summary.json').read_text(encoding='utf-8'))['config']['hours']==[6,12]
     for e in events:
         d=(__import__('datetime').date.fromisoformat(e['date'])-data.dates[0]).days;t=int(e['hour'])*6
         assert abs(float(e['initial_energy_kwh'])-a['energy'][d,t])<1e-7

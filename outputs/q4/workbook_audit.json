@@ -1,0 +1,18 @@
+[
+  {
+    "mode": 2,
+    "max_workbook_error": 5.820766091346741e-11,
+    "emergency_records": 2943,
+    "template_headers_dates_unchanged": true,
+    "natural_mapping_exact": true,
+    "actual_price_settlement_verified": true
+  },
+  {
+    "mode": 3,
+    "max_workbook_error": 7.275957614183426e-11,
+    "emergency_records": 3108,
+    "template_headers_dates_unchanged": true,
+    "natural_mapping_exact": true,
+    "actual_price_settlement_verified": true
+  }
+]

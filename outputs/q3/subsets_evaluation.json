@@ -1,0 +1,151 @@
+{
+  "best_case": "updates_0612",
+  "best_hours": [
+    0,
+    6,
+    12
+  ],
+  "saving_vs_only0": 127285.03930760734,
+  "saving_vs_all": 2259.214770646766,
+  "marginal_savings": [
+    {
+      "added_hour": 6,
+      "existing_hours": [],
+      "saving_yuan": 38743.18864477426
+    },
+    {
+      "added_hour": 6,
+      "existing_hours": [
+        12
+      ],
+      "saving_yuan": 73301.49325505644
+    },
+    {
+      "added_hour": 6,
+      "existing_hours": [
+        18
+      ],
+      "saving_yuan": 46107.26435939595
+    },
+    {
+      "added_hour": 6,
+      "existing_hours": [
+        12,
+        18
+      ],
+      "saving_yuan": 73818.4469681494
+    },
+    {
+      "added_hour": 12,
+      "existing_hours": [],
+      "saving_yuan": 53983.5460525509
+    },
+    {
+      "added_hour": 12,
+      "existing_hours": [
+        6
+      ],
+      "saving_yuan": 88541.85066283308
+    },
+    {
+      "added_hour": 12,
+      "existing_hours": [
+        18
+      ],
+      "saving_yuan": 58598.034934192896
+    },
+    {
+      "added_hour": 12,
+      "existing_hours": [
+        6,
+        18
+      ],
+      "saving_yuan": 86309.21754294634
+    },
+    {
+      "added_hour": 18,
+      "existing_hours": [],
+      "saving_yuan": -7390.657365381718
+    },
+    {
+      "added_hour": 18,
+      "existing_hours": [
+        6
+      ],
+      "saving_yuan": -26.581650760024786
+    },
+    {
+      "added_hour": 18,
+      "existing_hours": [
+        12
+      ],
+      "saving_yuan": -2776.168483739719
+    },
+    {
+      "added_hour": 18,
+      "existing_hours": [
+        6,
+        12
+      ],
+      "saving_yuan": -2259.214770646766
+    }
+  ],
+  "audits": [
+    {
+      "case": "only_0",
+      "state_error": 3.751665644813329e-12,
+      "balance_error": 5.684341886080801e-13,
+      "mapping_exact": true,
+      "pre_first_update_locked": true
+    },
+    {
+      "case": "updates_06",
+      "state_error": 2.0250467969162855e-12,
+      "balance_error": 3.410605131648481e-13,
+      "mapping_exact": true,
+      "pre_first_update_locked": true
+    },
+    {
+      "case": "updates_12",
+      "state_error": 2.4442670110147446e-12,
+      "balance_error": 5.684341886080801e-13,
+      "mapping_exact": true,
+      "pre_first_update_locked": true
+    },
+    {
+      "case": "updates_18",
+      "state_error": 2.0463630789890885e-12,
+      "balance_error": 5.684341886080801e-13,
+      "mapping_exact": true,
+      "pre_first_update_locked": true
+    },
+    {
+      "case": "updates_0612",
+      "state_error": 2.4442670110147446e-12,
+      "balance_error": 3.410605131648481e-13,
+      "mapping_exact": true,
+      "pre_first_update_locked": true
+    },
+    {
+      "case": "updates_0618",
+      "state_error": 2.0250467969162855e-12,
+      "balance_error": 3.410605131648481e-13,
+      "mapping_exact": true,
+      "pre_first_update_locked": true
+    },
+    {
+      "case": "updates_1218",
+      "state_error": 1.3642420526593924e-12,
+      "balance_error": 5.684341886080801e-13,
+      "mapping_exact": true,
+      "pre_first_update_locked": true
+    },
+    {
+      "case": "updates_061218",
+      "state_error": 1.3216094885137863e-12,
+      "balance_error": 3.410605131648481e-13,
+      "mapping_exact": true,
+      "pre_first_update_locked": true
+    }
+  ]
+}

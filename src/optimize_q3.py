@@ -4,12 +4,12 @@ import numpy as np
 import json
 
 if __name__=='__main__':
-    cases=[('opt_evening_01',Config(evening_threshold=.01)),
-           ('opt_evening_05',Config(evening_threshold=.05)),
-           ('opt_evening_cash',Config(evening_cash_gate=True))]
+    cases=[('opt_evening_01',Config(hours=(6,12,18),evening_threshold=.01)),
+           ('opt_evening_05',Config(hours=(6,12,18),evening_threshold=.05)),
+           ('opt_evening_cash',Config(hours=(6,12,18),evening_cash_gate=True))]
     for name,cfg in cases:run(cfg,name)
     rows=[]
-    for name in ['main']+[n for n,c in cases]:
+    for name in ['updates_061218']+[n for n,c in cases]:
         with np.load(ROOT/'outputs/q3'/name/'natural.npz') as a:
             # February through June: 150 days. July through December: 184 days.
             cost=(a['grid_fee']+a['emergency_fee']).sum(axis=1)

@@ -1,0 +1,62 @@
+{
+  "case": "updates_18",
+  "config": {
+    "hours": [
+      18
+    ],
+    "window": 28,
+    "threshold": 0.001,
+    "refund": true,
+    "scenarios": 30,
+    "evening_threshold": null,
+    "evening_cash_gate": false
+  },
+  "natural_period": [
+    "2025-02-01 00:00",
+    "2026-01-01 00:00"
+  ],
+  "plan_period": [
+    "2025-02-01 00:10",
+    "2026-01-01 00:10"
+  ],
+  "natural_totals": {
+    "base_plan_fee_yuan": 13711062.391459923,
+    "adjustment_fee_yuan": 4301.851750589383,
+    "settled_grid_fee_yuan": 13715364.243210511,
+    "emergency_fee_yuan": 812304.2608037516,
+    "total_cost_yuan": 14527668.504014263,
+    "emergency_kwh": 216379.63050000474,
+    "purchase_kwh": 22434434.047203697,
+    "charge_kwh": 7381557.250231116,
+    "discharge_kwh": 5979058.85990371,
+    "surplus_kwh": 3309361.495742961
+  },
+  "plan_totals": {
+    "base_plan_fee_yuan": 13711112.203620143,
+    "adjustment_fee_yuan": 4301.851750589383,
+    "settled_grid_fee_yuan": 13715414.055370733,
+    "emergency_fee_yuan": 812423.5055087486,
+    "total_cost_yuan": 14527837.560879482,
+    "emergency_kwh": 216435.40444995652,
+    "purchase_kwh": 22434550.53962704,
+    "charge_kwh": 7381554.1480292715,
+    "discharge_kwh": 5979058.85990371,
+    "surplus_kwh": 3309301.1609847685
+  },
+  "audit": {
+    "balance_residual_kwh": 5.684341886080801e-13,
+    "state_residual_kwh": 2.0463630789890885e-12,
+    "continuity_residual_kwh": 0.0,
+    "min_energy": 1200.0,
+    "max_energy": 10800.0,
+    "max_charge": 833.3333333333335,
+    "max_discharge": 833.3333333333334,
+    "simultaneous_slots": 0,
+    "milp_fallback_count": 0
+  },
+  "final_midnight_energy": 10052.79198166011,
+  "final_0010_energy": 10800.0,
+  "adjustment_counts": {
+    "18": 317
+  }
+}

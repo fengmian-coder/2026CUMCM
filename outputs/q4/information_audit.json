@@ -1,0 +1,6 @@
+{
+  "price_prediction_error_before_and_on_perturbed_day": 0.0,
+  "pv_prediction_error_before_and_on_perturbed_day": 0.0,
+  "cutoff": "2025-03-03",
+  "method": "Multiply all actual values from cutoff onward by 1.7; forecasts on or before cutoff must not change."
+}

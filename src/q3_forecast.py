@@ -28,7 +28,7 @@ def attachment3(dates):
     assert len(seen)==1460 and np.isfinite(result).all() and (result>=0).all()
     return result
 
-def candidate_arrays(data, q, a3):
+def candidate_arrays(data, q, a3, delayed_observations=False):
     # Q is frozen at 00:00. A is direct linear interpolation; F preserves Q shape.
     A=np.zeros((365,4,144));Fbase=np.zeros_like(A);Fslope=np.zeros_like(A)
     cold0=float(read_attachment1().pv_kw[0])
@@ -37,6 +37,7 @@ def candidate_arrays(data, q, a3):
             start=h*6
             obs=float(data.source_pv_kw[d,start-1]) if h else float(data.source_pv_kw[d-1,-1]) if d else cold0
             q0=float(q[d,start-1]) if h else float(q[d-1,-1]) if d else cold0
+            if delayed_observations:obs=q0
             nodes=np.arange(h,25,dtype=float)
             qnodes=np.r_[q0,q[d,np.arange((h+1)*6-1,144,6)]]
             anodes=np.r_[obs,a3[d,ri,:24-h]]
@@ -49,14 +50,14 @@ def candidate_arrays(data, q, a3):
             Fslope[d,ri,start:]=correction1
     return A,Fbase,Fslope
 
-def build(window=28, data=None, q=None, a3=None):
+def build(window=28, data=None, q=None, a3=None, delayed_observations=False):
     data=load_q2_data() if data is None else data
     if q is None:
         with np.load(ROOT/'outputs/q2/rolling_forecasts.npz') as f:
             assert str(f['time_axis'])=='shifted_0010'
             q=f['pv_kw']
     a3=attachment3(data.dates) if a3 is None else a3
-    A,fb,fs=candidate_arrays(data,q,a3)
+    A,fb,fs=candidate_arrays(data,q,a3,delayed_observations)
     pred=np.zeros_like(A); kinds=np.zeros((365,4),dtype=int);weight=np.ones((365,4))
     records=[]
     for d in range(365):

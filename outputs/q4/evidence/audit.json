@@ -1,0 +1,86 @@
+[
+  {
+    "case": "fixed_m0",
+    "mode": 2,
+    "fee_error": 0.0,
+    "natural_mapping_exact": true
+  },
+  {
+    "case": "fixed_m0",
+    "mode": 3,
+    "fee_error": 0.0,
+    "natural_mapping_exact": true
+  },
+  {
+    "case": "fixed_tariff",
+    "mode": 2,
+    "fee_error": 0.0,
+    "natural_mapping_exact": true
+  },
+  {
+    "case": "fixed_tariff",
+    "mode": 3,
+    "fee_error": 0.0,
+    "natural_mapping_exact": true
+  },
+  {
+    "case": "perfect_price",
+    "mode": 2,
+    "fee_error": 0.0,
+    "natural_mapping_exact": true
+  },
+  {
+    "case": "perfect_price",
+    "mode": 3,
+    "fee_error": 0.0,
+    "natural_mapping_exact": true
+  },
+  {
+    "case": "seed_20260913",
+    "mode": 2,
+    "fee_error": 0.0,
+    "natural_mapping_exact": true
+  },
+  {
+    "case": "seed_20260913",
+    "mode": 3,
+    "fee_error": 0.0,
+    "natural_mapping_exact": true
+  },
+  {
+    "case": "seed_20260914",
+    "mode": 2,
+    "fee_error": 0.0,
+    "natural_mapping_exact": true
+  },
+  {
+    "case": "seed_20260914",
+    "mode": 3,
+    "fee_error": 0.0,
+    "natural_mapping_exact": true
+  },
+  {
+    "case": "scenarios_50",
+    "mode": 2,
+    "fee_error": 0.0,
+    "natural_mapping_exact": true
+  },
+  {
+    "case": "scenarios_50",
+    "mode": 3,
+    "fee_error": 0.0,
+    "natural_mapping_exact": true
+  },
+  {
+    "case": "scenarios_100",
+    "mode": 2,
+    "fee_error": 0.0,
+    "natural_mapping_exact": true
+  },
+  {
+    "case": "scenarios_100",
+    "mode": 3,
+    "fee_error": 0.0,
+    "natural_mapping_exact": true
+  }
+]

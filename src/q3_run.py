@@ -14,7 +14,7 @@ from q3_solver import solve,evaluate,grid_cost
 
 @dataclass(frozen=True)
 class Config:
-    hours:tuple=(6,12,18)
+    hours:tuple=(6,12)
     window:int=28
     threshold:float=.001
     refund:bool=True
