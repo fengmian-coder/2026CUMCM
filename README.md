@@ -45,3 +45,13 @@ npm run plot:q2
 计划表合计覆盖2月1日00:10至次年1月1日00:10；自然日费用、充放电和紧急购电覆盖2月1日00:00至次年1月1日00:00。两种窗口分别标注，不能混加。官方模板标签保持原样。
 
 旧版结果、图和相关代码归档在outputs/q2_legacy_natural；outputs/q2_shifted_trial为前期新口径试验。q2_extend_boundary.py已经停用，不再生成次日新计划补格。
+
+## 第三问复现
+
+`python src/refresh_q3.py`运行预测来源滚动选择与九组独立仿真。主方案使用00:00、06:00、12:00、18:00预报，历史选择窗口28日，调整阈值0.1%，风险参数沿用第二问。退订退费属于显式假设，不退费方案单独保留。
+
+使用已配置的@oai/artifact-tool运行`src/fill_result3.mjs`填写`materials/result3.xlsx`，随后运行`python src/audit_q3.py`与`python src/audit_q3_forecast.py`。图由`src/plot_q3_figures.mjs`生成，Word说明由`src/write_q3_report.py`生成。Node脚本可复制到已配置捆绑依赖的`tmp/q2_artifact`目录执行。
+
+`outputs/q3/main`保存主方案，`outputs/q3/comparison.json`保存九组汇总，`outputs/q3/第三问建模与求解过程.docx`说明公式、假设、执行边界、结果及核验。原result3模板备份为`outputs/q3/result3_template_original.xlsx`。
+
+主方案2—12月自然日总费用为14395252.02211192元。四时点方案并非本次比较中费用最低的组合：仅用00:00、06:00、12:00的费用为14392992.807341274元，此差异已如实保留。调整购电量页填写最终有效购电量，费用为调整后完整外网结算费，不与基准计划费重复相加。计划行窗口和自然日统计窗口沿用第二问并分别报告，模板标签保持不变。

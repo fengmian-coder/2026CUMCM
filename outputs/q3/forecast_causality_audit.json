@@ -1,0 +1,7 @@
+{
+  "perturbation_start": "2025-06-21 12:10",
+  "future_actuals_and_later_issues_changed": true,
+  "all_earlier_predictions_and_selections_unchanged": true,
+  "current_noon_prediction_and_selection_unchanged": true,
+  "note": "Q2 base forecasts are frozen inputs; their causality is separately audited in Q2"
+}

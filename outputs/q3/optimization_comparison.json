@@ -1,0 +1,44 @@
+{
+  "selection_period": "2025-02-01 through 2025-06-30",
+  "validation_period": "2025-07-01 through 2025-12-31",
+  "selected_on_first_period": "opt_evening_01",
+  "rows": [
+    {
+      "case": "main",
+      "selection_cost": 5922004.953865081,
+      "validation_cost": 8473247.06824684,
+      "total_cost": 14395252.022111919,
+      "validation_emergency_kwh": 102361.42669422447,
+      "split_energy": 10023.832514498703,
+      "final_energy": 10052.79198166011
+    },
+    {
+      "case": "opt_evening_01",
+      "selection_cost": 5920649.203395149,
+      "validation_cost": 8473367.56612251,
+      "total_cost": 14394016.769517658,
+      "validation_emergency_kwh": 102699.79335094048,
+      "split_energy": 10052.423233404568,
+      "final_energy": 10052.79198166011
+    },
+    {
+      "case": "opt_evening_05",
+      "selection_cost": 5920677.138251376,
+      "validation_cost": 8472315.669089898,
+      "total_cost": 14392992.807341274,
+      "validation_emergency_kwh": 102476.00617385254,
+      "split_energy": 10052.423233404568,
+      "final_energy": 10052.79198166011
+    },
+    {
+      "case": "opt_evening_cash",
+      "selection_cost": 5922004.953865081,
+      "validation_cost": 8473247.06824684,
+      "total_cost": 14395252.022111919,
+      "validation_emergency_kwh": 102361.42669422447,
+      "split_energy": 10023.832514498703,
+      "final_energy": 10052.79198166011
+    }
+  ],
+  "limitation": "Retrospective temporal split, not an untouched test: aggregate full-year baseline was already inspected. Each policy has its own continuous SOC history."
+}
