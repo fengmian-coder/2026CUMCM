@@ -6,7 +6,7 @@ from 2025-01-02 onward the models use Attachment 2 history only.
 """
 
 from dataclasses import dataclass, asdict
-from datetime import date
+from datetime import date, timedelta
 from pathlib import Path
 import json
 
@@ -133,6 +133,25 @@ def rolling_forecasts(data: Q2Data, cfg: ForecastConfig = ForecastConfig()):
         load_hat[d] = np.maximum(base + correction, 0.0)
         pv_hat[d] = _pv_forecast(data.pv_kw, data.dates, d, cfg, cold_pv)
     return load_hat, pv_hat
+
+
+def next_day_forecast(data: Q2Data, cfg: ForecastConfig = ForecastConfig()):
+    """Forecast the day immediately after the last observation without leakage."""
+    q1 = read_attachment1()
+    target = data.dates[-1] + timedelta(days=1)
+    dates = data.dates + (target,)
+    n, t = data.load_kw.shape
+    load_base = np.empty((n + 1, t))
+    for d in range(n + 1):
+        load_base[d] = _load_base(data.load_kw, dates, d, cfg, q1.load_kw)
+    X = _date_features(list(dates[:n]), cfg.load_fourier_order)
+    x = _date_features([target], cfg.load_fourier_order)[0]
+    correction = _ridge_predict(
+        X, data.load_kw - load_base[:n], x, cfg.load_ridge
+    )
+    load_hat = np.maximum(load_base[n] + correction, 0.0)
+    pv_hat = _pv_forecast(data.pv_kw, dates, n, cfg, q1.pv_kw)
+    return target, load_hat, pv_hat
 
 
 def _metrics(actual: np.ndarray, pred: np.ndarray) -> dict[str, float]:

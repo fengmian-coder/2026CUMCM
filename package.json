@@ -3,7 +3,8 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "plot:q1": "node src/plot_q1_soc.mjs && node src/plot_q1_other_figures.mjs"
+    "plot:q1": "node src/plot_q1_soc.mjs && node src/plot_q1_other_figures.mjs",
+    "plot:q2": "node src/plot_q2_figures.mjs"
   },
   "dependencies": {
     "sharp": "0.35.4"

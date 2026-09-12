@@ -1,0 +1,36 @@
+{
+  "date": "2026-01-01",
+  "purpose": "supply the result2.xlsx final 00:00-00:10+1 column",
+  "information_boundary": "uses observations through 2025-12-31 only",
+  "optimization_config": {
+    "scenario_count": 30,
+    "residual_window_days": 60,
+    "residual_half_life_days": 30.0,
+    "same_weekday_multiplier": 3.0,
+    "cvar_alpha": 0.9,
+    "cvar_weight": 0.05,
+    "terminal_energy_value": 0.6895775,
+    "random_seed": 20260912
+  },
+  "forecast_config": {
+    "similar_days": 6,
+    "recency_penalty": 0.08,
+    "similarity_temperature": 0.25,
+    "load_fourier_order": 2,
+    "load_ridge": 2.0,
+    "pv_fourier_order": 3,
+    "pv_ridge": 2.0,
+    "pv_shape_days": 14,
+    "pv_shape_decay": 0.15,
+    "minimum_regression_days": 14
+  },
+  "initial_energy_kwh": 10200.0,
+  "first_interval": {
+    "forecast_load_kw": 3583.5969528032433,
+    "forecast_pv_kw": 0.0,
+    "purchase_kwh": 601.074990731968,
+    "charge_kwh": 0.0,
+    "discharge_kwh": 0.0,
+    "end_energy_kwh": 10200.0
+  }
+}
