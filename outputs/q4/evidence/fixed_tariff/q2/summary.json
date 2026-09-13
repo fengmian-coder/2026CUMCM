@@ -33,5 +33,7 @@
   },
   "final_midnight_energy": 10050.0,
   "final_0010_energy": 10800.0,
-  "milp_count": 0
+  "milp_count": 0,
+  "selection_policy": "fixed_year",
+  "update_hours": []
 }

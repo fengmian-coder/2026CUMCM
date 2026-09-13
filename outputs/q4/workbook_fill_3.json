@@ -1,7 +1,7 @@
 {
   "plan_days": 334,
   "battery_rows": 2004,
-  "emergency_rows": 3108,
+  "emergency_rows": 3132,
   "formula_errors": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}",
   "fee_convention": "plan sheet = baseline fee; adjusted sheet = total settled grid fee including adjustment, excluding emergency; do not add both sheets"
 }

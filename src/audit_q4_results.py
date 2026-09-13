@@ -7,6 +7,13 @@ from q2_data import load_q2_data
 R=Path(__file__).resolve().parents[1];O=R/'outputs/q4'
 data=load_q2_data();price=np.load(O/'price_forecasts.npz')['actual'];reports=[]
 for mode in [2,3]:
+    s=json.loads((O/f'q{mode}/summary.json').read_text(encoding='utf-8'))
+    assert s['fixed_model']==0 and s['selection_policy']=='fixed_year'
+    assert s['update_hours']==([6,12] if mode==3 else [])
+    selection=json.loads((O/f'q{mode}/model_selection.json').read_text(encoding='utf-8'))
+    assert len(selection)==1 and selection[0]['selected']==0
+    events=json.loads((O/f'q{mode}/adjustment_events.json').read_text(encoding='utf-8'))
+    assert all(e['model']==0 and e['hour'] in [6,12] for e in events)
     with np.load(O/f'q{mode}/schedules.npz') as z:a={k:z[k] for k in z.files}
     with np.load(O/f'q{mode}/natural.npz') as z:n={k:z[k] for k in z.files}
     for k in ['purchase','charge','discharge','emergency','grid_fee']:

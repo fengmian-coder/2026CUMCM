@@ -2,7 +2,7 @@
   "mode": 2,
   "scenario_count": 50,
   "random_seed": 20260912,
-  "fixed_model": null,
+  "fixed_model": 0,
   "natural_period": [
     "2025-02-01 00:00",
     "2026-01-01 00:00"
@@ -33,5 +33,7 @@
   },
   "final_midnight_energy": 10050.0,
   "final_0010_energy": 10800.0,
-  "milp_count": 0
+  "milp_count": 0,
+  "selection_policy": "fixed_year",
+  "update_hours": []
 }

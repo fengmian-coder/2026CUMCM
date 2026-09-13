@@ -59,3 +59,11 @@ npm run plot:q2
 `outputs/q3/main`为正式结果，与`updates_0612`数值一致；`updates_061218`为四时点对照。`archive_four_time`保存原提交表、报告和原四时点敏感性。根目录下窗口、门槛及退费敏感性按新主方案重算。晚间门槛试验仍是四时点历史对照，不能当成新主方案的敏感性。
 
 主方案2—12月自然日总费用14392992.807341274元，紧急购电177358.41029724246 kWh。调整购电量页填写最终有效购电量，其费用是调整后完整外网结算费，不与基准计划费重复相加。时间口径保持原设置：计划行00:10至次日00:10，费用与充放电自然日统计，两种窗口分别报告；不改模板时间标签。
+
+## 第四问全年固定模型
+
+正式第四问全年固定M0，第二问与第三问均不按月切换模型。第三问仅06:00、12:00允许调整。M0仍依当时可用历史更新预测值与权重，模型类型全年不变。
+
+复现：依次运行src/run_q4.py、src/summarize_q4.py、src/run_q4_evidence.py、src/summarize_q4_evidence.py、src/extract_q4_paper_tables.py；捆绑Node运行src/fill_result4.mjs 2及3后运行src/audit_q4_results.py。汇总见outputs/q4/首轮结果说明.md（文件名为沿用名称，正文为当前结果）。旧月度选择与四时点结果在outputs/q4/archive_monthly_four_time，不用于当前提交。
+
+第四问绘图：先运行 python src/prepare_q4_figures.py，再运行 npm run plot:q4（或用捆绑Node与sharp执行）。5张图保存为figures/q4_*.png与.svg，解释见outputs/q4/图表与结果分析.md。典型日按计划时窗绘制，月度统计按自然日，不混用两种窗口。

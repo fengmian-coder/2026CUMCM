@@ -1,0 +1,18 @@
+[
+  {
+    "mode": 2,
+    "first_cost": 15581680.886935532,
+    "tuned_cost": 15582086.133192912,
+    "cost_change": 405.24625737965107,
+    "emergency_change_kwh": 56.713107375544496,
+    "final_energy_change": 0.0
+  },
+  {
+    "mode": 3,
+    "first_cost": 15258886.931729123,
+    "tuned_cost": 15258886.931729123,
+    "cost_change": 0.0,
+    "emergency_change_kwh": 0.0,
+    "final_energy_change": 0.0
+  }
+]

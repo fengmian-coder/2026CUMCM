@@ -8,22 +8,22 @@
     "2026-01-01 00:00"
   ],
   "natural": {
-    "grid_fee": 13730668.665277304,
-    "emergency_fee": 677098.2562687385,
-    "total_cost": 14407766.921546042,
-    "emergency_kwh": 179920.9253703989,
-    "purchase_kwh": 22277589.859568223
+    "grid_fee": 13728156.795497503,
+    "emergency_fee": 677062.1015922793,
+    "total_cost": 14405218.89708978,
+    "emergency_kwh": 179941.2724925924,
+    "purchase_kwh": 22275310.810433015
   },
   "plan": {
-    "grid_fee": 13730718.477437528,
-    "emergency_fee": 677217.5009737354,
-    "total_cost": 14407935.978411261,
-    "emergency_kwh": 179976.69932035072,
-    "purchase_kwh": 22277706.351991564
+    "grid_fee": 13728206.607657723,
+    "emergency_fee": 677181.3462972762,
+    "total_cost": 14405387.953954998,
+    "emergency_kwh": 179997.0464425442,
+    "purchase_kwh": 22275427.30285636
   },
   "audit": {
     "balance": 4.547473508864641e-13,
-    "state": 1.1368683772161603e-12,
+    "state": 2.3874235921539366e-12,
     "continuity": 0.0,
     "simultaneous": 0,
     "energy_min": 1200.0,
@@ -33,5 +33,10 @@
   },
   "final_midnight_energy": 10052.79198166011,
   "final_0010_energy": 10800.0,
-  "milp_count": 0
+  "milp_count": 0,
+  "selection_policy": "fixed_year",
+  "update_hours": [
+    6,
+    12
+  ]
 }

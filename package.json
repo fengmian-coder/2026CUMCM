@@ -5,7 +5,8 @@
   "scripts": {
     "plot:q1": "node src/plot_q1_soc.mjs && node src/plot_q1_other_figures.mjs",
     "plot:q2": "node src/plot_q2_figures.mjs",
-    "plot:q3": "node src/plot_q3_figures.mjs && node src/plot_q3_extended.mjs"
+    "plot:q3": "node src/plot_q3_figures.mjs && node src/plot_q3_extended.mjs",
+    "plot:q4": "node src/plot_q4_figures.mjs"
   },
   "dependencies": {
     "sharp": "0.35.4"

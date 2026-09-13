@@ -1,6 +1,6 @@
 from pathlib import Path
 import json
-R=Path(__file__).resolve().parents[1]/'outputs/q4';T=R/'tuned'
+R=Path(__file__).resolve().parents[1]/'outputs/q4/archive_monthly_four_time';T=R/'tuned'
 read=lambda p:json.loads(p.read_text(encoding='utf-8'))
 old=read(R/'summary.json');new=read(T/'summary.json')
 comparison=[]
@@ -16,6 +16,7 @@ lines+=['','## 预测误差','','| 模型 | 首轮MAE 元/kWh | 调参MAE 元/kW
 om=read(R/'price_metrics.json');nm=read(T/'price_metrics.json')
 for name in om:lines.append(f"| {name} | {om[name]['mae']} | {nm[name]['mae']} |")
 for mode in [2,3]:
-    logs=read(T/f'q{mode}/monthly_selection.json');lines+=['',f'问题{mode}选择：'+ '；'.join(f"{r['date'][:7]} M{r['selected']}" for r in logs)]
+    path=T/f'q{mode}/model_selection.json'
+    logs=read(path if path.exists() else T/f'q{mode}/monthly_selection.json');lines+=['',f'问题{mode}选择：'+ '；'.join(f"{r['date'][:7]} M{r['selected']}" for r in logs)]
 lines+=['','## 解释与限定','','参数只在此前日期验证，不代表全年事后最优。本次方案设计发生于看过首轮全年结果之后，因此属于回顾性方法改进，不能宣称未接触的外部测试。预测MAE改善不保证风险调度目标或事后现金费用改善。选择门槛保持0.5%，不为追求回测省钱临时调低。','','两套调度均通过电量平衡、充放电互斥、容量功率边界和SOC连续性检查。改变4月2日起的实际电价后，当日及此前调参预测完全不变。当前materials中的result4-2和result4-3保留首轮版本，调参版数据在本目录q2、q3下。']
 (T/'调参对照说明.md').write_text('\n'.join(lines),encoding='utf-8');print(comparison)

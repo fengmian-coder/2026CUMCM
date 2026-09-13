@@ -10,17 +10,18 @@ if __name__=='__main__':
     cases=[('fixed_m0',price,actual,30,20260912,0),
            ('fixed_tariff',np.repeat(tariff[:,None,:],3,axis=1),tariff,30,20260912,0),
            ('perfect_price',np.repeat(actual[:,None,:],3,axis=1),actual,30,20260912,0),
-           ('seed_20260913',price,actual,30,20260913,None),
-           ('seed_20260914',price,actual,30,20260914,None),
-           ('scenarios_50',price,actual,50,20260912,None),
-           ('scenarios_100',price,actual,100,20260912,None)]
+           ('seed_20260913',price,actual,30,20260913,0),
+           ('seed_20260914',price,actual,30,20260914,0),
+           ('scenarios_50',price,actual,50,20260912,0),
+           ('scenarios_100',price,actual,100,20260912,0)]
     reports=[]
     for name,p,a,count,seed,fixed in cases:
         engine.OUT=BASE/'evidence'/name
         for mode in [2,3]:
             saved=engine.OUT/f'q{mode}/summary.json'
-            if saved.exists():report=json.loads(saved.read_text(encoding='utf-8'))
-            else:report=engine.run(mode,data,F,lh,ph,p,a,count,seed,fixed)
+            report=json.loads(saved.read_text(encoding='utf-8')) if saved.exists() else None
+            if not report or report.get('fixed_model')!=fixed or report.get('update_hours')!=([6,12] if mode==3 else []) or report.get('scenario_count')!=count or report.get('random_seed')!=seed:
+                report=engine.run(mode,data,F,lh,ph,p,a,count,seed,fixed)
             reports.append(dict(case=name,**report))
             (BASE/'evidence/summary.json').write_text(json.dumps(reports,ensure_ascii=False,indent=2),encoding='utf-8')
     print('Evidence suite complete',flush=True)

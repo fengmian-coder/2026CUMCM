@@ -1,0 +1,37 @@
+{
+  "mode": 2,
+  "scenario_count": 50,
+  "random_seed": 20260912,
+  "fixed_model": null,
+  "natural_period": [
+    "2025-02-01 00:00",
+    "2026-01-01 00:00"
+  ],
+  "natural": {
+    "grid_fee": 14648801.001442887,
+    "emergency_fee": 888930.7429735074,
+    "total_cost": 15537731.744416393,
+    "emergency_kwh": 217985.6637552607,
+    "purchase_kwh": 22774429.106657274
+  },
+  "plan": {
+    "grid_fee": 14649060.297908064,
+    "emergency_fee": 889058.2257498442,
+    "total_cost": 15538118.52365791,
+    "emergency_kwh": 218040.85110432433,
+    "purchase_kwh": 22774556.328791857
+  },
+  "audit": {
+    "balance": 4.547473508864641e-13,
+    "state": 2.0463630789890885e-12,
+    "continuity": 0.0,
+    "simultaneous": 0,
+    "energy_min": 1200.0,
+    "energy_max": 10800.0,
+    "max_charge": 833.3333333333334,
+    "max_discharge": 833.3333333333334
+  },
+  "final_midnight_energy": 10050.0,
+  "final_0010_energy": 10800.0,
+  "milp_count": 0
+}

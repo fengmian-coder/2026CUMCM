@@ -1,0 +1,96 @@
+[
+  {
+    "date": "2025-01-01",
+    "selected": 0,
+    "history_count": 0,
+    "paired_mean_score": null
+  },
+  {
+    "date": "2025-02-01",
+    "selected": 0,
+    "history_count": 28,
+    "paired_mean_score": [
+      59119.03412153195
+    ]
+  },
+  {
+    "date": "2025-03-01",
+    "selected": 0,
+    "history_count": 28,
+    "paired_mean_score": [
+      39293.70669500938
+    ]
+  },
+  {
+    "date": "2025-04-01",
+    "selected": 0,
+    "history_count": 28,
+    "paired_mean_score": [
+      31379.87673366805
+    ]
+  },
+  {
+    "date": "2025-05-01",
+    "selected": 0,
+    "history_count": 28,
+    "paired_mean_score": [
+      26160.252945336306
+    ]
+  },
+  {
+    "date": "2025-06-01",
+    "selected": 0,
+    "history_count": 28,
+    "paired_mean_score": [
+      27716.97761251856
+    ]
+  },
+  {
+    "date": "2025-07-01",
+    "selected": 0,
+    "history_count": 28,
+    "paired_mean_score": [
+      41770.71788155319
+    ]
+  },
+  {
+    "date": "2025-08-01",
+    "selected": 0,
+    "history_count": 28,
+    "paired_mean_score": [
+      44356.79820355001
+    ]
+  },
+  {
+    "date": "2025-09-01",
+    "selected": 0,
+    "history_count": 28,
+    "paired_mean_score": [
+      38193.371449394144
+    ]
+  },
+  {
+    "date": "2025-10-01",
+    "selected": 0,
+    "history_count": 28,
+    "paired_mean_score": [
+      32814.66044813272
+    ]
+  },
+  {
+    "date": "2025-11-01",
+    "selected": 0,
+    "history_count": 28,
+    "paired_mean_score": [
+      31680.230479674774
+    ]
+  },
+  {
+    "date": "2025-12-01",
+    "selected": 0,
+    "history_count": 28,
+    "paired_mean_score": [
+      37994.38126086964
+    ]
+  }
+]

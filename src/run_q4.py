@@ -1,4 +1,4 @@
-"""Q4 first run: monthly causal price choice and correlated source/load/price scenarios."""
+"""Q4 formal policy: fixed yearly M0 and correlated source/load/price scenarios."""
 from pathlib import Path
 import sys,json,csv
 ROOT=Path(__file__).resolve().parents[1]
@@ -10,7 +10,7 @@ from q3_forecast import build,HOURS
 from q4_solver import solve,evaluate,VALUE
 OUT=ROOT/'outputs/q4';OUT.mkdir(parents=True,exist_ok=True)
 
-def simulate_day(d,m,e0,mode,data,F,lh,ph,price,actual,events,scenario_count=30,random_seed=20260912):
+def simulate_day(d,m,e0,mode,data,F,lh,ph,price,actual,events,scenario_count=30,random_seed=20260912,update_hours=(6,12)):
     def scenarios(ri):
         start=HOURS[ri]*6
         if d==0:sample=np.array([0])
@@ -31,6 +31,7 @@ def simulate_day(d,m,e0,mode,data,F,lh,ph,price,actual,events,scenario_count=30,
     L,P,ps=scenarios(0);cur=solve(ps,e0,L,P);base=cur['purchase'].copy();used=int(cur['used_milp'])
     for ri,h in enumerate(HOURS[1:],1):
         if mode==2:break
+        if h not in update_hours:continue
         start=h*6;L,P,ps=scenarios(ri)
         before={k:cur[k][start:].copy() for k in ['purchase','charge','discharge','energy']}
         keep=evaluate(before,ps,L,P,base[start:]);new=solve(ps,cur['energy'][start],L,P,base[start:]);used+=int(new['used_milp'])
@@ -46,10 +47,14 @@ def simulate_day(d,m,e0,mode,data,F,lh,ph,price,actual,events,scenario_count=30,
     cur['emergency_fee']=5*actual[d]*cur['emergency'];cur['milp_count']=used
     return cur
 
-def run(mode,data,F,lh,ph,price,actual,scenario_count=30,random_seed=20260912,fixed_model=None):
+def run(mode,data,F,lh,ph,price,actual,scenario_count=30,random_seed=20260912,fixed_model=0,update_hours=(6,12)):
     target=OUT/f'q{mode}';target.mkdir(parents=True,exist_ok=True);days=[];paired=[];records=[];events=[];e0=6000.;chosen=0
     for d in range(365):
-        if data.dates[d].day==1:
+        if fixed_model is not None:
+            chosen=fixed_model
+            if d==0:records.append(dict(date=str(data.dates[d]),selected=chosen,selection_policy='fixed_year',history_count=0,paired_mean_score=None))
+            if data.dates[d].day==1:print('Q4',mode,data.dates[d],'fixed model',chosen,flush=True)
+        elif data.dates[d].day==1:
             # Exclude yesterday's plan: its last interval ends today at 00:10.
             history=paired[max(0,d-29):max(0,d-1)]
             means=np.mean(history,axis=0) if len(history)>=28 else None
@@ -60,7 +65,7 @@ def run(mode,data,F,lh,ph,price,actual,scenario_count=30,random_seed=20260912,fi
             print('Q4',mode,data.dates[d],'model',chosen,flush=True)
         candidates=[];trial_events=[]
         for m in (range(3) if fixed_model is None else [fixed_model]):
-            ev=[];s=simulate_day(d,m,e0,mode,data,F,lh,ph,price,actual,ev,scenario_count,random_seed);candidates.append(s);trial_events.append(ev)
+            ev=[];s=simulate_day(d,m,e0,mode,data,F,lh,ph,price,actual,ev,scenario_count,random_seed,update_hours);candidates.append(s);trial_events.append(ev)
         # Common current SOC; subtract final value to avoid rewarding battery depletion.
         paired.append([float((s['grid_fee']+s['emergency_fee']).sum()-VALUE*s['energy'][-1]) for s in candidates])
         selected_index=chosen if fixed_model is None else 0
@@ -75,8 +80,9 @@ def run(mode,data,F,lh,ph,price,actual,scenario_count=30,random_seed=20260912,fi
     assert max(audit['max_charge'],audit['max_discharge'])<=5000/6+1e-7
     def totals(v):return dict(grid_fee=float(v['grid_fee'].sum()),emergency_fee=float(v['emergency_fee'].sum()),total_cost=float((v['grid_fee']+v['emergency_fee']).sum()),emergency_kwh=float(v['emergency'].sum()),purchase_kwh=float(v['purchase'].sum()))
     summary=dict(mode=mode,scenario_count=scenario_count,random_seed=random_seed,fixed_model=fixed_model,natural_period=['2025-02-01 00:00','2026-01-01 00:00'],natural=totals(n),plan=totals({k:v[31:] for k,v in a.items()}),audit=audit,final_midnight_energy=float(n['energy'][-1,-1]),final_0010_energy=float(a['energy'][-1,-1]),milp_count=sum(s['milp_count'] for s in days))
+    summary.update(selection_policy='fixed_year' if fixed_model is not None else 'monthly_legacy',update_hours=list(update_hours) if mode==3 else [])
     np.savez_compressed(target/'schedules.npz',**a);np.savez_compressed(target/'natural.npz',**n)
-    for file,obj in [('summary.json',summary),('monthly_selection.json',records),('adjustment_events.json',events),('paired_scores.json',paired)]:
+    for file,obj in [('summary.json',summary),('model_selection.json',records),('adjustment_events.json',events),('paired_scores.json',paired)]:
         (target/file).write_text(json.dumps(obj,ensure_ascii=False,indent=2),encoding='utf-8')
     book=dict(dates=[str(dt) for dt in data.dates[31:]],baseline=a['baseline'][31:].tolist(),final=a['purchase'][31:].tolist(),prices=actual[31:].tolist(),grid_fee=a['grid_fee'][31:].tolist(),charge=n['charge'].tolist(),discharge=n['discharge'].tolist(),energy=n['energy'].tolist(),emergency=n['emergency'].tolist())
     (target/'workbook_data.json').write_text(json.dumps(book,ensure_ascii=False),encoding='utf-8')
